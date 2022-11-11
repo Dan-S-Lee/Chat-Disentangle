@@ -1,0 +1,1501 @@
+,raw,timestamp,user,message
+0,=== Gatewayy [i=Gatewayy@unaffiliated/gatewayy]  has joined #ubuntu,,,
+1,[02:23] <PseudoPlacebo> https://help.ubuntu.com/community/RecoveringUbuntuAfterInstallingWindows,02:23,PseudoPlacebo,https://help.ubuntu.com/community/RecoveringUbuntuAfterInstallingWindows
+2,[02:23] <PseudoPlacebo> That looks like it could be helpful.,02:23,PseudoPlacebo,That looks like it could be helpful.
+3,[02:23] <PseudoPlacebo> I'll skim and check back.,02:23,PseudoPlacebo,I'll skim and check back.
+4,[02:23] <t4ken> how do i mount it?,02:23,t4ken,how do i mount it?
+5,[02:23] <PseudoPlacebo> Thanks.,02:23,PseudoPlacebo,Thanks.
+6,"[02:23] <sysdoc> PseudoPlacebo,  there ya go",02:23,sysdoc,"PseudoPlacebo,  there ya go"
+7,=== thrice` [n=andrew@unaffiliated/thrice/x-000000001]  has joined #ubuntu,,,
+8,[02:24] <thrice`> is there a way to record a movie ?,02:24,thrice`,is there a way to record a movie ?
+9,"[02:24] <PaulCbu> hi there, i was wondering if someone could help me out with a wireless lan problem",02:24,PaulCbu,"hi there, i was wondering if someone could help me out with a wireless lan problem"
+10,"[02:24] <thrice`> I want to do a screenshot, but movie",02:24,thrice`,"I want to do a screenshot, but movie"
+11,[02:24] <boga> PaulCbu: shoot!,02:24,boga,PaulCbu: shoot!
+12,"[02:24] <angry_candy> anybody, if i want to mirror drives on U server, do i config the mirroring before or after loading U?",02:24,angry_candy,"anybody, if i want to mirror drives on U server, do i config the mirroring before or after loading U?"
+13,"[02:24] <bobmcd> not lazy here, just confused.  point me in a direction and I am sefl sufficient... ^^",02:24,bobmcd,"not lazy here, just confused.  point me in a direction and I am sefl sufficient... ^^"
+14,[02:24] <PaulCbu> oh thanks boga,02:24,PaulCbu,oh thanks boga
+15,[02:24] <cherwin> t4ken: c'mon man just read the manual.. mount -t ext3 /dev/hdX /mnt/<mount_point>,02:24,cherwin> t4ken: c'mon man just read the manual.. mount -t ext3 /dev/hdX /mnt/<mount_point,t4ken: c'mon man just read the manual.. mount -t ext3 /dev/hdX /mnt/<mount_point>
+16,=== flodine [n=flodine@c-24-4-174-71.hsd1.ca.comcast.net]  has joined #ubuntu,,,
+17,"=== h3sp4wn [n=knoppix@cpc1-leed11-0-0-cust262.leed.cable.ntl.com]  has left #ubuntu [""Konversation]",,,
+18,[02:25] <PaulCbu> i've just setup ubuntu on a new machine and tried setting up the driver for my msi 11/g,02:25,PaulCbu,i've just setup ubuntu on a new machine and tried setting up the driver for my msi 11/g
+19,[02:25] <PaulCbu> tried the open source ralink,02:25,PaulCbu,tried the open source ralink
+20,[02:25] <cherwin> bobmcd: which password do you use? you have to use the same password as your login...,02:25,cherwin,bobmcd: which password do you use? you have to use the same password as your login...
+21,[02:25] <boga> U mean Ubuntu did not see auto magically?,02:25,boga,U mean Ubuntu did not see auto magically?
+22,[02:25] <PaulCbu> the make and make install goes well without errors but,02:25,PaulCbu,the make and make install goes well without errors but
+23,[02:25] <PaulCbu> but still doesn't show ra0,02:25,PaulCbu,but still doesn't show ra0
+24,"[02:26] <bobmcd> cherwin: I used the password of the user created when I installed.  Password should be OK, I got logged on and all...",02:26,bobmcd,"cherwin: I used the password of the user created when I installed.  Password should be OK, I got logged on and all..."
+25,[02:26] <boga> I thought u'd be looking for ath0?,02:26,boga,I thought u'd be looking for ath0?
+26,[02:26] <PaulCbu> really?,02:26,PaulCbu,really?
+27,=== Km4l30n [n=2GF@dsl-201-128-30-83.prod-infinitum.com.mx]  has joined #ubuntu,,,
+28,[02:26] <PaulCbu> why' s that?,02:26,PaulCbu,why' s that?
+29,[02:26] <boga> did you say wireless?,02:26,boga,did you say wireless?
+30,[02:26] <PaulCbu> yes,02:26,PaulCbu,yes
+31,"[02:26] <boga> if so, look for ath0",02:26,boga,"if so, look for ath0"
+32,[02:26] <t4ken> what should i put as mount point?,02:26,t4ken,what should i put as mount point?
+33,[02:27] <angry_candy> does anybody know how i can install clippy on my gnome?,02:27,angry_candy,does anybody know how i can install clippy on my gnome?
+34,[02:27] <PaulCbu> there isn't one,02:27,PaulCbu,there isn't one
+35,[02:27] <PaulCbu> ath0 doesn't show up,02:27,PaulCbu,ath0 doesn't show up
+36,"=== DonL [n=don@d206-116-131-181.bchsia.telus.net]  has left #ubuntu [""Ex-Chat""]",,,
+37,"[02:27] <cherwin> bobmcd: that is really odd, I never experienced such a thing so I think you have to google some more, try to run the programs as root",02:27,cherwin,"bobmcd: that is really odd, I never experienced such a thing so I think you have to google some more, try to run the programs as root"
+38,=== malv [n=malv@pool-71-103-5-51.lsanca.dsl-w.verizon.net]  has joined #ubuntu,,,
+39,[02:27] <malv> anyone manage to get vim 7 working with omnisense?,02:27,malv,anyone manage to get vim 7 working with omnisense?
+40,[02:27] <PaulCbu> i've read through the forums and ended up going back to 32bit from ubuntu 64,02:27,PaulCbu,i've read through the forums and ended up going back to 32bit from ubuntu 64
+41,"[02:27] <cherwin> t4ken: what ever you want, just make sure the directory is empty",02:27,cherwin,"t4ken: what ever you want, just make sure the directory is empty"
+42,[02:28] <PaulCbu> what do you think i should do?,02:28,PaulCbu,what do you think i should do?
+43,"[02:28] <boga> tell me,,, is make install successful?",02:28,boga,"tell me,,, is make install successful?"
+44,"[02:28] <tich> polpak, i checked out those pages that you recommended but the problem isn't playing dvd video but that ubuntu won't even mount the disc.",02:28,tich,"polpak, i checked out those pages that you recommended but the problem isn't playing dvd video but that ubuntu won't even mount the disc."
+45,[02:28] <xenblend> burn your computer,02:28,xenblend,burn your computer
+46,"[02:28] <PaulCbu> all i see is sit0, eth0, and the loopback",02:28,PaulCbu,"all i see is sit0, eth0, and the loopback"
+47,[02:28] <PaulCbu> yes,02:28,PaulCbu,yes
+48,[02:28] <^richiefrich> PseudoPlacebo u get your help ?,02:28,^richiefrich,PseudoPlacebo u get your help ?
+49,[02:28] <PaulCbu> as far as i can see,02:28,PaulCbu,as far as i can see
+50,[02:29] <PaulCbu> no errors,02:29,PaulCbu,no errors
+51,"[02:29] <bobmcd> cherwin:  yah, I am missing something.  I have seen a pasword error, this isn't it.  I was wanting to change network but it just won't load... Thanks tho.  more digging.",02:29,bobmcd,"cherwin:  yah, I am missing something.  I have seen a pasword error, this isn't it.  I was wanting to change network but it just won't load... Thanks tho.  more digging."
+52,"[02:29] <boga> Ohh yes, it could well be sit0",02:29,boga,"Ohh yes, it could well be sit0"
+53,=== newbie5555 [n=sivik@68.118.123.181]  has left #ubuntu [],,,
+54,[02:29] <PseudoPlacebo> ^richiefrich: Well. A point in the right direction but not exactly what I'm looking for.,02:29,PseudoPlacebo,^richiefrich: Well. A point in the right direction but not exactly what I'm looking for.
+55,[02:29] <boga> depends on the card,02:29,boga,depends on the card
+56,[02:29] <PseudoPlacebo> =\,02:29,PseudoPlacebo,=\
+57,=== Kyral [n=kyral@ubuntu/member/kyral]  has joined #ubuntu,,,
+58,=== kbrosnan [n=kbrosnan@ip68-1-178-2.ri.ri.cox.net]  has joined #ubuntu,,,
+59,=== nalioth [i=nalioth@freenode/staff/ubuntu.member.nalioth]  has joined #ubuntu,,,
+60,"[02:29] <PaulCbu> oic, but after the driver install it says no wireless extensions",02:29,PaulCbu,"oic, but after the driver install it says no wireless extensions"
+61,[02:29] <t4ken> its not working,02:29,t4ken,its not working
+62,[02:29] <^richiefrich> vook no i agree but i have seen some strange errors on grub.. and lilo is slower,02:29,^richiefrich,vook no i agree but i have seen some strange errors on grub.. and lilo is slower
+63,"[02:29] <cherwin> bobmcd: np, if you find the solution, please share it with the rest of us :^)",02:29,cherwin,"bobmcd: np, if you find the solution, please share it with the rest of us :^)"
+64,[02:30] <^richiefrich> PseudoPlacebo if u boot to a liveCD and mount your ubunut parts ..,02:30,^richiefrich,PseudoPlacebo if u boot to a liveCD and mount your ubunut parts ..
+65,=== FogleBird [n=fogleman@c-71-234-208-248.hsd1.ct.comcast.net]  has joined #ubuntu,,,
+66,"[02:30] <boga> are you doing the `config, make and make install'?",02:30,boga,"are you doing the `config, make and make install'?"
+67,"[02:30] <sysdoc> PseudoPlacebo, I'm almost positive that I have read about it in either the wiki or the forum",02:30,sysdoc,"PseudoPlacebo, I'm almost positive that I have read about it in either the wiki or the forum"
+68,"[02:30] <PaulCbu> even after trying insmod several times, even checked the list lsmod the module is there",02:30,PaulCbu,"even after trying insmod several times, even checked the list lsmod the module is there"
+69,[02:30] <bobmcd> cherwin: yep.  Thnks.,02:30,bobmcd,cherwin: yep.  Thnks.
+70,[02:30] <^richiefrich> PseudoPlacebo  u can do alot then and test it,02:30,^richiefrich,PseudoPlacebo  u can do alot then and test it
+71,"[02:30] <cherwin> t4ken: I just told you to read the manual, but you didn't did  you..",02:30,cherwin,"t4ken: I just told you to read the manual, but you didn't did  you.."
+72,[02:30] <PaulCbu> nope only make and then make install,02:30,PaulCbu,nope only make and then make install
+73,[02:30] <boga> then load it.,02:30,boga,then load it.
+74,=== ubuntu [n=ubuntu@SE400.PPPoE-284.sa.bih.net.ba]  has joined #ubuntu,,,
+75,"=== ubuntu [n=ubuntu@SE400.PPPoE-284.sa.bih.net.ba]  has left #ubuntu [""Leaving""]",,,
+76,[02:30] <cherwin> t4ken: you took /dev/hdX litterly didn't you?,02:30,cherwin,t4ken: you took /dev/hdX litterly didn't you?
+77,[02:30] <boga> was the driver an archive?,02:30,boga,was the driver an archive?
+78,[02:31] <t4ken> no,02:31,t4ken,no
+79,=== gurumeditationer [n=gud@82-40-113-113.cable.ubr02.dumb.blueyonder.co.uk]  has joined #ubuntu,,,
+80,[02:31] <tich> i have some data dvds that were burnt using and can be read by XP but ubuntu can't. how do i get ubuntu to mount the discs?,02:31,tich,i have some data dvds that were burnt using and can be read by XP but ubuntu can't. how do i get ubuntu to mount the discs?
+81,[02:31] <PaulCbu> yes,02:31,PaulCbu,yes
+82,[02:31] <PaulCbu> i got it from serial monkey,02:31,PaulCbu,i got it from serial monkey
+83,[02:31] <t4ken> i figured that when you put hdx the x meant the actuall drive number,02:31,t4ken,i figured that when you put hdx the x meant the actuall drive number
+84,[02:31] <PaulCbu> and another one from the ralink download site,02:31,PaulCbu,and another one from the ralink download site
+85,[02:31] <t4ken> am i wrong,02:31,t4ken,am i wrong
+86,"[02:31] <cherwin> t4ken: ok just do a dmesg, and search for the harddrive that you wish to mount",02:31,cherwin,"t4ken: ok just do a dmesg, and search for the harddrive that you wish to mount"
+87,[02:31] <t4ken> i know which hard drive i want to mount,02:31,t4ken,i know which hard drive i want to mount
+88,[02:31] <PaulCbu> i figured it was ralink based on the ndiswrapper list,02:31,PaulCbu,i figured it was ralink based on the ndiswrapper list
+89,"[02:32] <cherwin> t4ken: it has to be like this, example /dev/hda1",02:32,cherwin,"t4ken: it has to be like this, example /dev/hda1"
+90,[02:32] <PaulCbu> looking at the pci id,02:32,PaulCbu,looking at the pci id
+91,=== newstnih [n=hintswen@c211-28-41-87.sunsh1.vic.optusnet.com.au]  has joined #ubuntu,,,
+92,"[02:32] <boga> then, if it was an archive, you should do a `./configure' first.",02:32,boga,"then, if it was an archive, you should do a `./configure' first."
+93,=== pandora_ [n=neil@c-24-130-104-88.hsd1.ca.comcast.net]  has joined #ubuntu,,,
+94,[02:32] <gurumeditationer> Am I the only one that finds the new kernel to be utterly broken?,02:32,gurumeditationer,Am I the only one that finds the new kernel to be utterly broken?
+95,"[02:32] <jvai> yes, i tried to burn a OSx disc, ubuntu wouldnt mount it!",02:32,jvai,"yes, i tried to burn a OSx disc, ubuntu wouldnt mount it!"
+96,[02:32] <thrice`> yes,02:32,thrice`,yes
+97,[02:32] <t4ken> crap,02:32,t4ken,crap
+98,"[02:32] <PaulCbu> oic, ok boga, let me give it another shot.",02:32,PaulCbu,"oic, ok boga, let me give it another shot."
+99,[02:32] <t4ken> no i forgot how to become root,02:32,t4ken,no i forgot how to become root
+100,=== Abhaya [n=arahant@ribbit.cse.ucsc.edu]  has joined #ubuntu,,,
+101,[02:33] <t4ken> now,02:33,t4ken,now
+102,[02:33] <disant> sudo -s,02:33,disant,sudo -s
+103,[02:33] <thrice`> use sudo,02:33,thrice`,use sudo
+104,"[02:33] <PaulCbu> btw, after that, is the modprobe still necessary?",02:33,PaulCbu,"btw, after that, is the modprobe still necessary?"
+105,[02:33] <boga> do this in the directory you extracted the archive.,02:33,boga,do this in the directory you extracted the archive.
+106,"[02:33] <cherwin> t4ken: hd stands for hard drive, the -a stands for the first drive on the master connector and the 1 stands for the first partition",02:33,cherwin,"t4ken: hd stands for hard drive, the -a stands for the first drive on the master connector and the 1 stands for the first partition"
+107,=== NixNod [n=wagner@201-43-77-213.dsl.telesp.net.br]  has joined #Ubuntu,,,
+108,[02:33] <PaulCbu> or does the make install attach the module automatically on start up?,02:33,PaulCbu,or does the make install attach the module automatically on start up?
+109,=== Kyral [n=kyral@ubuntu/member/kyral]  has joined #ubuntu,,,
+110,"[02:33] <angry_candy> when doing a `df`, what's the diff between hdX and sdX?",02:33,angry_candy,"when doing a `df`, what's the diff between hdX and sdX?"
+111,"[02:33] <sysdoc> PseudoPlacebo, you there?",02:33,sysdoc,"PseudoPlacebo, you there?"
+112,[02:33] <Jack_Sparrow> cherwin:  not to mention sd a  for an sata drive...,02:33,Jack_Sparrow,cherwin:  not to mention sd a  for an sata drive...
+113,[02:34] <boga> it might be...situations are different,02:34,boga,it might be...situations are different
+114,=== rpedro [n=rpedro@87-196-70-62.net.novis.pt]  has joined #ubuntu,,,
+115,[02:34] <boga> have you been successful with ./configure?,02:34,boga,have you been successful with ./configure?
+116,[02:34] <cherwin> cherwin: I did a lousy job on explaining it but I kinda think that you have to know this already or just read some more basics on linux in general,02:34,cherwin,cherwin: I did a lousy job on explaining it but I kinda think that you have to know this already or just read some more basics on linux in general
+117,"[02:34] <PaulCbu> ic, ok, so sit0 should be fine?",02:34,PaulCbu,"ic, ok, so sit0 should be fine?"
+118,=== Infecto_ [i=infecto@hydrozagadka.com]  has joined #ubuntu,,,
+119,[02:34] <PaulCbu> that's where i should look right?,02:34,PaulCbu,that's where i should look right?
+120,=== apache2 [n=ryan@c-71-196-170-227.hsd1.co.comcast.net]  has joined #ubuntu,,,
+121,"[02:34] <apokryphos> angry_candy: hd is normally an actual hard-disk, whereas sd is normally reserved for external devices",02:34,apokryphos,"angry_candy: hd is normally an actual hard-disk, whereas sd is normally reserved for external devices"
+122,[02:34] <apache2> hey I'm having problems upgrading to 2.6.15-25,02:34,apache2,hey I'm having problems upgrading to 2.6.15-25
+123,=== L-----D [n=LongkerD@211.160.165.186]  has joined #ubuntu,,,
+124,"[02:34] <apokryphos> angry_candy: though sd is also used for SATA disks often these days ,too.",02:34,apokryphos,"angry_candy: though sd is also used for SATA disks often these days ,too."
+125,[02:34] <apache2> I'm using lilo,02:34,apache2,I'm using lilo
+126,[02:34] <t4ken> i know basic linux,02:34,t4ken,i know basic linux
+127,"[02:35] <apache2> and no matter what I do when I reboot and run: uname -a, it still says 2.6.15-23",02:35,apache2,"and no matter what I do when I reboot and run: uname -a, it still says 2.6.15-23"
+128,[02:35] <cherwin> Jack_Sparrow: we should not be so eager to spoon feed people.. don't you think?,02:35,cherwin,Jack_Sparrow: we should not be so eager to spoon feed people.. don't you think?
+129,"[02:35] <t4ken> im no expert, but i also havent had to use command line in a long time",02:35,t4ken,"im no expert, but i also havent had to use command line in a long time"
+130,[02:35] <t4ken> its a pain in the ass,02:35,t4ken,its a pain in the ass
+131,[02:35] <Jack_Sparrow> I personally think we SHOULD,02:35,Jack_Sparrow,I personally think we SHOULD
+132,[02:35] <angry_candy> apokryphos: i have 4 sd's here that seem to correspond to 4 drives.  not sure if they are set up as hw mirrors/raid/etc. ... ?,02:35,angry_candy,apokryphos: i have 4 sd's here that seem to correspond to 4 drives.  not sure if they are set up as hw mirrors/raid/etc. ... ?
+133,"[02:35] <cherwin> t4ken: I honestly disagree, if you are having problems with mounting drives..",02:35,cherwin,"t4ken: I honestly disagree, if you are having problems with mounting drives.."
+134,[02:35] <apokryphos> could be,02:35,apokryphos,could be
+135,[02:35] <PaulCbu> thanks a lot for the help boga.,02:35,PaulCbu,thanks a lot for the help boga.
+136,[02:35] <cherwin> Jack_Sparrow: why do you think that?,02:35,cherwin,Jack_Sparrow: why do you think that?
+137,[02:35] <t4ken> well think about something real quick,02:35,t4ken,well think about something real quick
+138,[02:35] <Jack_Sparrow> We dont want the reputation like #Debian where the ONLY answer is rtfm,02:35,Jack_Sparrow,We dont want the reputation like #Debian where the ONLY answer is rtfm
+139,"[02:36] <t4ken> when you use windows, how often do you have to mount drives using command line?",02:36,t4ken,"when you use windows, how often do you have to mount drives using command line?"
+140,"[02:36] <sysdoc> Jack_Sparrow, lol",02:36,sysdoc,"Jack_Sparrow, lol"
+141,[02:36] <t4ken> or mount at all,02:36,t4ken,or mount at all
+142,[02:36] <t4ken> im coming from windows,02:36,t4ken,im coming from windows
+143,[02:36] <apache2> anybody? want up update to 2.6.15-25 but I've never used lilo in the past and it doesn't seem to be changing,02:36,apache2,anybody? want up update to 2.6.15-25 but I've never used lilo in the past and it doesn't seem to be changing
+144,[02:36] <gurumeditationer> since the new kernel (2.6.15-25-amd64-generic) all my devices have disapeared there isn't even a eth0!,02:36,gurumeditationer,since the new kernel (2.6.15-25-amd64-generic) all my devices have disapeared there isn't even a eth0!
+145,[02:36] <gurumeditationer> Has anyone had this problem?,02:36,gurumeditationer,Has anyone had this problem?
+146,[02:37] <^richiefrich> PseudoPlacebo  u can do all that then chroot,02:37,^richiefrich,PseudoPlacebo  u can do all that then chroot
+147,"[02:37] <cherwin> Jack_Sparrow: Yes you got a good point there, but people just have to learn to google stuff up, it will only benifit themselves, because you will see stuff while searching on other subjects that may have your interest. Also knowing how to search for things is a good skill",02:37,cherwin,"Jack_Sparrow: Yes you got a good point there, but people just have to learn to google stuff up, it will only benifit themselves, because you will see stuff while searching on other subjects that may have your interest. Also knowing how to search for things is a good skill"
+148,"[02:37] <sysdoc> t4ken, once you set up the mount points in fstab they will auto mount at startup",02:37,sysdoc,"t4ken, once you set up the mount points in fstab they will auto mount at startup"
+149,[02:37] <gurumeditationer> it won't start X.org and I can't do anything because I can't bring up a network interface,02:37,gurumeditationer,it won't start X.org and I can't do anything because I can't bring up a network interface
+150,=== ThePizzaKing [n=thepizza@c211-28-165-190.eburwd2.vic.optusnet.com.au]  has joined #ubuntu,,,
+151,=== tux0010 [n=Raja@rrcs-24-153-226-8.sw.biz.rr.com]  has joined #ubuntu,,,
+152,[02:38] <tux0010> ever since i updated last night i cannot get the at drivers to work,02:38,tux0010,ever since i updated last night i cannot get the at drivers to work
+153,[02:38] <tux0010> fglrxinfo says the opengl vendor is mesa,02:38,tux0010,fglrxinfo says the opengl vendor is mesa
+154,[02:38] <tux0010> i am sure i have done everything right,02:38,tux0010,i am sure i have done everything right
+155,[02:38] <cherwin> t4ken: Yes so? You are using Linux now so please refrain from comparing that.,02:38,cherwin,t4ken: Yes so? You are using Linux now so please refrain from comparing that.
+156,=== crashzor [n=crashzor@t-miog.demon.nl]  has joined #ubuntu,,,
+157,"[02:39] <Jack_Sparrow> Many of the users that come here, as refered by the Ub website are Linux Babies and will ONLY stick with linux if you do spoon feed them.  If the same people come back day after day.. that is a different matter.  Remember we are teaching people used to XP....",02:39,Jack_Sparrow,"Many of the users that come here, as refered by the Ub website are Linux Babies and will ONLY stick with linux if you do spoon feed them.  If the same people come back day after day.. that is a different matter.  Remember we are teaching people used to XP...."
+158,"[02:39] <t4ken> well, one",02:39,t4ken,"well, one"
+159,[02:39] <t4ken> im not using linux now im trying to,02:39,t4ken,im not using linux now im trying to
+160,[02:39] <crashzor> i run in trobbel anybody know if there is a way to let remote host or acculy chroot connect to a esddsp server ?,02:39,crashzor,i run in trobbel anybody know if there is a way to let remote host or acculy chroot connect to a esddsp server ?
+161,[02:39] <t4ken> without help how could i actually use linux as someone like yourself can?,02:39,t4ken,without help how could i actually use linux as someone like yourself can?
+162,[02:40] <crashzor> so to work around the sound trobbel sins i don't have hardware mixxing,02:40,crashzor,so to work around the sound trobbel sins i don't have hardware mixxing
+163,"[02:40] <jvai> shyt, i been using ubuntu for like, a year, & .. i 4got how to use xp",02:40,jvai,"shyt, i been using ubuntu for like, a year, & .. i 4got how to use xp"
+164,[02:40] <tonyyarusso> t4ken: You can also mount from the Gnome disks utility.,02:40,tonyyarusso,t4ken: You can also mount from the Gnome disks utility.
+165,[02:40] <t4ken> ty,02:40,t4ken,ty
+166,[02:40] <tux0010> please can anyone help,02:40,tux0010,please can anyone help
+167,=== neotard [n=ThePub@dyn53-020.res-hall.ndsu.NoDak.edu]  has joined #ubuntu,,,
+168,=== Razumikhin [n=FMD@cpe-24-175-253-67.gt.res.rr.com]  has joined #ubuntu,,,
+169,[02:40] <gurumeditationer> kernel 2.6.15-25 boot problems: help?,02:40,gurumeditationer,kernel 2.6.15-25 boot problems: help?
+170,"[02:40] <wildman> tux0010: nVidia hardware here, no ATI experience, sorry",02:40,wildman,"tux0010: nVidia hardware here, no ATI experience, sorry"
+171,=== angry_candy [n=ajk@65.119.39.240]  has left #ubuntu [],,,
+172,[02:41] <cherwin> t4ken: maybe it is because of the free time that I have but I learned Linux from buying books and doing a *lot* of searches,02:41,cherwin,t4ken: maybe it is because of the free time that I have but I learned Linux from buying books and doing a *lot* of searches
+173,=== Hawk|- [n=Hawk@p549CA504.dip0.t-ipconnect.de]  has joined #ubuntu,,,
+174,"[02:41] <tonyyarusso> t4ken: (As a side note, I actually kind of like being able to unmount things at times, for instance if I have multiple OS installs and want to make sure I'm not messing up another when doing something.)",02:41,tonyyarusso,"t4ken: (As a side note, I actually kind of like being able to unmount things at times, for instance if I have multiple OS installs and want to make sure I'm not messing up another when doing something.)"
+175,[02:41] <t4ken> well wouldnt it be easier for someone like myself to learn from a good teacher or do what you had,02:41,t4ken,well wouldnt it be easier for someone like myself to learn from a good teacher or do what you had
+176,[02:41] <t4ken> to,02:41,t4ken,to
+177,"[02:41] <crashzor> cherwin, books you don't need same good friend already running linux get you a real end ;)",02:41,crashzor,"cherwin, books you don't need same good friend already running linux get you a real end ;)"
+178,=== jim [n=jim@pool-70-109-163-124.man.east.verizon.net]  has joined #ubuntu,,,
+179,"[02:42] <wildman> t4ken: IMVHO, there's only one ""good teacher"": you, your imagination, experiment",02:42,wildman,"t4ken: IMVHO, there's only one ""good teacher"": you, your imagination, experiment"
+180,[02:42] <t4ken> well experimenting as root can lead to lost files,02:42,t4ken,well experimenting as root can lead to lost files
+181,[02:42] <skavenge> hence sudo,02:42,skavenge,hence sudo
+182,=== nalioth [i=nalioth@freenode/staff/ubuntu.member.nalioth]  has joined #ubuntu,,,
+183,[02:42] <t4ken> true,02:42,t4ken,true
+184,"[02:42] <wildman> t4ken: it's more polite if you ask ""informed questions"", where ""informed"" usually implies that u've dun some research/experiments 1st",02:42,wildman,"t4ken: it's more polite if you ask ""informed questions"", where ""informed"" usually implies that u've dun some research/experiments 1st"
+185,"[02:43] <wildman> t4ken: I didn't say experiment wasn't dangerous, did I? ;)",02:43,wildman,"t4ken: I didn't say experiment wasn't dangerous, did I? ;)"
+186,[02:43] <gurumeditationer> kernel 2.6.15-25 boot problems: help?,02:43,gurumeditationer,kernel 2.6.15-25 boot problems: help?
+187,"[02:43] <wildman> t4ken: believe me, you'll mess it up some day, even with lots of experience ;)",02:43,wildman,"t4ken: believe me, you'll mess it up some day, even with lots of experience ;)"
+188,[02:43] <wildman> gurumeditationer: shot your Q,02:43,wildman,gurumeditationer: shot your Q
+189,[02:43] <t4ken> lol,02:43,t4ken,lol
+190,[02:43] <jvai> lol,02:43,jvai,lol
+191,[02:43] <gurumeditationer> Upgraded to latest kernel with all other updates on fresh install of dapper,02:43,gurumeditationer,Upgraded to latest kernel with all other updates on fresh install of dapper
+192,[02:43] <wildman> sounds a bit funny for French-speaking ppl ;),02:43,wildman,sounds a bit funny for French-speaking ppl ;)
+193,=== Xero [n=Xero@cpe-65-186-194-102.insight.res.rr.com]  has joined #ubuntu,,,
+194,[02:44] <jvai> thank god for workspaces,02:44,jvai,thank god for workspaces
+195,"[02:44] <wildman> gurumeditationer: yes, and?",02:44,wildman,"gurumeditationer: yes, and?"
+196,"[02:44] <gurumeditationer> this kernel 2.5.16-25-amd64-generic is compelety screwed, so is 2.5.16-23...",02:44,gurumeditationer,"this kernel 2.5.16-25-amd64-generic is compelety screwed, so is 2.5.16-23..."
+197,[02:44] <wildman> gurumeditationer: FYI:,02:44,wildman,gurumeditationer: FYI:
+198,[02:44] <gurumeditationer> It boots but doesn't get very far,02:44,gurumeditationer,It boots but doesn't get very far
+199,"[02:44] <cherwin> crashzor: It gets you a real end, I agree with that. But you will never be as good as your friends if you don't explore things for yourself. You learn a great deal of you screw your system over a couple of time when you're experimenting like I did.",02:44,cherwin,"crashzor: It gets you a real end, I agree with that. But you will never be as good as your friends if you don't explore things for yourself. You learn a great deal of you screw your system over a couple of time when you're experimenting like I did."
+200,"[02:44] <t4ken> question why with the disks manager, will it just kinda blink when you hit enable?",02:44,t4ken,"question why with the disks manager, will it just kinda blink when you hit enable?"
+201,[02:44] <Xero> Can someone give me a bit o help?,02:44,Xero,Can someone give me a bit o help?
+202,[02:44] <gurumeditationer> none of the usual files are in /dev no eth0 in particular,02:44,gurumeditationer,none of the usual files are in /dev no eth0 in particular
+203,=== lecaros [n=JoseLeca@35-13-223-201.adsl.terra.cl]  has joined #ubuntu,,,
+204,[02:44] <wildman> 2.6.15-25-amd64-generic is what uname -r returns here,02:44,wildman,2.6.15-25-amd64-generic is what uname -r returns here
+205,[02:45] <Xero> For some reason I can't get ubuntu to install on my compy,02:45,Xero,For some reason I can't get ubuntu to install on my compy
+206,[02:45] <wildman> Xero: shot your Q :),02:45,wildman,Xero: shot your Q :)
+207,"[02:45] <wildman> gurumeditationer: so, as you can see I'm running that kernel here w/o pbs...",02:45,wildman,"gurumeditationer: so, as you can see I'm running that kernel here w/o pbs..."
+208,"[02:45] <crashzor> cherwin, i got help seting the stuff up ( did like 5 reinstalls on multipull distro's ) only i get boort we thinks work and i find a way the don't work ;)",02:45,crashzor,"cherwin, i got help seting the stuff up ( did like 5 reinstalls on multipull distro's ) only i get boort we thinks work and i find a way the don't work ;)"
+209,[02:45] <wildman> gurumeditationer: dunno what might be happening on your side...,02:45,wildman,gurumeditationer: dunno what might be happening on your side...
+210,[02:45] <cherwin> Xero: you got something to add to that?,02:45,cherwin,Xero: you got something to add to that?
+211,"[02:45] <gurumeditationer> well the kernel is responsible for /dev, right? it's a virtual directory",02:45,gurumeditationer,"well the kernel is responsible for /dev, right? it's a virtual directory"
+212,[02:45] <^richiefrich> PseudoPlacebo  u still here man ?,02:45,^richiefrich,PseudoPlacebo  u still here man ?
+213,"=== sonarbill [n=bill@c-68-35-133-8.hsd1.nm.comcast.net]  has left #ubuntu [""Ex-Chat""]",,,
+214,[02:46] <tux0010> crap ati sucks,02:46,tux0010,crap ati sucks
+215,[02:46] <tux0010> ok fglrxinfo says mesa,02:46,tux0010,ok fglrxinfo says mesa
+216,[02:46] <^richiefrich> gurumeditationer well yes virtual,02:46,^richiefrich,gurumeditationer well yes virtual
+217,[02:46] <wildman> gurumeditationer: somehow it is,02:46,wildman,gurumeditationer: somehow it is
+218,[02:46] <^richiefrich> gurumeditationer just like  /proc,02:46,^richiefrich,gurumeditationer just like  /proc
+219,"[02:46] <biffhero> ok, how does evolution do junk mail filtering?  I keep hitting ""file as junk"", but don't see anything in the ~/.bogofilter directory.",02:46,biffhero,"ok, how does evolution do junk mail filtering?  I keep hitting ""file as junk"", but don't see anything in the ~/.bogofilter directory."
+220,[02:46] <crashzor> esd seems to look suport if running on a server ( yes i want my sound on a other pc then the progamma ) how do i setup the server side ?,02:46,crashzor,esd seems to look suport if running on a server ( yes i want my sound on a other pc then the progamma ) how do i setup the server side ?
+221,"[02:46] <Xero> It says 167 972510]  Buffer i/o error hdc, logical block 357298",02:46,Xero,"It says 167 972510]  Buffer i/o error hdc, logical block 357298"
+222,[02:47] <t4ken> last mounting question,02:47,t4ken,last mounting question
+223,[02:47] <Jack_Sparrow> Xero... hard drive error,02:47,Jack_Sparrow,Xero... hard drive error
+224,[02:47] <t4ken> Unable to mount the selected volume. The volume is probably in a format that cannot be mounted.,02:47,t4ken,Unable to mount the selected volume. The volume is probably in a format that cannot be mounted.
+225,[02:47] <t4ken> thats what i get when i try to access it,02:47,t4ken,thats what i get when i try to access it
+226,"[02:47] <cherwin> crashzor: ooh you're dutch, that's why i can't understand what you're saying (ik ben je zin nog aan het ontcijferen ;)",02:47,cherwin,"crashzor: ooh you're dutch, that's why i can't understand what you're saying (ik ben je zin nog aan het ontcijferen ;)"
+227,=== mwiggins [n=lithium@204.244.255.243.net-conex.com]  has joined #ubuntu,,,
+228,"[02:48] <AskHL> tux0010, I think you can specify a driver in xorg.conf",02:48,AskHL,"tux0010, I think you can specify a driver in xorg.conf"
+229,"[02:48] <wildman> t4ken: didn't follow you from the beginning, what are you trying to mount?",02:48,wildman,"t4ken: didn't follow you from the beginning, what are you trying to mount?"
+230,=== Km4l30n [n=2GF@dsl-201-128-30-83.prod-infinitum.com.mx]  has joined #ubuntu,,,
+231,"[02:48] <mwiggins> nyone have their sound just stop working on amd64? everything is config right (worked just fine yesterday) machine rebooted now i get no output, all programs/drivers/mixers are correct, programs play as if they are working",02:48,mwiggins,"nyone have their sound just stop working on amd64? everything is config right (worked just fine yesterday) machine rebooted now i get no output, all programs/drivers/mixers are correct, programs play as if they are working"
+232,[02:48] <mwiggins> just no output from speakers,02:48,mwiggins,just no output from speakers
+233,[02:48] <tux0010> AskHL:  yea i have - i think it has somethign to do with the symlinking of the mesa libraries,02:48,tux0010,AskHL:  yea i have - i think it has somethign to do with the symlinking of the mesa libraries
+234,[02:48] <Xero> How is it the hard drive? Is there a way to format it from the CD?,02:48,Xero,How is it the hard drive? Is there a way to format it from the CD?
+235,[02:48] <t4ken> well i formated a windows partition with ex3,02:48,t4ken,well i formated a windows partition with ex3
+236,[02:48] <t4ken> and thats were i am,02:48,t4ken,and thats were i am
+237,"[02:48] <crashzor> cherwin, sorry my english just sucks ( wat ik probeer tezeggen is het ziet er uit of esd ( sound server ) op een andere pc kan hosten als het progamma maar hoe zet ik de server op zo dat die de connectie aanneemd ? )",02:48,crashzor,"cherwin, sorry my english just sucks ( wat ik probeer tezeggen is het ziet er uit of esd ( sound server ) op een andere pc kan hosten als het progamma maar hoe zet ik de server op zo dat die de connectie aanneemd ? )"
+238,[02:49] <wildman> t4ken: geez! :-),02:49,wildman,t4ken: geez! :-)
+239,[02:49] <t4ken> ???,02:49,t4ken,???
+240,"[02:49] <AskHL> tux0010, what does it say in the DRIVER entry of the DEVICE section in your xorg.conf ?",02:49,AskHL,"tux0010, what does it say in the DRIVER entry of the DEVICE section in your xorg.conf ?"
+241,"[02:49] <wildman> t4ken: u've wiped the data on that partition for sure, after format :)",02:49,wildman,"t4ken: u've wiped the data on that partition for sure, after format :)"
+242,=== UKMatt [n=UKMatt@74.131.236.85]  has joined #ubuntu,,,
+243,[02:49] <tux0010> fglrx,02:49,tux0010,fglrx
+244,[02:49] <wildman> t4ken: and u cannot mount it under linux?,02:49,wildman,t4ken: and u cannot mount it under linux?
+245,[02:49] <t4ken> no,02:49,t4ken,no
+246,"[02:50] <cherwin> crashzor: Yeah I read about that, but i don't know how to do that either.. hmm let's see what google says ;)",02:50,cherwin,"crashzor: Yeah I read about that, but i don't know how to do that either.. hmm let's see what google says ;)"
+247,[02:50] <t4ken> thats my problem i dont need the info i want the free space,02:50,t4ken,thats my problem i dont need the info i want the free space
+248,"[02:50] <AskHL> tux0010, which adapter do you have?",02:50,AskHL,"tux0010, which adapter do you have?"
+249,[02:50] <wildman> t4ken: u have it already :),02:50,wildman,t4ken: u have it already :)
+250,[02:50] <t4ken> the files i mean i just want the free space,02:50,t4ken,the files i mean i just want the free space
+251,[02:50] <Jack_Sparrow> Xero: Did you make the ext3 with windows,02:50,Jack_Sparrow,Xero: Did you make the ext3 with windows
+252,[02:50] <t4ken> my point is that i cant access it,02:50,t4ken,my point is that i cant access it
+253,[02:50] <wildman> t4ken: and you should be able to do: sudo mount /dev/hdN /mnt_point,02:50,wildman,t4ken: and you should be able to do: sudo mount /dev/hdN /mnt_point
+254,[02:50] <UKMatt> does anyone the easiest way to converti iTunes music songs (.m4p i think) into something like a .mp3?,02:50,UKMatt,does anyone the easiest way to converti iTunes music songs (.m4p i think) into something like a .mp3?
+255,=== BWD [n=bdotson@pdpc/supporter/student/bdotson]  has joined #ubuntu,,,
+256,"[02:50] <Xero> Jack_Sparrow: no, this is a brand spanking new HD.",02:50,Xero,"Jack_Sparrow: no, this is a brand spanking new HD."
+257,[02:50] <t4ken> thats what cherwin said,02:50,t4ken,thats what cherwin said
+258,=== JamesWC [n=ncteenjw@68-118-6-246.dhcp.hlrg.nc.charter.com]  has joined #ubuntu,,,
+259,[02:50] <t4ken> terminal says it isnt there,02:50,t4ken,terminal says it isnt there
+260,=== theCore [n=alex@modemcable240.218-70-69.mc.videotron.ca]  has joined #ubuntu,,,
+261,[02:51] <JamesWC> Hello!!!!,02:51,JamesWC,Hello!!!!
+262,"=== FogleBird [n=fogleman@c-71-234-208-248.hsd1.ct.comcast.net]  has left #ubuntu [""Ex-Chat""]",,,
+263,"[02:51] <wildman> t4ken: ok, so, let's go a bit back, which kind of disk? where is it connected? which partition?",02:51,wildman,"t4ken: ok, so, let's go a bit back, which kind of disk? where is it connected? which partition?"
+264,[02:51] <cherwin> crashzor:  -public       make tcp/ip access public (other than localhost),02:51,cherwin,crashzor:  -public       make tcp/ip access public (other than localhost)
+265,"[02:51] <tonyyarusso> Hey, any ops that are paying attention (not worth the trigger): I'm talking to Skwid_ in #ubuntu+1, and they're being blocked by a ban although they haven't spoken here in a long time.  The IP is shared with other Bell Sympatico users (Canada).  It was set by ompaul 2 and a half days ago.  Could one of you come to +1 and discuss options with this guy?  The ban in question is *!*@70.53.194.219.",02:51,tonyyarusso,"Hey, any ops that are paying attention (not worth the trigger): I'm talking to Skwid_ in #ubuntu+1, and they're being blocked by a ban although they haven't spoken here in a long time.  The IP is shared with other Bell Sympatico users (Canada).  It was set by ompaul 2 and a half days ago.  Could one of you come to +1 and discuss options with this guy?  The ban in question is *!*@70.53.194.219."
+266,[02:51] <Jack_Sparrow> Xero:  is it the third drive or a third partiton,02:51,Jack_Sparrow,Xero:  is it the third drive or a third partiton
+267,[02:51] <JamesWC> I am thinking about getting Ubuntu/Kubuntu and had a few questions,02:51,JamesWC,I am thinking about getting Ubuntu/Kubuntu and had a few questions
+268,[02:51] <t4ken> well its an ata133,02:51,t4ken,well its an ata133
+269,"[02:51] <wildman> t4ken: kind of disk, something like, 1st IDE ATA drive, on 1st IDE controller",02:51,wildman,"t4ken: kind of disk, something like, 1st IDE ATA drive, on 1st IDE controller"
+270,"[02:51] <Flannel> t4ken: if you just formatted it as ext3, it's all free.",02:51,Flannel,"t4ken: if you just formatted it as ext3, it's all free."
+271,[02:52] <wildman> t4ken: and u know the dev name for it? like /dev/hdX ?,02:52,wildman,t4ken: and u know the dev name for it? like /dev/hdX ?
+272,"[02:52] <cherwin> crashzor: use the public switch on the server, you then have to specify on the client which server you want to use",02:52,cherwin,"crashzor: use the public switch on the server, you then have to specify on the client which server you want to use"
+273,=== redir [n=Reed@208-58-195-117.c3-0.grg-ubr2.lnh-grg.md.cable.rcn.com]  has joined #ubuntu,,,
+274,[02:52] <t4ken> hang on ill try and save something in it,02:52,t4ken,hang on ill try and save something in it
+275,=== Istario [n=[tgn] cok@67.170.242.255]  has left #ubuntu [],,,
+276,[02:52] <Xero> Jack_Sparrow: I have no clue. I am very new to this,02:52,Xero,Jack_Sparrow: I have no clue. I am very new to this
+277,[02:52] <JamesWC> Hello?,02:52,JamesWC,Hello?
+278,[02:52] <wildman> hello JamesWC,02:52,wildman,hello JamesWC
+279,[02:52] <wildman> JamesWC: shot your Q (again ;)),02:52,wildman,JamesWC: shot your Q (again ;))
+280,[02:52] <UKMatt> is there any good music transcoding software for ubuntu?,02:52,UKMatt,is there any good music transcoding software for ubuntu?
+281,"[02:52] <crashzor> cherwin, i wil give it a try the client can be setup over over xmms hope it works ;)",02:52,crashzor,"cherwin, i wil give it a try the client can be setup over over xmms hope it works ;)"
+282,"[02:52] <Flannel> t4ken: hdN# not just hdN, where N is a,b,c,d and # is ... well, the partition number",02:52,Flannel,"t4ken: hdN# not just hdN, where N is a,b,c,d and # is ... well, the partition number"
+283,"[02:52] <Jack_Sparrow> Xero, how many drives in the system",02:52,Jack_Sparrow,"Xero, how many drives in the system"
+284,[02:52] <cherwin> JamesWC: you really want 666 people to say hello to you?,02:52,cherwin,JamesWC: you really want 666 people to say hello to you?
+285,[02:52] <JamesWC> What is the difference between Ubuntu and Kubuntu?,02:52,JamesWC,What is the difference between Ubuntu and Kubuntu?
+286,[02:53] <gurumeditationer> help with : missing devices in /dev (kernel 2.6.15-25-amd64-generic),02:53,gurumeditationer,help with : missing devices in /dev (kernel 2.6.15-25-amd64-generic)
+287,"[02:53] <Flannel> JamesWC: ubuntu uses gnome, kubuntu, KDE",02:53,Flannel,"JamesWC: ubuntu uses gnome, kubuntu, KDE"
+288,[02:53] <cherwin> crashzor: keep me up2date,02:53,cherwin,crashzor: keep me up2date
+289,"[02:53] <wildman> Flannel: yep, I've hit Enter too fast :P",02:53,wildman,"Flannel: yep, I've hit Enter too fast :P"
+290,[02:53] <Jack_Sparrow> JamesWC:  the desktop gnome vs kde,02:53,Jack_Sparrow,JamesWC:  the desktop gnome vs kde
+291,[02:53] <pdc303> JamesWC: They look different. Read up about what gnome and kde are,02:53,pdc303,JamesWC: They look different. Read up about what gnome and kde are
+292,[02:53] <JamesWC> OK thank you.,02:53,JamesWC,OK thank you.
+293,"[02:53] <Xero> Jack_Sparrow: there is one HD, and a CD drive, and an A:/ Drive",02:53,Xero,"Jack_Sparrow: there is one HD, and a CD drive, and an A:/ Drive"
+294,[02:53] <JamesWC> I'm google those,02:53,JamesWC,I'm google those
+295,"[02:53] <wildman> JamesWC: www.gnome.org, www.kde.org",02:53,wildman,"JamesWC: www.gnome.org, www.kde.org"
+296,"[02:53] <UKMatt> jamesWC, Gnome and KDE, they look a little bit different, gnome is more light weight where KDE  tries do add more features you may or may not want, the best way to see what you like is google em and even make a live cd",02:53,UKMatt,"jamesWC, Gnome and KDE, they look a little bit different, gnome is more light weight where KDE  tries do add more features you may or may not want, the best way to see what you like is google em and even make a live cd"
+297,[02:53] <Jack_Sparrow> Xero:  and the drive is blank.. or was fresh with nothing,02:53,Jack_Sparrow,Xero:  and the drive is blank.. or was fresh with nothing
+298,[02:53] <t4ken> well i tried mounting and this is what i got,02:53,t4ken,well i tried mounting and this is what i got
+299,"[02:53] <t4ken>  wrong fs type, bad option, bad superblock on /dev/hda2,",02:53,t4ken," wrong fs type, bad option, bad superblock on /dev/hda2,"
+300,[02:53] <t4ken>        missing codepage or other error,02:53,t4ken,       missing codepage or other error
+301,[02:53] <t4ken>        In some cases useful info is found in syslog - try,02:53,t4ken,       In some cases useful info is found in syslog - try
+302,[02:53] <t4ken>        dmesg | tail  or so,02:53,t4ken,       dmesg | tail  or so
+303,[02:53] <tux0010> please can anyone help me set up the ati drivers under ubuntu?,02:53,tux0010,please can anyone help me set up the ati drivers under ubuntu?
+304,[02:54] <tux0010> it was working until i updated last night,02:54,tux0010,it was working until i updated last night
+305,[02:54] <cherwin> t4ken: could you pastebin your dmesg?,02:54,cherwin,t4ken: could you pastebin your dmesg?
+306,=== verne [n=verne@ppp-68-248-11-222.dsl.sfldmi.ameritech.net]  has joined #ubuntu,,,
+307,"[02:54] <Xero> Jack_Sparrow: Yes, There is nothing on the drive",02:54,Xero,"Jack_Sparrow: Yes, There is nothing on the drive"
+308,[02:54] <wildman> t4ken: and the commandline you are trying is: sudo mount /dev/hda2 /mnt_point ?,02:54,wildman,t4ken: and the commandline you are trying is: sudo mount /dev/hda2 /mnt_point ?
+309,[02:54] <JamesWC> What is a live cd?,02:54,JamesWC,What is a live cd?
+310,[02:54] <t4ken> [4302022.433000]  NTFS-fs error (device hda2): ntfs_fill_super(): Not an NTFS volume.,02:54,t4ken,[4302022.433000]  NTFS-fs error (device hda2): ntfs_fill_super(): Not an NTFS volume.
+311,[02:54] <wildman> t4ken: and /mnt_point exists?,02:54,wildman,t4ken: and /mnt_point exists?
+312,[02:54] <wildman> JamesWC: a CD that boots the OS out of it w/o the need to install the OS on a hard disk,02:54,wildman,JamesWC: a CD that boots the OS out of it w/o the need to install the OS on a hard disk
+313,"[02:54] <cherwin> tux0010: hmm, I don't know how to get it working the ubuntu way.. i actually don't use ubuntu. But you can try it with the executable",02:54,cherwin,"tux0010: hmm, I don't know how to get it working the ubuntu way.. i actually don't use ubuntu. But you can try it with the executable"
+314,[02:54] <Jack_Sparrow> JamesWC:  runs from ram and dosent use the HD,02:54,Jack_Sparrow,JamesWC:  runs from ram and dosent use the HD
+315,[02:55] <UKMatt> how can you resize a partition?,02:55,UKMatt,how can you resize a partition?
+316,[02:55] <wildman> t4ken: and the commandline you are trying is: sudo mount /dev/hda2 /mnt_point ?,02:55,wildman,t4ken: and the commandline you are trying is: sudo mount /dev/hda2 /mnt_point ?
+317,[02:55] <wildman> t4ken: and /mnt_point exists?,02:55,wildman,t4ken: and /mnt_point exists?
+318,[02:55] <pandora_> what package do i need to install to get aclocal?,02:55,pandora_,what package do i need to install to get aclocal?
+319,[02:55] <gurumeditationer> help with : missing devices in /dev (kernel 2.6.15-25-amd64-generic),02:55,gurumeditationer,help with : missing devices in /dev (kernel 2.6.15-25-amd64-generic)
+320,[02:55] <Jack_Sparrow> Xero and you ran livecd and did the install,02:55,Jack_Sparrow,Xero and you ran livecd and did the install
+321,[02:55] <JamesWC> Can Ubuntu be installed and not remove windows xp?,02:55,JamesWC,Can Ubuntu be installed and not remove windows xp?
+322,[02:55] <wildman> t4ken: from your messages above I think you are still trying to mount the partition as NTFS... while you said u've formatted it with Ext3...,02:55,wildman,t4ken: from your messages above I think you are still trying to mount the partition as NTFS... while you said u've formatted it with Ext3...
+323,[02:55] <cherwin> t4ken: try mount -t auto /dev/hda2 /mnt/<mount_point>,02:55,cherwin> t4ken: try mount -t auto /dev/hda2 /mnt/<mount_point,t4ken: try mount -t auto /dev/hda2 /mnt/<mount_point>
+324,[02:55] <Xero> I got this CD from a friend,02:55,Xero,I got this CD from a friend
+325,[02:55] <Jack_Sparrow> pandora wine,02:55,Jack_Sparrow,pandora wine
+326,"[02:55] <wildman> JamesWC: yes, it can",02:55,wildman,"JamesWC: yes, it can"
+327,"=== Versed [n=Versed@c-69-253-173-154.hsd1.nj.comcast.net]  has left #ubuntu [""Leaving""]",,,
+328,[02:55] <verne> question for anybody? I forgot my login and password !!!!!!,02:55,verne,question for anybody? I forgot my login and password !!!!!!
+329,[02:55] <Xero> I don't know how to run it Live,02:55,Xero,I don't know how to run it Live
+330,=== Gerrath [n=shane_@unaffiliated/gerrath]  has joined #ubuntu,,,
+331,[02:56] <wildman> Xero: just boot from the CD?,02:56,wildman,Xero: just boot from the CD?
+332,[02:56] <Jack_Sparrow> Xero:  set your system to boot from CD,02:56,Jack_Sparrow,Xero:  set your system to boot from CD
+333,[02:56] <cherwin> verne: use knoppix to edit your shadow file or boot in single user mode,02:56,cherwin,verne: use knoppix to edit your shadow file or boot in single user mode
+334,[02:56] <Jack_Sparrow> You minght need to look at your cmos,02:56,Jack_Sparrow,You minght need to look at your cmos
+335,[02:56] <Xero> ok,02:56,Xero,ok
+336,[02:56] <cherwin> verne: use google to comprehend what i mean,02:56,cherwin,verne: use google to comprehend what i mean
+337,[02:56] <Xero> Jack_SparrowIt boots it and says,02:56,Xero,Jack_SparrowIt boots it and says
+338,[02:56] <verne> i got into rescue mode,02:56,verne,i got into rescue mode
+339,[02:56] <verne> and now command line,02:56,verne,and now command line
+340,[02:57] <crashzor> i stil get a connection error from my vpn wil esound says: - accepting connections on port 250000 startup line: esd -d duplex -public -port 250000 ( ja duplex bestaat is van dmix ),02:57,crashzor,i stil get a connection error from my vpn wil esound says: - accepting connections on port 250000 startup line: esd -d duplex -public -port 250000 ( ja duplex bestaat is van dmix )
+341,"[02:57] <cherwin> verne: okay, do you have a root prompt in front of you?'",02:57,cherwin,"verne: okay, do you have a root prompt in front of you?'"
+342,[02:57] <verne> yep,02:57,verne,yep
+343,"[02:57] <Xero> Start or install, Start in Safe mode, Check CD, mem test, or boot from first HD",02:57,Xero,"Start or install, Start in Safe mode, Check CD, mem test, or boot from first HD"
+344,[02:57] <cherwin> verne: vim /etc/shadow,02:57,cherwin,verne: vim /etc/shadow
+345,[02:57] <verne> k,02:57,verne,k
+346,[02:57] <wildman> crashzor: 250000 is a bit high for a port number.... shouldn't pass 65535....,02:57,wildman,crashzor: 250000 is a bit high for a port number.... shouldn't pass 65535....
+347,"[02:58] <crashzor> wildman, try'd it on 1000 to did't work also",02:58,crashzor,"wildman, try'd it on 1000 to did't work also"
+348,[02:58] <cherwin> verne: and then you see a root user with a bogus entry and your own username with a bogus entry,02:58,cherwin,verne: and then you see a root user with a bogus entry and your own username with a bogus entry
+349,[02:58] <Jack_Sparrow> Xero:  start,02:58,Jack_Sparrow,Xero:  start
+350,[02:58] <wildman> crashzor: for sure you cannot pass 65535...,02:58,wildman,crashzor: for sure you cannot pass 65535...
+351,"[02:58] <wildman> crashzor: do you have a firewall between both machines? if so, did you open the needed ports?",02:58,wildman,"crashzor: do you have a firewall between both machines? if so, did you open the needed ports?"
+352,[02:58] <Xero> Uncompressing,02:58,Xero,Uncompressing
+353,[02:58] <Jack_Sparrow> cherwin: ... Yea. I'm spoonfeeding again..,02:58,Jack_Sparrow,cherwin: ... Yea. I'm spoonfeeding again..
+354,"[02:58] <cherwin> verne: remove the bogus in between the semi colons and save the file, then you'll need to reboot and voila. No password",02:58,cherwin,"verne: remove the bogus in between the semi colons and save the file, then you'll need to reboot and voila. No password"
+355,=== id10t [n=sj@li9-153.members.linode.com]  has joined #ubuntu,,,
+356,[02:58] <Xero> Mounting root file system,02:58,Xero,Mounting root file system
+357,=== saispo [n=saispo@ryu.zarb.org]  has joined #ubuntu,,,
+358,=== redir [n=Reed@208-58-195-117.c3-0.grg-ubr2.lnh-grg.md.cable.rcn.com]  has joined #ubuntu,,,
+359,[02:59] <cherwin> Jack_Sparrow: yeah me too...,02:59,cherwin,Jack_Sparrow: yeah me too...
+360,[02:59] <whitehorseNtiger> Does anyone know of any beowulf software?,02:59,whitehorseNtiger,Does anyone know of any beowulf software?
+361,"[02:59] <crashzor> wildman, there both without a firewall the firewall is after dat ( hardware in the router) there both local pc's connecting over internal ips",02:59,crashzor,"wildman, there both without a firewall the firewall is after dat ( hardware in the router) there both local pc's connecting over internal ips"
+362,"[02:59] <Jack_Sparrow> DOnt think of it as a bad thing, you are helping humanity",02:59,Jack_Sparrow,"DOnt think of it as a bad thing, you are helping humanity"
+363,=== roberto [n=roberto@eu85-85-77-166.clientes.euskaltel.es]  has joined #ubuntu,,,
+364,[02:59] <cherwin> Jack_Sparrow: i'm such a hypocrit,02:59,cherwin,Jack_Sparrow: i'm such a hypocrit
+365,[02:59] <Xero> and it stops doing anything right now,02:59,Xero,and it stops doing anything right now
+366,[02:59] <Jack_Sparrow> argh,02:59,Jack_Sparrow,argh
+367,=== mode/#ubuntu [-b *!*@70.53.194.219]  by apokryphos,,,
+368,[02:59] <Jack_Sparrow> Xero... wait..,02:59,Jack_Sparrow,Xero... wait..
+369,[02:59] <roberto> hello,02:59,roberto,hello
+370,[02:59] <Jack_Sparrow> and wait some more.,02:59,Jack_Sparrow,and wait some more.
+371,[02:59] <Xero> ok,02:59,Xero,ok
+372,[03:00] <Jack_Sparrow> it takes a few... what is your cpu speed,03:00,Jack_Sparrow,it takes a few... what is your cpu speed
+373,=== protocol1 [n=protocol@68-35-178-69.gci.net]  has joined #ubuntu,,,
+374,[03:00] <JamesWC> Which one is KDE?  Kubuntu or ubuntu?,03:00,JamesWC,Which one is KDE?  Kubuntu or ubuntu?
+375,=== redir [n=Reed@208-58-195-117.c3-0.grg-ubr2.lnh-grg.md.cable.rcn.com]  has joined #ubuntu,,,
+376,[03:00] <Jack_Sparrow> Kubuntu,03:00,Jack_Sparrow,Kubuntu
+377,[03:00] <t4ken> mount: can't find hda2 in /etc/fstab or /etc/mtab,03:00,t4ken,mount: can't find hda2 in /etc/fstab or /etc/mtab
+378,[03:00] <Jack_Sparrow> James.. still a little buggy,03:00,Jack_Sparrow,James.. still a little buggy
+379,[03:00] <whitehorseNtiger> Anyone tried any cluster software with ubuntu?,03:00,whitehorseNtiger,Anyone tried any cluster software with ubuntu?
+380,[03:00] <Xero> It's a pentium 3 I believe,03:00,Xero,It's a pentium 3 I believe
+381,"[03:00] <cherwin> crashzor: I didn't read what you've posted because it wasn't directed to me, anyway's you can specify the port number that you want to use",03:00,cherwin,"crashzor: I didn't read what you've posted because it wasn't directed to me, anyway's you can specify the port number that you want to use"
+382,[03:00] <Xero> Uncompressing again,03:00,Xero,Uncompressing again
+383,[03:00] <Jack_Sparrow> So you will need to wait even a little longer,03:00,Jack_Sparrow,So you will need to wait even a little longer
+384,"[03:01] <pdc303> JamesWC: Ubuntu (not kubuntu) is the normal, straight version",03:01,pdc303,"JamesWC: Ubuntu (not kubuntu) is the normal, straight version"
+385,[03:01] <tux0010> damnit,03:01,tux0010,damnit
+386,=== Skwid_ [n=Skwid___@70.53.194.219]  has joined #ubuntu,,,
+387,[03:01] <Xero> and now the errors come up again,03:01,Xero,and now the errors come up again
+388,"[03:01] <Jack_Sparrow> Yea, everything on the cd is compressed.",03:01,Jack_Sparrow,"Yea, everything on the cd is compressed."
+389,=== Zunino [n=ney@201.64.84.36]  has joined #ubuntu,,,
+390,[03:01] <tux0010> stupid ati,03:01,tux0010,stupid ati
+391,[03:01] <Jack_Sparrow> exact error please,03:01,Jack_Sparrow,exact error please
+392,[03:01] <tux0010> just not working,03:01,tux0010,just not working
+393,"[03:01] <pppoe_dude> verne, dapper?",03:01,pppoe_dude,"verne, dapper?"
+394,[03:01] <Xero> 3 errors,03:01,Xero,3 errors
+395,=== redir [n=Reed@208-58-195-117.c3-0.grg-ubr2.lnh-grg.md.cable.rcn.com]  has joined #ubuntu,,,
+396,"[03:01] <deit> What would cause audio to play fine, but no sound be heard? Things are unmuted and the volume is nice and high. The speakers are working and plugged in correctly.",03:01,deit,"What would cause audio to play fine, but no sound be heard? Things are unmuted and the volume is nice and high. The speakers are working and plugged in correctly."
+397,"=== Zunino [n=ney@201.64.84.36]  has left #ubuntu [""Leaving""]",,,
+398,[03:01] <cherwin> crashzor: read 'esd --help',03:01,cherwin,crashzor: read 'esd --help'
+399,=== martinoc [n=martinoc@83.141.79.88]  has joined #ubuntu,,,
+400,[03:01] <Xero> 274. 999437,03:01,Xero,274. 999437
+401,[03:01] <crashzor> got it forgot -tcp stopid me :p,03:01,crashzor,got it forgot -tcp stopid me :p
+402,[03:01] <martinoc> hey,03:01,martinoc,hey
+403,[03:01] <cherwin> :),03:01,cherwin,:)
+404,[03:01] <Xero> 275.494481,03:01,Xero,275.494481
+405,[03:02] <JamesWC> ok Kubuntu is KDE,03:02,JamesWC,ok Kubuntu is KDE
+406,[03:02] <pdc303> deit: check which device it is outputting on?,03:02,pdc303,deit: check which device it is outputting on?
+407,[03:02] <Jack_Sparrow> Xero have you done the test CD for errors,03:02,Jack_Sparrow,Xero have you done the test CD for errors
+408,=== icez [n=icez@ip68-3-56-121.ph.ph.cox.net]  has joined #ubuntu,,,
+409,[03:02] <Xero> and 275.53264,03:02,Xero,and 275.53264
+410,=== Aproxima is now known as Aprox_slaap,,,
+411,[03:02] <Xero> Once,03:02,Xero,Once
+412,[03:02] <Jack_Sparrow> Xero  if not boot again and select that option,03:02,Jack_Sparrow,Xero  if not boot again and select that option
+413,=== yveriel [n=yveriel@AP-202-70-111-253.compass.com.ph]  has joined #ubuntu,,,
+414,[03:02] <Xero> and it does the same thing,03:02,Xero,and it does the same thing
+415,=== Aprox_slaap is now known as aproxima,,,
+416,[03:02] <icez> how can I force hotplug to use a specific driver instead of the one it uses by default?,03:02,icez,how can I force hotplug to use a specific driver instead of the one it uses by default?
+417,"[03:03] <Jack_Sparrow> Xero, you did the check cd for errors and got an error?",03:03,Jack_Sparrow,"Xero, you did the check cd for errors and got an error?"
+418,[03:03] <martinoc> Anyone hear of any problems running dapper on a sony vaio?,03:03,martinoc,Anyone hear of any problems running dapper on a sony vaio?
+419,"[03:03] <deit> Ok, something made my sound /dev/dsp1. What might cause a sudden change like that?",03:03,deit,"Ok, something made my sound /dev/dsp1. What might cause a sudden change like that?"
+420,[03:03] <Xero> yeah,03:03,Xero,yeah
+421,[03:03] <Xero> I'll do it again,03:03,Xero,I'll do it again
+422,"[03:03] <cherwin> tux0010: do not despair, follow this https://a248.e.akamai.net/f/674/9206/0/www2.ati.com/drivers/linux/linux_8.26.18-inst.html",03:03,cherwin,"tux0010: do not despair, follow this https://a248.e.akamai.net/f/674/9206/0/www2.ati.com/drivers/linux/linux_8.26.18-inst.html"
+423,=== kash [n=kash@freematrix/volunteer/radio/kash]  has joined #ubuntu,,,
+424,[03:03] <deit> ...and how do I find out what is mapped to /dev/dsp so I can fix it for ALSA apps?,03:03,deit,...and how do I find out what is mapped to /dev/dsp so I can fix it for ALSA apps?
+425,[03:03] <Jack_Sparrow> xero Then you have a bad burn or a bad download..,03:03,Jack_Sparrow,xero Then you have a bad burn or a bad download..
+426,[03:03] <kash> DCC SEND startkeylogger 0 0 0,03:03,kash,DCC SEND startkeylogger 0 0 0
+427,"=== kash [n=kash@freematrix/volunteer/radio/kash]  has left #ubuntu [""Leaving""]",,,
+428,[03:03] <pppoe_dude> !ops,03:03,pppoe_dude,!ops
+429,"[03:03] <ubotu> Help! lilo, hedgemage, lamont, Keybuk, jdub, Amaranth, tritium, ajmitch, crimsun, ogra, CarlK, Seveas, Burgundavia, apokryphos, thoreauputic, nalioth, Madpilot, ompaul, rob, Hobbsee or gnomefreak!",03:03,ubotu,"Help! lilo, hedgemage, lamont, Keybuk, jdub, Amaranth, tritium, ajmitch, crimsun, ogra, CarlK, Seveas, Burgundavia, apokryphos, thoreauputic, nalioth, Madpilot, ompaul, rob, Hobbsee or gnomefreak!"
+430,=== mode/#ubuntu [+o gnomefreak]  by ChanServ,,,
+431,=== der0b [i=s0d_0ff@c-24-218-106-50.hsd1.ma.comcast.net]  has joined #ubuntu,,,
+432,=== mode/#ubuntu [+o Amaranth]  by ChanServ,,,
+433,=== steveeeeee [n=steve@c211-30-106-95.carlnfd1.nsw.optusnet.com.au]  has joined #ubuntu,,,
+434,[03:04] <pdc303> deit: go to System ---> Preferences --> Sound   to see what device your audio is set on,03:04,pdc303> deit: go to System ---> Preferences --,Sound   to see what device your audio is set on
+435,[03:04] <tux0010> i did that,03:04,tux0010,i did that
+436,=== mode/#ubuntu [+b kash!*@*]  by gnomefreak,,,
+437,[03:04] <tux0010> still doesn't work,03:04,tux0010,still doesn't work
+438,=== mode/#ubuntu [-o gnomefreak]  by ChanServ,,,
+439,=== mode/#ubuntu [+b *!*@freematrix/volunteer/radio/kash]  by apokryphos,,,
+440,[03:04] <gnomefreak> amund: i got hom,03:04,gnomefreak,amund: i got hom
+441,=== gdb [n=cbell@circe.inetdb.com]  has joined #ubuntu,,,
+442,[03:04] <gnomefreak> him,03:04,gnomefreak,him
+443,[03:04] <tux0010> i am sure it has something to do with the mesalibs symlinking,03:04,tux0010,i am sure it has something to do with the mesalibs symlinking
+444,=== fdsd [n=dcstimm@ip68-111-228-106.sd.sd.cox.net]  has joined #ubuntu,,,
+445,=== skavenge [n=skavenge@12-207-61-84.client.mchsi.com]  has joined #ubuntu,,,
+446,=== userundefine [n=userunde@cpe-065-190-047-105.triad.res.rr.com]  has joined #ubuntu,,,
+447,=== Mewshi [n=kitty@pool-71-162-35-28.altnpa.east.verizon.net]  has joined #ubuntu,,,
+448,=== papyromancer [n=papyroma@cpe-24-165-210-54.midsouth.res.rr.com]  has joined #ubuntu,,,
+449,=== winXperts [n=winXpert@ip70-171-63-240.ga.at.cox.net]  has joined #ubuntu,,,
+450,[03:04] <crimsun> sigh. not this mess again.,03:04,crimsun,sigh. not this mess again.
+451,[03:04] <gnomefreak> i banned that host already,03:04,gnomefreak,i banned that host already
+452,=== xice [n=ben@60-240-217-108.tpgi.com.au]  has joined #ubuntu,,,
+453,=== redir [n=Reed@208-58-195-117.c3-0.grg-ubr2.lnh-grg.md.cable.rcn.com]  has joined #ubuntu,,,
+454,=== kaptengu2 [n=kaptengu@c213-100-60-132.swipnet.se]  has joined #ubuntu,,,
+455,=== jbirdAngel [n=jbirdang@24-180-201-154.dhcp.aldl.mi.charter.com]  has joined #ubuntu,,,
+456,=== mode/#ubuntu [-b *!*@freematrix/volunteer/radio/kash]  by apokryphos,,,
+457,[03:04] <gnomefreak> but it gave me a wildcard,03:04,gnomefreak,but it gave me a wildcard
+458,[03:04] <gurumeditationer> help with : missing devices in /dev (kernel 2.6.15-25-amd64-generic),03:04,gurumeditationer,help with : missing devices in /dev (kernel 2.6.15-25-amd64-generic)
+459,[03:04] <Jack_Sparrow> retsplits...weeeeee,03:04,Jack_Sparrow,retsplits...weeeeee
+460,[03:04] <apokryphos> gnomefreak: ok cool,03:04,apokryphos,gnomefreak: ok cool
+461,[03:04] <Jack_Sparrow> net,03:04,Jack_Sparrow,net
+462,"[03:04] <Amaranth> crimsun: Like I said, I'm about to ban everyone who gets disconnected by that.",03:04,Amaranth,"crimsun: Like I said, I'm about to ban everyone who gets disconnected by that."
+463,[03:05] <apokryphos> gnomefreak: what do you mean?,03:05,apokryphos,gnomefreak: what do you mean?
+464,"[03:05] <Amaranth> Jack_Sparrow: Nope, people with crappy routers.",03:05,Amaranth,"Jack_Sparrow: Nope, people with crappy routers."
+465,[03:05] <gnomefreak> ill show you,03:05,gnomefreak,ill show you
+466,=== torpedo|dog [n=thetorpe@nr25-66-42-183-10.fuse.net]  has joined #ubuntu,,,
+467,=== xice [n=ben@60-240-217-108.tpgi.com.au]  has joined #ubuntu,,,
+468,[03:05] <Jack_Sparrow> ah,03:05,Jack_Sparrow,ah
+469,=== someothernick [n=ubuntu@pool-68-163-244-245.bos.east.verizon.net]  has joined #ubuntu,,,
+470,=== lecaros is now known as lecaros_away,,,
+471,[03:05] <gnomefreak> 111 - #ubuntu: ban freematrix/volu*!*@*,03:05,gnomefreak,111 - #ubuntu: ban freematrix/volu*!*@*
+472,[03:05] <apokryphos> DCC exploits,03:05,apokryphos,DCC exploits
+473,[03:05] <apokryphos> !dcc,03:05,apokryphos,!dcc
+474,"[03:05] <ubotu> There are people around who think it is funny to abuse a bug in certain routers by sending invalid DCC commands. If you are bitten by this, please upgrade your router firmware - see also http://nvd.nist.gov/nvd.cfm?cvename=CVE-2006-1068",03:05,ubotu,"There are people around who think it is funny to abuse a bug in certain routers by sending invalid DCC commands. If you are bitten by this, please upgrade your router firmware - see also http://nvd.nist.gov/nvd.cfm?cvename=CVE-2006-1068"
+475,[03:05] <Xero> ok,03:05,Xero,ok
+476,=== weebit [i=Shadow_@h134.170.28.71.ip.alltel.net]  has joined #ubuntu,,,
+477,[03:05] <Xero> Here are my errors Jack_Sparrow,03:05,Xero,Here are my errors Jack_Sparrow
+478,[03:05] <gnomefreak> i didnt understand why it did that,03:05,gnomefreak,i didnt understand why it did that
+479,"[03:06] <apokryphos> gnomefreak: you want the @ before, right?",03:06,apokryphos,"gnomefreak: you want the @ before, right?"
+480,[03:06] <Xero> 184.037234,03:06,Xero,184.037234
+481,[03:06] <gnomefreak> oh damn,03:06,gnomefreak,oh damn
+482,=== caminomaster [n=caminoma@201.244.218.241]  has joined #ubuntu,,,
+483,[03:06] <gnomefreak> no,03:06,gnomefreak,no
+484,=== mode/#ubuntu [+o gnomefreak]  by ChanServ,,,
+485,[03:06] <caminomaster> Hello,03:06,caminomaster,Hello
+486,[03:06] <tux0010> anyone know how to fix the symlinking issue ?,03:06,tux0010,anyone know how to fix the symlinking issue ?
+487,[03:06] <tux0010> with ati driver (fglrx),03:06,tux0010,with ati driver (fglrx)
+488,[03:06] <Xero> 184.385410,03:06,Xero,184.385410
+489,[03:06] <tux0010> the wiki is bogus,03:06,tux0010,the wiki is bogus
+490,=== mode/#ubuntu [-b freematrix/volu*!*@*]  by gnomefreak,,,
+491,=== nalioth [i=nalioth@freenode/staff/ubuntu.member.nalioth]  has joined #ubuntu,,,
+492,=== tinklepants [n=onel@adsl-72-50-116-203.prtc.net]  has joined #ubuntu,,,
+493,[03:06] <Xero> 184.421995,03:06,Xero,184.421995
+494,[03:06] <Jack_Sparrow> Xero: those are errors you get from the menu option check cd for errors,03:06,Jack_Sparrow,Xero: those are errors you get from the menu option check cd for errors
+495,[03:06] <Xero> Yes,03:06,Xero,Yes
+496,=== mode/#ubuntu [+b *!*@freematrix/volunteer/radio/kash]  by gnomefreak,,,
+497,[03:06] <Xero> Those are from the check CD,03:06,Xero,Those are from the check CD
+498,[03:06] <gnomefreak> fixed ;),03:06,gnomefreak,fixed ;)
+499,[03:06] <Jack_Sparrow> then you have a bad burn or a bad download,03:06,Jack_Sparrow,then you have a bad burn or a bad download
+500,=== mode/#ubuntu [-o gnomefreak]  by ChanServ,,,
+501,[03:07] <Xero> Crap,03:07,Xero,Crap
+502,"[03:07] <caminomaster> can U help me? I need to change it's proxy configuration, but it begins died...",03:07,caminomaster,"can U help me? I need to change it's proxy configuration, but it begins died..."
+503,[03:07] <Jack_Sparrow> Sorry,03:07,Jack_Sparrow,Sorry
+504,"[03:07] <pppoe_dude> icez, you can blacklist the driver you dont want hotplug to use",03:07,pppoe_dude,"icez, you can blacklist the driver you dont want hotplug to use"
+505,[03:07] <apokryphos> gnomefreak: which is what I had :P,03:07,apokryphos,gnomefreak: which is what I had :P
+506,[03:07] <caminomaster> I talk about a Mule,03:07,caminomaster,I talk about a Mule
+507,[03:07] <caminomaster> aMule,03:07,caminomaster,aMule
+508,[03:07] <gnomefreak> im sorry,03:07,gnomefreak,im sorry
+509,=== JamesWC [n=ncteenjw@68-118-6-246.dhcp.hlrg.nc.charter.com]  has left #ubuntu [],,,
+510,[03:07] <apokryphos> gnomefreak: np,03:07,apokryphos,gnomefreak: np
+511,"[03:07] <icez> pppoe_dude, oh",03:07,icez,"pppoe_dude, oh"
+512,=== uglyrock [n=rick@82.152.144.137]  has joined #ubuntu,,,
+513,"[03:07] <pppoe_dude> icez, thats as far as i can take you :)",03:07,pppoe_dude,"icez, thats as far as i can take you :)"
+514,=== jacudd [n=ubuntu@wnpgmb01dc6-43-91.dynamic.mts.net]  has joined #ubuntu,,,
+515,[03:07] <Jack_Sparrow> Xero:  just to be sure do the same thing on a second pc when you get a chance just to make sure it isnt your drive,03:07,Jack_Sparrow,Xero:  just to be sure do the same thing on a second pc when you get a chance just to make sure it isnt your drive
+516,"[03:08] <martinoc> anyone know what exactly the irqpoll option does on boot - I get a ""nobody cared"" unless I use it",03:08,martinoc,"anyone know what exactly the irqpoll option does on boot - I get a ""nobody cared"" unless I use it"
+517,[03:08] <cherwin> jezus,03:08,cherwin,jezus
+518,[03:08] <Jack_Sparrow> Xero: cd drive that is,03:08,Jack_Sparrow,Xero: cd drive that is
+519,"[03:08] <icez> pppoe_dude, that'll be right enough, thanks:)",03:08,icez,"pppoe_dude, that'll be right enough, thanks:)"
+520,=== blacktears [n=blacktea@24-55-74-90.lmdaca.adelphia.net]  has joined #ubuntu,,,
+521,=== Alex_Yu [n=HaoYu___@221.226.103.136]  has joined #ubuntu,,,
+522,[03:08] <gurumeditationer> help with : missing devices in /dev (kernel 2.6.15-25-amd64-generic),03:08,gurumeditationer,help with : missing devices in /dev (kernel 2.6.15-25-amd64-generic)
+523,=== stpere_ [n=stpere@ts1-192.f1236.ts.globetrotter.net]  has joined #ubuntu,,,
+524,=== steveeeeee [n=steve@c211-30-106-95.carlnfd1.nsw.optusnet.com.au]  has joined #ubuntu,,,
+525,=== redir [n=Reed@208-58-195-117.c3-0.grg-ubr2.lnh-grg.md.cable.rcn.com]  has joined #ubuntu,,,
+526,=== winXperts [n=winXpert@ip70-171-63-240.ga.at.cox.net]  has joined #ubuntu,,,
+527,"[03:08] <id10t> anyone able to install dapper drake on a dual athlon mp board? i'm getting an error, can't find a real fix ...",03:08,id10t,"anyone able to install dapper drake on a dual athlon mp board? i'm getting an error, can't find a real fix ..."
+528,=== userundefine [n=userunde@cpe-065-190-047-105.triad.res.rr.com]  has joined #ubuntu,,,
+529,=== Mewshi [n=kitty@pool-71-162-35-28.altnpa.east.verizon.net]  has joined #ubuntu,,,
+530,=== der0b [i=s0d_0ff@c-24-218-106-50.hsd1.ma.comcast.net]  has joined #ubuntu,,,
+531,=== papyromancer [n=papyroma@cpe-24-165-210-54.midsouth.res.rr.com]  has joined #ubuntu,,,
+532,=== wastrel [n=wastrel@nylug/member/wastrel]  has joined #ubuntu,,,
+533,=== fdsd [n=dcstimm@ip68-111-228-106.sd.sd.cox.net]  has joined #ubuntu,,,
+534,=== kaptengu2 [n=kaptengu@c213-100-60-132.swipnet.se]  has joined #ubuntu,,,
+535,[03:09] <cherwin> how annoying,03:09,cherwin,how annoying
+536,[03:09] <Xero> thanks for your time Jack,03:09,Xero,thanks for your time Jack
+537,[03:09] <Xero> Waut,03:09,Xero,Waut
+538,=== gdb [n=cbell@circe.inetdb.com]  has joined #ubuntu,,,
+539,[03:09] <id10t> dubya tee eff,03:09,id10t,dubya tee eff
+540,=== gr33npho4nix [n=turk@hera.ccs.neu.edu]  has joined #ubuntu,,,
+541,[03:09] <Jack_Sparrow> np,03:09,Jack_Sparrow,np
+542,[03:09] <Xero> It says Preping Restricted drivers,03:09,Xero,It says Preping Restricted drivers
+543,[03:09] <wastrel> hey dudes,03:09,wastrel,hey dudes
+544,[03:09] <Jack_Sparrow> Yo,03:09,Jack_Sparrow,Yo
+545,=== steveeeeee [n=steve@c211-30-106-95.carlnfd1.nsw.optusnet.com.au]  has joined #ubuntu,,,
+546,[03:09] <Xero> And all of this weird stuff,03:09,Xero,And all of this weird stuff
+547,=== winXperts [n=winXpert@ip70-171-63-240.ga.at.cox.net]  has joined #ubuntu,,,
+548,[03:10] <cherwin> !ops,03:10,cherwin,!ops
+549,=== papyromancer [n=papyroma@cpe-24-165-210-54.midsouth.res.rr.com]  has joined #ubuntu,,,
+550,"[03:10] <ubotu> Help! lilo, hedgemage, lamont, Keybuk, jdub, Amaranth, tritium, ajmitch, crimsun, ogra, CarlK, Seveas, Burgundavia, apokryphos, thoreauputic, nalioth, Madpilot, ompaul, rob, Hobbsee or gnomefreak!",03:10,ubotu,"Help! lilo, hedgemage, lamont, Keybuk, jdub, Amaranth, tritium, ajmitch, crimsun, ogra, CarlK, Seveas, Burgundavia, apokryphos, thoreauputic, nalioth, Madpilot, ompaul, rob, Hobbsee or gnomefreak!"
+551,=== userundefine [n=userunde@cpe-065-190-047-105.triad.res.rr.com]  has joined #ubuntu,,,
+552,=== mode/#ubuntu [+o gnomefreak]  by ChanServ,,,
+553,=== fdsd [n=dcstimm@ip68-111-228-106.sd.sd.cox.net]  has joined #ubuntu,,,
+554,[03:10] <gnomefreak> cherwin: ?,03:10,gnomefreak,cherwin: ?
+555,[03:10] <Amaranth> cherwin: ?,03:10,Amaranth,cherwin: ?
+556,[03:10] <cherwin> :),03:10,cherwin,:)
+557,[03:10] <Jack_Sparrow> xero.. all this wierd stuff isnt a descripotion that helps me help you,03:10,Jack_Sparrow,xero.. all this wierd stuff isnt a descripotion that helps me help you
+558,[03:10] <nalioth> cherwin: may we help you?,03:10,nalioth,cherwin: may we help you?
+559,[03:10] <jacudd> I'm getting an 'unexpected error' when burning a data dvd. Would it be because I'm using a live CD?,03:10,jacudd,I'm getting an 'unexpected error' when burning a data dvd. Would it be because I'm using a live CD?
+560,[03:10] <cherwin> what's with the disconnecting and connecting all the time,03:10,cherwin,what's with the disconnecting and connecting all the time
+561,=== cherwin [n=cherwin@h196189.upc-h.chello.nl]  has left #ubuntu [requested],,,
+562,[03:10] <apokryphos> cherwin: it's a good idea to ask active ops first before !ops'ing :),03:10,apokryphos,cherwin: it's a good idea to ask active ops first before !ops'ing :)
+563,[03:10] <Xero> Now it is black except for a _ up in the top left corner,03:10,Xero,Now it is black except for a _ up in the top left corner
+564,=== steveeeeee [n=steve@c211-30-106-95.carlnfd1.nsw.optusnet.com.au]  has joined #ubuntu,,,
+565,=== mode/#ubuntu [-o gnomefreak]  by ChanServ,,,
+566,[03:10] <gurumeditationer> help with : missing devices in /dev (kernel 2.6.15-25-amd64-generic),03:10,gurumeditationer,help with : missing devices in /dev (kernel 2.6.15-25-amd64-generic)
+567,=== kkrizka [n=kkrizka@d206-116-1-46.bchsia.telus.net]  has joined #ubuntu,,,
+568,=== winXperts [n=winXpert@ip70-171-63-240.ga.at.cox.net]  has joined #ubuntu,,,
+569,[03:10] <ardchoille> my system has been rebooted more than 30 times and it says forcing check. What is the command it runs for that check? I'd like to run that check manually.,03:10,ardchoille,my system has been rebooted more than 30 times and it says forcing check. What is the command it runs for that check? I'd like to run that check manually.
+570,=== papyromancer [n=papyroma@cpe-24-165-210-54.midsouth.res.rr.com]  has joined #ubuntu,,,
+571,[03:10] <gnomefreak> apokryphos: remind him when he comes back lol,03:10,gnomefreak,apokryphos: remind him when he comes back lol
+572,=== cherwin [n=cherwin@h196189.upc-h.chello.nl]  has joined #ubuntu,,,
+573,[03:11] <cherwin> lol,03:11,cherwin,lol
+574,[03:11] <pdc303> ardchoille: fsck,03:11,pdc303,ardchoille: fsck
+575,[03:11] <gnomefreak> cherwin: dont play with that,03:11,gnomefreak,cherwin: dont play with that
+576,[03:11] <Jack_Sparrow> Xero wait,03:11,Jack_Sparrow,Xero wait
+577,"[03:11] <Xero> It sed something like setting up GNOME Graphic interface, and some other things",03:11,Xero,"It sed something like setting up GNOME Graphic interface, and some other things"
+578,[03:11] <cherwin> with what?,03:11,cherwin,with what?
+579,[03:11] <Jack_Sparrow> Xero what video card are you using?,03:11,Jack_Sparrow,Xero what video card are you using?
+580,"[03:11] <martinoc> anyone know what exactly the irqpoll option does on boot - I get a ""nobody cared"" unless I use it booting my laptop?",03:11,martinoc,"anyone know what exactly the irqpoll option does on boot - I get a ""nobody cared"" unless I use it booting my laptop?"
+581,[03:11] <Xero> Hell if I know,03:11,Xero,Hell if I know
+582,[03:11] <Xero> It's too old,03:11,Xero,It's too old
+583,=== infamy [n=Infamy@CPE005004804d2e-CM014090207037.cpe.net.cable.rogers.com]  has joined #ubuntu,,,
+584,[03:11] <jacudd> Anyone tried burning DVDs while running off a live cd?,03:11,jacudd,Anyone tried burning DVDs while running off a live cd?
+585,[03:11] <Jack_Sparrow> Xero no just wait for a few more.,03:11,Jack_Sparrow,Xero no just wait for a few more.
+586,[03:12] <Jack_Sparrow> jacudd: yes,03:12,Jack_Sparrow,jacudd: yes
+587,=== steveeeeee [n=steve@c211-30-106-95.carlnfd1.nsw.optusnet.com.au]  has joined #ubuntu,,,
+588,"[03:12] <pppoe_dude> jacudd, i thikn you can do it from command line",03:12,pppoe_dude,"jacudd, i thikn you can do it from command line"
+589,[03:12] <Xero> An old ATI with... 8 megs?,03:12,Xero,An old ATI with... 8 megs?
+590,=== winXperts [n=winXpert@ip70-171-63-240.ga.at.cox.net]  has joined #ubuntu,,,
+591,=== HellDragon [n=JD@pdpc/supporter/active/HellDragon]  has joined #ubuntu,,,
+592,=== vitztream [n=vitztrea@dsl-200-95-90-235.prod-infinitum.com.mx]  has joined #ubuntu,,,
+593,[03:12] <cherwin> gnomefreak: you're thinking that i'm behind that annoying stuff?,03:12,cherwin,gnomefreak: you're thinking that i'm behind that annoying stuff?
+594,=== papyromancer [n=papyroma@cpe-24-165-210-54.midsouth.res.rr.com]  has joined #ubuntu,,,
+595,=== userundefine [n=userunde@cpe-065-190-047-105.triad.res.rr.com]  has joined #ubuntu,,,
+596,"[03:12] <jacudd> hmm, alright",03:12,jacudd,"hmm, alright"
+597,[03:12] <gnomefreak> cherwin: the !ops trigger is not something that you play with its only for needed and using it out of line like that will get you banned,03:12,gnomefreak,cherwin: the !ops trigger is not something that you play with its only for needed and using it out of line like that will get you banned
+598,[03:12] <infamy> is there anyone working on something like ubuntu-lite?,03:12,infamy,is there anyone working on something like ubuntu-lite?
+599,=== martinoc [n=martinoc@83.141.79.88]  has joined #ubuntu,,,
+600,=== fdsd [n=dcstimm@ip68-111-228-106.sd.sd.cox.net]  has joined #ubuntu,,,
+601,[03:12] <Xero> maybe 16mb,03:12,Xero,maybe 16mb
+602,[03:12] <spades> infamy google for nubuntu,03:12,spades,infamy google for nubuntu
+603,[03:13] <Jack_Sparrow> Xero is this on the second pc or the same one,03:13,Jack_Sparrow,Xero is this on the second pc or the same one
+604,=== steveeeeee [n=steve@c211-30-106-95.carlnfd1.nsw.optusnet.com.au]  has joined #ubuntu,,,
+605,"[03:13] <cherwin> gnomefreak: ooh i'm sorry, I wasn't aware of that.. thanks for the lesson though..",03:13,cherwin,"gnomefreak: ooh i'm sorry, I wasn't aware of that.. thanks for the lesson though.."
+606,"=== vitztream [n=vitztrea@dsl-200-95-90-235.prod-infinitum.com.mx]  has left #ubuntu [""Abandonando""]",,,
+607,=== winXperts [n=winXpert@ip70-171-63-240.ga.at.cox.net]  has joined #ubuntu,,,
+608,[03:13] <Xero> same PC,03:13,Xero,same PC
+609,[03:13] <jacudd> How can I split a directory and all subs into 700MB chunks?,03:13,jacudd,How can I split a directory and all subs into 700MB chunks?
+610,=== userundefine [n=userunde@cpe-065-190-047-105.triad.res.rr.com]  has joined #ubuntu,,,
+611,=== papyromancer [n=papyroma@cpe-24-165-210-54.midsouth.res.rr.com]  has joined #ubuntu,,,
+612,[03:13] <ardchoille> pdc303: thank you :),03:13,ardchoille,pdc303: thank you :)
+613,[03:13] <jacudd> maybe it's a problem with the DVDs,03:13,jacudd,maybe it's a problem with the DVDs
+614,=== fdsd [n=dcstimm@ip68-111-228-106.sd.sd.cox.net]  has joined #ubuntu,,,
+615,[03:13] <Jack_Sparrow> Xero if it fails the check it is no good as long as you get the same error on a second cd drive,03:13,Jack_Sparrow,Xero if it fails the check it is no good as long as you get the same error on a second cd drive
+616,=== meheren [n=gentoo@140-34.8-67.swfla.res.rr.com]  has joined #ubuntu,,,
+617,[03:13] <tux0010> damn ubuntu,03:13,tux0010,damn ubuntu
+618,=== der0b [i=s0d_0ff@c-24-218-106-50.hsd1.ma.comcast.net]  has joined #ubuntu,,,
+619,"[03:13] <pppoe_dude> jacudd, maybe jigdo or rar",03:13,pppoe_dude,"jacudd, maybe jigdo or rar"
+620,[03:14] <Xero> k,03:14,Xero,k
+621,=== steveeeeee [n=steve@c211-30-106-95.carlnfd1.nsw.optusnet.com.au]  has joined #ubuntu,,,
+622,[03:14] <Xero> Lemme check #2,03:14,Xero,Lemme check #2
+623,=== gdb [n=cbell@circe.inetdb.com]  has joined #ubuntu,,,
+624,[03:14] <martinoc> Hey all,03:14,martinoc,Hey all
+625,[03:14] <blacktears> okay im done with trying to mount that partition for tonight,03:14,blacktears,okay im done with trying to mount that partition for tonight
+626,=== papyromancer [n=papyroma@cpe-24-165-210-54.midsouth.res.rr.com]  has joined #ubuntu,,,
+627,[03:14] <carl_> I built wine v..16 .deb using .  now a wine dev wants me to down grade to .15 - anyone know how I do that?,03:14,carl_,I built wine v..16 .deb using .  now a wine dev wants me to down grade to .15 - anyone know how I do that?
+628,[03:14] <meheren> where is grub's menu.lst?,03:14,meheren,where is grub's menu.lst?
+629,[03:14] <blacktears> f it,03:14,blacktears,f it
+630,=== fdsd [n=dcstimm@ip68-111-228-106.sd.sd.cox.net]  has joined #ubuntu,,,
+631,=== userundefine [n=userunde@cpe-065-190-047-105.triad.res.rr.com]  has joined #ubuntu,,,
+632,[03:14] <carl_> useing https://help.ubuntu.com/community/BuildingWineFromSource,03:14,carl_,useing https://help.ubuntu.com/community/BuildingWineFromSource
+633,[03:14] <crashzor> lol done a realy hackis work around to chroot xmms ( for test sound mixxing :p ),03:14,crashzor,lol done a realy hackis work around to chroot xmms ( for test sound mixxing :p )
+634,[03:14] <apokryphos> meheren: /boot/grub,03:14,apokryphos,meheren: /boot/grub
+635,[03:14] <meheren> ok thx,03:14,meheren,ok thx
+636,=== meheren [n=gentoo@140-34.8-67.swfla.res.rr.com]  has left #ubuntu [],,,
+637,[03:15] <Jack_Sparrow> meheren: In the grub folder...?,03:15,Jack_Sparrow,meheren: In the grub folder...?
+638,=== bur[n] er uses wine 0.9.12 :\,,,
+639,=== infamy [n=Infamy@CPE005004804d2e-CM014090207037.cpe.net.cable.rogers.com]  has left #ubuntu [],,,
+640,=== steveeeeee [n=steve@c211-30-106-95.carlnfd1.nsw.optusnet.com.au]  has joined #ubuntu,,,
+641,=== userundefine [n=userunde@cpe-065-190-047-105.triad.res.rr.com]  has joined #ubuntu,,,
+642,=== thrice` [n=andrew@68-188-221-26.dhcp.aldl.mi.charter.com]  has joined #ubuntu,,,
+643,=== papyromancer [n=papyroma@cpe-24-165-210-54.midsouth.res.rr.com]  has joined #ubuntu,,,
+644,=== gord [i=gord@85-210-1-250.dsl.pipex.com]  has joined #ubuntu,,,
+645,=== rafael [n=rafael@cpe-67-9-177-89.austin.res.rr.com]  has joined #ubuntu,,,
+646,[03:15] <apokryphos> !dcc,03:15,apokryphos,!dcc
+647,=== fdsd [n=dcstimm@ip68-111-228-106.sd.sd.cox.net]  has joined #ubuntu,,,
+648,"[03:16] <ubotu> There are people around who think it is funny to abuse a bug in certain routers by sending invalid DCC commands. If you are bitten by this, please upgrade your router firmware - see also http://nvd.nist.gov/nvd.cfm?cvename=CVE-2006-1068",03:16,ubotu,"There are people around who think it is funny to abuse a bug in certain routers by sending invalid DCC commands. If you are bitten by this, please upgrade your router firmware - see also http://nvd.nist.gov/nvd.cfm?cvename=CVE-2006-1068"
+649,"[03:16] <carl_> bur[n] er, building wine .16 was very easy",03:16,carl_,"bur[n] er, building wine .16 was very easy"
+650,[03:16] <jacudd> pppoe_dude: thanks,03:16,jacudd,pppoe_dude: thanks
+651,=== ankan [n=ankan@c-68-45-241-16.hsd1.pa.comcast.net]  has joined #ubuntu,,,
+652,=== shoot^ [n=shootsha@spc2-reig1-0-0-cust603.asfd.broadband.ntl.com]  has joined #ubuntu,,,
+653,=== shoot^ [n=shootsha@spc2-reig1-0-0-cust603.asfd.broadband.ntl.com]  has left #ubuntu [],,,
+654,=== infamy [n=Infamy@CPE005004804d2e-CM014090207037.cpe.net.cable.rogers.com]  has joined #ubuntu,,,
+655,[03:16] <martinoc> does anyone know exactly what irqpoll does on boot?,03:16,martinoc,does anyone know exactly what irqpoll does on boot?
+656,[03:16] <rafael> howdy folks,03:16,rafael,howdy folks
+657,=== D_dog [n=D-dog@c-24-7-130-100.hsd1.ca.comcast.net]  has joined #ubuntu,,,
+658,[03:16] <infamy> any other lite-ubuntus? looking for under 100mb or so..,03:16,infamy,any other lite-ubuntus? looking for under 100mb or so..
+659,=== steveeeeee [n=steve@c211-30-106-95.carlnfd1.nsw.optusnet.com.au]  has joined #ubuntu,,,
+660,=== yamen [n=ubuntu@wnpgmb01dc6-43-91.dynamic.mts.net]  has joined #ubuntu,,,
+661,[03:17] <ankan> hi...does anyone know what this message means when I am tryin to play a dvd using mplayer from command line -,03:17,ankan,hi...does anyone know what this message means when I am tryin to play a dvd using mplayer from command line -
+662,"[03:17] <carl_> infamy, you have seen #xubuntu?",03:17,carl_,"infamy, you have seen #xubuntu?"
+663,=== userundefine [n=userunde@cpe-065-190-047-105.triad.res.rr.com]  has joined #ubuntu,,,
+664,=== papyromancer [n=papyroma@cpe-24-165-210-54.midsouth.res.rr.com]  has joined #ubuntu,,,
+665,[03:17] <Jack_Sparrow> infamy look at distrowatch dot com,03:17,Jack_Sparrow,infamy look at distrowatch dot com
+666,"[03:17] <ankan> the message is - -dvd N is deprecated, use dvd://N instead",03:17,ankan,"the message is - -dvd N is deprecated, use dvd://N instead"
+667,[03:17] <carl_> lol,03:17,carl_,lol
+668,[03:17] <Amaranth> ankan: mplayer dvd://,03:17,Amaranth,ankan: mplayer dvd://
+669,[03:17] <D_dog> any suggestions on which program I should use to burn a .img and .cue file to a cd. Gnomebaker doesnt seem to want to do it,03:17,D_dog,any suggestions on which program I should use to burn a .img and .cue file to a cd. Gnomebaker doesnt seem to want to do it
+670,[03:17] <yamen> can I non-destructively reformat my fat32 partition?,03:17,yamen,can I non-destructively reformat my fat32 partition?
+671,=== steveeeeee [n=steve@c211-30-106-95.carlnfd1.nsw.optusnet.com.au]  has joined #ubuntu,,,
+672,=== cntb [n=user@85-250-145-22.bb.netvision.net.il]  has joined #ubuntu,,,
+673,[03:17] <bur[n]er> D_dog: .img? not a .bin & .cue?,03:17,bur[n]er,D_dog: .img? not a .bin & .cue?
+674,[03:17] <Amaranth> D_dog: Go buy the movie instead of downloading it.,03:17,Amaranth,D_dog: Go buy the movie instead of downloading it.
+675,"[03:17] <martinoc> does anyone know exactly what irqpoll does on boot? Unless I use it I just get ""nobody cared"" errors and the desktop CD won't boot.",03:17,martinoc,"does anyone know exactly what irqpoll does on boot? Unless I use it I just get ""nobody cared"" errors and the desktop CD won't boot."
+676,[03:18] <Jack_Sparrow> d-dog try kb3,03:18,Jack_Sparrow,d-dog try kb3
+677,=== userundefine [n=userunde@cpe-065-190-047-105.triad.res.rr.com]  has joined #ubuntu,,,
+678,"[03:18] <carl_> D_dog, cdrecord (and dump the _ from your nic if you want me to address you anymore )",03:18,carl_,"D_dog, cdrecord (and dump the _ from your nic if you want me to address you anymore )"
+679,[03:18] <D_dog> yes its a .img and its not a movie,03:18,D_dog,yes its a .img and its not a movie
+680,=== an0malist [n=n0ne@69-173-118-1.albyny.adelphia.net]  has joined #ubuntu,,,
+681,[03:18] <Xero> Got it up,03:18,Xero,Got it up
+682,=== mode/#ubuntu [+r]  by apokryphos,,,
+683,[03:18] <Jack_Sparrow> Xero... well done,03:18,Jack_Sparrow,Xero... well done
+684,[03:18] <Xero> Starting cd check,03:18,Xero,Starting cd check
+685,[03:18] <cntb> hi first time on dapper drake,03:18,cntb,hi first time on dapper drake
+686,[03:18] <gurumeditationer> help with : missing devices in /dev (kernel 2.6.15-25-amd64-generic),03:18,gurumeditationer,help with : missing devices in /dev (kernel 2.6.15-25-amd64-generic)
+687,[03:18] <Xero> Whoops,03:18,Xero,Whoops
+688,[03:18] <D_dog> ok but whats wrong with underscores,03:18,D_dog,ok but whats wrong with underscores
+689,"[03:18] <mjr> D_dog, cdrdao can afaik do .cue stuff.",03:18,mjr,"D_dog, cdrdao can afaik do .cue stuff."
+690,[03:18] <Xero> I meant the CD drive,03:18,Xero,I meant the CD drive
+691,"[03:18] <an0malist> Hey, how can I make my fonts look better in ubuntu? I was reading something about XFT?",03:18,an0malist,"Hey, how can I make my fonts look better in ubuntu? I was reading something about XFT?"
+692,[03:18] <cntb> ubuntu is amazing for end user,03:18,cntb,ubuntu is amazing for end user
+693,[03:18] <Jack_Sparrow> Oh..,03:18,Jack_Sparrow,Oh..
+694,[03:18] <nalioth> yamen: you cannot,03:18,nalioth,yamen: you cannot
+695,=== der0b [i=s0d_0ff@c-24-218-106-50.hsd1.ma.comcast.net]  has joined #ubuntu,,,
+696,[03:19] <cntb> chat is  so alive too,03:19,cntb,chat is  so alive too
+697,"[03:19] <carl_> i have to shift, which slows me down",03:19,carl_,"i have to shift, which slows me down"
+698,[03:19] <nalioth> yamen: a 'format' by design is destructive,03:19,nalioth,yamen: a 'format' by design is destructive
+699,=== WebLOCH [n=baris@82-34-95-143.cable.ubr05.gill.blueyonder.co.uk]  has joined #ubuntu,,,
+700,=== userundefine [n=userunde@cpe-065-190-047-105.triad.res.rr.com]  has joined #ubuntu,,,
+701,"[03:19] <WebLOCH> hey guys, does th latest live cd have tha ability to read ntfs partitions by default ?",03:19,WebLOCH,"hey guys, does th latest live cd have tha ability to read ntfs partitions by default ?"
+702,[03:19] <carl_> atleast move it to where i can tab past it,03:19,carl_,atleast move it to where i can tab past it
+703,"[03:19] <Xero> Wait, this time it sayadding live CD user and such",03:19,Xero,"Wait, this time it sayadding live CD user and such"
+704,"[03:19] <carl_> WebLOCH, yes",03:19,carl_,"WebLOCH, yes"
+705,[03:19] <Jack_Sparrow> web yes,03:19,Jack_Sparrow,web yes
+706,"[03:19] <yamen> nalioth: OK. ""Can I resize my partition?"" would have been more accurate",03:19,yamen,"nalioth: OK. ""Can I resize my partition?"" would have been more accurate"
+707,"[03:19] <WebLOCH> okay so it will be available under ""computer"" by default ?",03:19,WebLOCH,"okay so it will be available under ""computer"" by default ?"
+708,[03:19] <cntb> carl really?,03:19,cntb,carl really?
+709,[03:19] <D_dog> I have cdrecord already installed I will give it a go thank you all that responded,03:19,D_dog,I have cdrecord already installed I will give it a go thank you all that responded
+710,[03:19] <Jack_Sparrow> Xero .. way cool,03:19,Jack_Sparrow,Xero .. way cool
+711,"=== delrio [i=rio@c-24-98-181-139.hsd1.ga.comcast.net]  has left #ubuntu [""i'm]",,,
+712,[03:20] <cntb> checking right now,03:20,cntb,checking right now
+713,"[03:20] <carl_> cntb, I use it daily",03:20,carl_,"cntb, I use it daily"
+714,[03:20] <Xero> There's a blinking _ in the top lefthand corner,03:20,Xero,There's a blinking _ in the top lefthand corner
+715,"[03:20] <an0malist> Hey, how can I make my fonts look better in ubuntu? Specifically firefox",03:20,an0malist,"Hey, how can I make my fonts look better in ubuntu? Specifically firefox"
+716,[03:20] <an0malist> or anything really,03:20,an0malist,or anything really
+717,[03:20] <Jack_Sparrow> Xero wait for it,03:20,Jack_Sparrow,Xero wait for it
+718,[03:20] <Xero> Do I need to type anything?,03:20,Xero,Do I need to type anything?
+719,[03:20] <WebLOCH> carl_  Jack_Sparrow     ...does the user need to mount specifically ?,03:20,WebLOCH,carl_  Jack_Sparrow     ...does the user need to mount specifically ?
+720,[03:20] <Jack_Sparrow> no,03:20,Jack_Sparrow,no
+721,[03:20] <Xero> ok,03:20,Xero,ok
+722,[03:20] <wastrel> an0malist:  did you install msttcorefonts?,03:20,wastrel,an0malist:  did you install msttcorefonts?
+723,[03:20] <WebLOCH> ahh cool,03:20,WebLOCH,ahh cool
+724,[03:20] <cntb> and writable too ?,03:20,cntb,and writable too ?
+725,[03:20] <Jack_Sparrow> no,03:20,Jack_Sparrow,no
+726,[03:20] <an0malist> nope,03:20,an0malist,nope
+727,[03:20] <Jack_Sparrow> WebLOCH: no,03:20,Jack_Sparrow,WebLOCH: no
+728,[03:20] <carl_> not writeable,03:20,carl_,not writeable
+729,[03:20] <an0malist> not that i know of,03:20,an0malist,not that i know of
+730,[03:20] <Jack_Sparrow> they should be automaounted,03:20,Jack_Sparrow,they should be automaounted
+731,=== userundefine [n=userunde@cpe-065-190-047-105.triad.res.rr.com]  has joined #ubuntu,,,
+732,[03:20] <WebLOCH> Jack_Sparrow: ty!,03:20,WebLOCH,Jack_Sparrow: ty!
+733,[03:20] <cntb> ah,03:20,cntb,ah
+734,"[03:20] <carl_> mount... /dev/hda1 on /media/hda1 type ntfs (ro,",03:20,carl_,"mount... /dev/hda1 on /media/hda1 type ntfs (ro,"
+735,[03:21] <apokryphos> userundefine: /msg ubotu dcc,03:21,apokryphos,userundefine: /msg ubotu dcc
+736,"[03:21] <nalioth> yamen: yes, use a LiveCD and gparted to do so",03:21,nalioth,"yamen: yes, use a LiveCD and gparted to do so"
+737,[03:21] <Jack_Sparrow> WebLOCH:  remembewr read only,03:21,Jack_Sparrow,WebLOCH:  remembewr read only
+738,[03:21] <cntb> pls coach me to mount,03:21,cntb,pls coach me to mount
+739,"[03:21] <carl_> cntb, just remember: mount something somewhere",03:21,carl_,"cntb, just remember: mount something somewhere"
+740,"[03:21] <martinoc> why does irqpoll prevent ""nobody cared"" errors when booting from a desktop cd?",03:21,martinoc,"why does irqpoll prevent ""nobody cared"" errors when booting from a desktop cd?"
+741,"[03:21] <WebLOCH> Jack_Sparrow: yeah i know, i use arch, but a friend needs to recovers omething and ubuntu is the best livecd for them haha",03:21,WebLOCH,"Jack_Sparrow: yeah i know, i use arch, but a friend needs to recovers omething and ubuntu is the best livecd for them haha"
+742,[03:21] <gurumeditationer> help with : missing devices in /dev (kernel 2.6.15-25-amd64-generic),03:21,gurumeditationer,help with : missing devices in /dev (kernel 2.6.15-25-amd64-generic)
+743,[03:21] <Jack_Sparrow> nalioth: Have you seen the gparted live cd just for setting up a drive,03:21,Jack_Sparrow,nalioth: Have you seen the gparted live cd just for setting up a drive
+744,=== pax [n=pax@pdpc/supporter/student/pax]  has joined #ubuntu,,,
+745,[03:21] <cntb> k carl also mount point most logical place,03:21,cntb,k carl also mount point most logical place
+746,=== pandora-- [n=neil@c-24-130-104-88.hsd1.ca.comcast.net]  has joined #ubuntu,,,
+747,"=== wastrel [n=wastrel@nylug/member/wastrel]  has left #ubuntu [""Leaving""]",,,
+748,"[03:22] <carl_> cntb, ?",03:22,carl_,"cntb, ?"
+749,[03:22] <Xero> It says Mount: function not implemented,03:22,Xero,It says Mount: function not implemented
+750,[03:22] <pandora--> what package do i have to install to get aclocal?,03:22,pandora--,what package do i have to install to get aclocal?
+751,[03:22] <Xero> Is that good or bad?,03:22,Xero,Is that good or bad?
+752,[03:22] <ardchoille> Anyone know how to get rid of the ALT+1 key combo that switches between tabs in gnome-terminal? It interferes with switching windows in irssi,03:22,ardchoille,Anyone know how to get rid of the ALT+1 key combo that switches between tabs in gnome-terminal? It interferes with switching windows in irssi
+753,[03:22] <cntb> wait will try to mount ntfs,03:22,cntb,wait will try to mount ntfs
+754,=== userundefine [n=userunde@cpe-065-190-047-105.triad.res.rr.com]  has joined #ubuntu,,,
+755,"[03:22] <nalioth> Jack_Sparrow: i have, and the Ubuntu LiveCDs have the same functionality (if you have an Ubuntu LiveCd already)",03:22,nalioth,"Jack_Sparrow: i have, and the Ubuntu LiveCDs have the same functionality (if you have an Ubuntu LiveCd already)"
+756,=== mode/#ubuntu [+b userundefine!*@*]  by apokryphos,,,
+757,[03:22] <WebLOCH> nalioth: haha what you doing here?  arent you an arch user?,03:22,WebLOCH,nalioth: haha what you doing here?  arent you an arch user?
+758,"[03:22] <pppoe_dude> ardchoille, try edit>current profile?",03:22,"pppoe_dude> ardchoille, try edit","ardchoille, try edit>current profile?"
+759,[03:23] <Jack_Sparrow> xero you should be ok if you get it to boot live,03:23,Jack_Sparrow,xero you should be ok if you get it to boot live
+760,"[03:23] <pppoe_dude> ardchoille, or use xterm",03:23,pppoe_dude,"ardchoille, or use xterm"
+761,"[03:23] <martinoc> why does irqpoll prevent ""nobody cared"" errors when booting from a live cd",03:23,martinoc,"why does irqpoll prevent ""nobody cared"" errors when booting from a live cd"
+762,=== infamy [n=Infamy@CPE005004804d2e-CM014090207037.cpe.net.cable.rogers.com]  has left #ubuntu [],,,
+763,=== dartmolx [n=dartmolx@58.71.14.242]  has joined #ubuntu,,,
+764,=== Gerrath [n=shane_@unaffiliated/gerrath]  has joined #ubuntu,,,
+765,[03:23] <ardchoille> pppoe_dude: nothing in there to alter key combo's,03:23,ardchoille,pppoe_dude: nothing in there to alter key combo's
+766,=== der0b [i=s0d_0ff@c-24-218-106-50.hsd1.ma.comcast.net]  has joined #ubuntu,,,
+767,[03:23] <Jack_Sparrow> nalioth: yes I do.. the other is quick and clean as wel,03:23,Jack_Sparrow,nalioth: yes I do.. the other is quick and clean as wel
+768,"[03:24] <Xero> Ok, It said Implementing GNOME, and the monitor went black with the non blinking _ on the top left corner",03:24,Xero,"Ok, It said Implementing GNOME, and the monitor went black with the non blinking _ on the top left corner"
+769,[03:24] <Jack_Sparrow> 'xero again wait.,03:24,Jack_Sparrow,'xero again wait.
+770,[03:24] <Xero> ok,03:24,Xero,ok
+771,"[03:24] <pppoe_dude> ardchoille, xterm + screen >= gnome-terminal tabs",03:24,"pppoe_dude> ardchoille, xterm + screen ","ardchoille, xterm + screen >= gnome-terminal tabs"
+772,[03:24] <Jack_Sparrow> xero you may be fighting some read errors as well,03:24,Jack_Sparrow,xero you may be fighting some read errors as well
+773,[03:24] <Xero> :P Sorry I'm being impatient.,03:24,Xero,:P Sorry I'm being impatient.
+774,"[03:24] <ardchoille> pppoe_dude: xterm is sehr ugly, can't stand to look at it.",03:24,ardchoille,"pppoe_dude: xterm is sehr ugly, can't stand to look at it."
+775,[03:25] <Jack_Sparrow> xero it will all be worth it.,03:25,Jack_Sparrow,xero it will all be worth it.
+776,[03:25] <spades> ardchoille if you dont use alt keys at all try removing it from mod1 with xmodmap?,03:25,spades,ardchoille if you dont use alt keys at all try removing it from mod1 with xmodmap?
+777,"[03:25] <pppoe_dude> ardchoille, you can make it look pretty",03:25,pppoe_dude,"ardchoille, you can make it look pretty"
+778,=== detectiveinspekt [n=jonathan@222.155.246.238]  has joined #ubuntu,,,
+779,"[03:26] <AskHL> ardchoille, it's not a nice solution but if you hold down ESC then it should be equivalent to alt in irssi",03:26,AskHL,"ardchoille, it's not a nice solution but if you hold down ESC then it should be equivalent to alt in irssi"
+780,[03:26] <detectiveinspekt> Does ubuntu come with a VNC server by default?,03:26,detectiveinspekt,Does ubuntu come with a VNC server by default?
+781,"[03:26] <AskHL> ardchoille, I've never noticed by the way, because I never use terminals in tabs...",03:26,AskHL,"ardchoille, I've never noticed by the way, because I never use terminals in tabs..."
+782,[03:26] <WebLOCH> detectiveinspekt: yes,03:26,WebLOCH,detectiveinspekt: yes
+783,"[03:26] <pppoe_dude> detectiveinspekt, only a mutt version called vino",03:26,pppoe_dude,"detectiveinspekt, only a mutt version called vino"
+784,"=== WebLOCH [n=baris@82-34-95-143.cable.ubr05.gill.blueyonder.co.uk]  has left #ubuntu [""Ex-Chat""]",,,
+785,"[03:26] <pppoe_dude> detectiveinspekt, but you have to install ""vncserver"" to set up a real vnc server",03:26,pppoe_dude,"detectiveinspekt, but you have to install ""vncserver"" to set up a real vnc server"
+786,=== kalosaurusrex [n=aaron@c-71-56-154-201.hsd1.or.comcast.net]  has joined #ubuntu,,,
+787,"[03:27] <ardchoille> spades, pppoe_dude, AskHL: found it. gconf-editor /apps/gnome-terminal/keybindings :)",03:27,ardchoille,"spades, pppoe_dude, AskHL: found it. gconf-editor /apps/gnome-terminal/keybindings :)"
+788,=== heatxsink [n=jmioph@uslv.aristocrat-inc.com]  has joined #ubuntu,,,
+789,=== mode/#ubuntu [+o nalioth]  by ChanServ,,,
+790,"[03:27] <pppoe_dude> ardchoille, cool",03:27,pppoe_dude,"ardchoille, cool"
+791,[03:27] <yamen> nalioth: thanks a bunch,03:27,yamen,nalioth: thanks a bunch
+792,=== mode/#ubuntu [-b+b userundefine!*@* @cpe-065-190-04*!#ubuntu-u*@*]  by nalioth,,,
+793,=== roler [n=chris@ip68-225-240-62.oc.oc.cox.net]  has joined #ubuntu,,,
+794,"[03:28] <pandora--> please help, anyone?",03:28,pandora--,"please help, anyone?"
+795,=== mode/#ubuntu [-o nalioth]  by ChanServ,,,
+796,[03:28] <pandora--> what package do i have to install to get aclocal?,03:28,pandora--,what package do i have to install to get aclocal?
+797,[03:28] <cntb> carl can you coach me to make an icon of ntfs just mounted?,03:28,cntb,carl can you coach me to make an icon of ntfs just mounted?
+798,"[03:28] <pppoe_dude> pandora--, try ""apt-cache search aclocal""",03:28,pppoe_dude,"pandora--, try ""apt-cache search aclocal"""
+799,=== der0b [i=s0d_0ff@c-24-218-106-50.hsd1.ma.comcast.net]  has joined #ubuntu,,,
+800,[03:28] <pandora--> i cant compile enlightenment :( :(,03:28,pandora--,i cant compile enlightenment :( :(
+801,"[03:28] <roler> is the vmware-player ubuntu package really vmware, the full version? I'm curious because it's free",03:28,roler,"is the vmware-player ubuntu package really vmware, the full version? I'm curious because it's free"
+802,[03:29] <Jack_Sparrow> Xero I will be going to dinner in a few.. remember patience and complete questions.. to get the most help from this channel,03:29,Jack_Sparrow,Xero I will be going to dinner in a few.. remember patience and complete questions.. to get the most help from this channel
+803,"[03:29] <yamen> ok, i'm running from my LiveCD. How do I access my ext3 partition?",03:29,yamen,"ok, i'm running from my LiveCD. How do I access my ext3 partition?"
+804,[03:29] <pandora--> pppoe_dude: that returned nothing,03:29,pandora--,pppoe_dude: that returned nothing
+805,"[03:29] <pppoe_dude> pandora--, then no packages that mention aclocal in their description are in the repos",03:29,pppoe_dude,"pandora--, then no packages that mention aclocal in their description are in the repos"
+806,=== vanberge [n=vanberge@c-24-11-24-78.hsd1.mi.comcast.net]  has joined #ubuntu,,,
+807,[03:29] <Xero> Thamls Jack_Sparrow,03:29,Xero,Thamls Jack_Sparrow
+808,[03:30] <Xero> Damn my spelling,03:30,Xero,Damn my spelling
+809,[03:30] <Xero> Thanks,03:30,Xero,Thanks
+810,[03:30] <Jack_Sparrow> any change in that prompt,03:30,Jack_Sparrow,any change in that prompt
+811,=== mmuzzy [n=mmuzzy@ip68-9-107-140.ri.ri.cox.net]  has joined #ubuntu,,,
+812,=== lecaros_away is now known as lecaros,,,
+813,=== mode/#ubuntu [+o nalioth]  by ChanServ,,,
+814,=== scud [n=scud@68.62.196.210]  has joined #ubuntu,,,
+815,[03:30] <Jack_Sparrow> Xero:  I still think you have a bad cd..,03:30,Jack_Sparrow,Xero:  I still think you have a bad cd..
+816,[03:30] <scud> is selinux enabled by default on ubuntu desktop?,03:30,scud,is selinux enabled by default on ubuntu desktop?
+817,[03:30] <Xero> It went blank and it's a _ in the corner,03:30,Xero,It went blank and it's a _ in the corner
+818,=== mode/#ubuntu [-b @cpe-065-190-04*!#ubuntu-u*@*]  by nalioth,,,
+819,[03:30] <detectiveinspekt> tightVNC any good?,03:30,detectiveinspekt,tightVNC any good?
+820,[03:31] <yamen> How can I mount my ext3 partition when booting from my LiveCD?,03:31,yamen,How can I mount my ext3 partition when booting from my LiveCD?
+821,[03:31] <spades> mount -t ext3 /dev/xxx /media/xxx,03:31,spades,mount -t ext3 /dev/xxx /media/xxx
+822,=== RadiantFire [n=ryan@c-69-180-43-27.hsd1.ga.comcast.net]  has joined #ubuntu,,,
+823,[03:32] <Jack_Sparrow> Xero: test that cd for errors using a second cd drive,03:32,Jack_Sparrow,Xero: test that cd for errors using a second cd drive
+824,=== someothernick [n=ubuntu@pool-68-163-244-245.bos.east.verizon.net]  has left #ubuntu [],,,
+825,[03:32] <carl_> apt-get source wine - is there a way I can specify verion 0..9.15 (current is 16),03:32,carl_,apt-get source wine - is there a way I can specify verion 0..9.15 (current is 16)
+826,[03:32] <Xero> umm... k,03:32,Xero,umm... k
+827,[03:33] <tich> does linux and Xp use different formats for burning CD/DVD's?,03:33,tich,does linux and Xp use different formats for burning CD/DVD's?
+828,"[03:33] <pppoe_dude> carl_, i think its --force-version",03:33,pppoe_dude,"carl_, i think its --force-version"
+829,"[03:33] <carl_> tich,  no",03:33,carl_,"tich,  no"
+830,[03:33] <Jack_Sparrow> Time for dinner night all...,03:33,Jack_Sparrow,Time for dinner night all...
+831,"[03:33] <carl_> pppoe_dude, thanks",03:33,carl_,"pppoe_dude, thanks"
+832,=== Jack_Sparrow [n=jack@adsl-69-226-148-51.dsl.sndg02.pacbell.net]  has left #Ubuntu [],,,
+833,"[03:33] <cherwin> detectiveinspekt: keep away from all the vnc like apps, if you're not going to make it only available through ssh tunneling",03:33,cherwin,"detectiveinspekt: keep away from all the vnc like apps, if you're not going to make it only available through ssh tunneling"
+834,[03:33] <pppoe_dude> i think,03:33,pppoe_dude,i think
+835,=== der0b [i=s0d_0ff@c-24-218-106-50.hsd1.ma.comcast.net]  has joined #ubuntu,,,
+836,"[03:34] <pppoe_dude> carl_, easier prolly to do it in synaptic",03:34,pppoe_dude,"carl_, easier prolly to do it in synaptic"
+837,"[03:34] <carl_> pppoe_dude, any idea how I see what versions are avalible? (so I can get the v0 ver0 ver.0... spelling right)",03:34,carl_,"pppoe_dude, any idea how I see what versions are avalible? (so I can get the v0 ver0 ver.0... spelling right)"
+838,"[03:34] <tich> carl_, a data DVD (mp3, avi) burnt on XP should be read on linux",03:34,tich,"carl_, a data DVD (mp3, avi) burnt on XP should be read on linux"
+839,"[03:34] <carl_> tich, correct",03:34,carl_,"tich, correct"
+840,"[03:34] <pppoe_dude> carl_, apt-cache showpkg <package name>",03:34,"pppoe_dude> carl_, apt-cache showpkg <package name","carl_, apt-cache showpkg <package name>"
+841,"[03:34] <carl_> pppoe_dude, thanks again",03:34,carl_,"pppoe_dude, thanks again"
+842,[03:35] <pppoe_dude> i thin,03:35,pppoe_dude,i thin
+843,[03:35] <pppoe_dude> again... really off the top of my head,03:35,pppoe_dude,again... really off the top of my head
+844,[03:35] <pppoe_dude> use synaptic if you want concrete answers,03:35,pppoe_dude,use synaptic if you want concrete answers
+845,[03:35] <rpedro> carl_: apt-cache policy <package>,03:35,rpedro> carl_: apt-cache policy <package,carl_: apt-cache policy <package>
+846,"[03:36] <carl_> pppoe_dude, I am in synaptic - all I see is .16 .12 .9",03:36,carl_,"pppoe_dude, I am in synaptic - all I see is .16 .12 .9"
+847,=== HLM [n=HLM@S0106006067664bde.no.shawcable.net]  has joined #ubuntu,,,
+848,[03:36] <tich> i backed up my data when i switched to ubuntu on DVD but now it can't be read. i checked it on a XP machine and the data is fine. what should i do?,03:36,tich,i backed up my data when i switched to ubuntu on DVD but now it can't be read. i checked it on a XP machine and the data is fine. what should i do?
+849,[03:36] <cntb> carl ntfs is mounted as root how aabou tcommon user?,03:36,cntb,carl ntfs is mounted as root how aabou tcommon user?
+850,[03:36] <rpedro> carl_: use that command I gave. it shows all versions,03:36,rpedro,carl_: use that command I gave. it shows all versions
+851,=== zhllg [n=zhangle@static-ip-92-118-134-202.rev.dyxnet.com]  has joined #ubuntu,,,
+852,"[03:37] <pppoe_dude> HLM, i did send you a message in ubuntu-c",03:37,pppoe_dude,"HLM, i did send you a message in ubuntu-c"
+853,[03:37] <pppoe_dude> a,03:37,pppoe_dude,a
+854,"[03:38] <carl_> rpedro, by all you mean  .16 .12 .9 ? (cuz thats all I see with apt-cache policy wine)",03:38,carl_,"rpedro, by all you mean  .16 .12 .9 ? (cuz thats all I see with apt-cache policy wine)"
+855,[03:38] <HLM> pppoe...........did not see any post,03:38,HLM,pppoe...........did not see any post
+856,"[03:38] <pppoe_dude> HLM, u left too early",03:38,pppoe_dude,"HLM, u left too early"
+857,=== der0b [i=s0d_0ff@c-24-218-106-50.hsd1.ma.comcast.net]  has joined #ubuntu,,,
+858,=== __zen__ [n=Vincent@59.108.23.194]  has joined #ubuntu,,,
+859,"[03:38] <rpedro> carl_: you probably got .15 from winehg repository, and it was updated to .16, so it's not longer available",03:38,rpedro,"carl_: you probably got .15 from winehg repository, and it was updated to .16, so it's not longer available"
+860,=== someothernick [n=ubuntu@pool-68-163-244-245.bos.east.verizon.net]  has joined #ubuntu,,,
+861,[03:39] <HLM> was there from 18:33:39 til 18:36:20,03:39,HLM,was there from 18:33:39 til 18:36:20
+862,[03:39] <cntb> ubuntu has perfect defaults AFAICS,03:39,cntb,ubuntu has perfect defaults AFAICS
+863,"[03:39] <carl_> rpedro, I want 15 - ah.. so enable the wine repo...",03:39,carl_,"rpedro, I want 15 - ah.. so enable the wine repo..."
+864,"[03:39] <pppoe_dude> HLM, i wasnt monitorin ca at the time... but anyway... doesnt matter ;)",03:39,pppoe_dude,"HLM, i wasnt monitorin ca at the time... but anyway... doesnt matter ;)"
+865,=== userundefine [n=userunde@cpe-065-190-047-105.triad.res.rr.com]  has joined #ubuntu,,,
+866,[03:40] <HLM> okay,03:40,HLM,okay
+867,=== someothernick [n=ubuntu@pool-68-163-244-245.bos.east.verizon.net]  has left #ubuntu [],,,
+868,[03:40] <rpedro> carl_: try browsing the wine repository maybe you can get the package and install by dpkg -i,03:40,rpedro,carl_: try browsing the wine repository maybe you can get the package and install by dpkg -i
+869,[03:40] <cntb> carl howto mount  ntfs for regula r user ?,03:40,cntb,carl howto mount  ntfs for regula r user ?
+870,[03:40] <pppoe_dude> [21:37]  <pppoe_dude> hey HLM,03:40,pppoe_dude> [21:37]  <pppoe_dude,hey HLM
+871,[03:40] <HLM> yes,03:40,HLM,yes
+872,=== davidme [n=davidme@206-124-154-034.atm02.sea.blarg.net]  has joined #ubuntu,,,
+873,[03:40] <rpedro> carl_: *try browsing with firefox,03:40,rpedro,carl_: *try browsing with firefox
+874,=== koaftder [n=koft@cpe-066-057-020-207.nc.res.rr.com]  has joined #ubuntu,,,
+875,=== mode/#ubuntu [-r]  by apokryphos,,,
+876,"[03:41] <rpedro> carl_: better yet, search /var/cache/apt/packages for the package version",03:41,rpedro,"carl_: better yet, search /var/cache/apt/packages for the package version"
+877,=== HLM [n=HLM@S0106006067664bde.no.shawcable.net]  has left #ubuntu [],,,
+878,=== avis [n=whale@pdpc/supporter/student/avis]  has joined #ubuntu,,,
+879,=== papyromancer_ [n=papyroma@cpe-24-165-210-54.midsouth.res.rr.com]  has joined #ubuntu,,,
+880,=== redir [n=Reed@208-58-195-117.c3-0.grg-ubr2.lnh-grg.md.cable.rcn.com]  has joined #ubuntu,,,
+881,=== McJerry [n=mcjerry@ip68-1-156-192.mc.at.cox.net]  has joined #ubuntu,,,
+882,=== squidly [n=me@HoodLUG/member/squidly]  has joined #ubuntu,,,
+883,"[03:45] <harisund> Just as netstat can be used to find out open TCP ports, can I find out what UDP ports my machine is listening on?",03:45,harisund,"Just as netstat can be used to find out open TCP ports, can I find out what UDP ports my machine is listening on?"
+884,[03:45] <squidly> harisund: yea netstat -l will show all udp and tcp ports you comptuer is listening on,03:45,squidly,harisund: yea netstat -l will show all udp and tcp ports you comptuer is listening on
+885,[03:45] <HellDragon> anyone know a Text Mode Browser ??????,03:45,HellDragon,anyone know a Text Mode Browser ??????
+886,"[03:45] <carl_> HellDragon, lynx",03:45,carl_,"HellDragon, lynx"
+887,[03:45] <rpedro> HellDragon: or links,03:45,rpedro,HellDragon: or links
+888,"[03:45] <gilligan_> harisund, lsof -i wors as well",03:45,gilligan_,"harisund, lsof -i wors as well"
+889,[03:45] <gilligan_> works,03:45,gilligan_,works
+890,=== foxhound [n=admin@c-24-125-163-3.hsd1.va.comcast.net]  has joined #ubuntu,,,
+891,[03:46] <HellDragon> thank you,03:46,HellDragon,thank you
+892,=== dstyrk [n=tedmoore@c-68-85-72-195.hsd1.fl.comcast.net]  has joined #ubuntu,,,
+893,"[03:46] <carl_> HellDragon, or wget :)",03:46,carl_,"HellDragon, or wget :)"
+894,[03:46] <foxhound> hello all.,03:46,foxhound,hello all.
+895,"[03:46] <harisund>  squidly really? then maybe I am not understanding UDP ports correctly? because I have my machine listening for XDMCP connections, and that is supposed to happen on port 177 UDP .. but nothing is revealed to be open..",03:46,harisund," squidly really? then maybe I am not understanding UDP ports correctly? because I have my machine listening for XDMCP connections, and that is supposed to happen on port 177 UDP .. but nothing is revealed to be open.."
+896,"[03:46] <foxhound> i have a newbie problem, and i can't find much help for it.",03:46,foxhound,"i have a newbie problem, and i can't find much help for it."
+897,[03:47] <dstyrk> Hi.. He all I'm new to this IRC thing...  Where can I learn all the shortcuts? Key cmds etc,03:47,dstyrk,Hi.. He all I'm new to this IRC thing...  Where can I learn all the shortcuts? Key cmds etc
+898,=== nikusan [n=dan@d211-31-72-161.dsl.nsw.optusnet.com.au]  has joined #ubuntu,,,
+899,[03:48] <foxhound> dstyrk...,03:48,foxhound,dstyrk...
+900,[03:48] <scud> is selinux enabled by default on ubuntu desktop?,03:48,scud,is selinux enabled by default on ubuntu desktop?
+901,"[03:48] <harisund> dstyrk what client are you using? also, if you want somtehing in particular do ask and I bet someone will be able to answer it here..",03:48,harisund,"dstyrk what client are you using? also, if you want somtehing in particular do ask and I bet someone will be able to answer it here.."
+902,[03:48] <apokryphos> dstyrk: see /msg ubotu freenode,03:48,apokryphos,dstyrk: see /msg ubotu freenode
+903,[03:48] <dstyrk> what is that?,03:48,dstyrk,what is that?
+904,"[03:49] <dstyrk> I'm using ""conversation""",03:49,dstyrk,"I'm using ""conversation"""
+905,[03:49] <rpedro> !irc,03:49,rpedro,!irc
+906,"[03:49] <ubotu> irc is Internet Relay Chat - Ubuntu IRC clients: xchat (http://www.ubuntulinux.org/wiki/XChatHowto), gaim (http://wiki.ubuntu.com/GaimHowto), Konversation (http://konversation.berlios.de/docs/) - Also see http://wiki.ubuntu.com/InternetRelayChat and !guidelines",03:49,ubotu,"irc is Internet Relay Chat - Ubuntu IRC clients: xchat (http://www.ubuntulinux.org/wiki/XChatHowto), gaim (http://wiki.ubuntu.com/GaimHowto), Konversation (http://konversation.berlios.de/docs/) - Also see http://wiki.ubuntu.com/InternetRelayChat and !guidelines"
+907,[03:49] <apokryphos> dstyrk: type it in here,03:49,apokryphos,dstyrk: type it in here
+908,[03:49] <rpedro> dstyrk: ^,03:49,rpedro,dstyrk: ^
+909,"[03:49] <rpedro> dstyrk: goto xchat page, there's a link to an irc guide there",03:49,rpedro,"dstyrk: goto xchat page, there's a link to an irc guide there"
+910,"=== linkd [n=rooot@nullnetwork.net]  has left #ubuntu [""Leaving""]",,,
+911,=== Mugginns [n=froglok@c-68-61-94-30.hsd1.mi.comcast.net]  has joined #ubuntu,,,
+912,=== gr33npho4nix is now known as gr33npho3nix,,,
+913,=== Healot [i=compiler@60.48.219.120]  has joined #ubuntu,,,
+914,[03:50] <dstyrk> I don't have xchat yet.. I'm getting ready to unstall ubuntu for the first time tom.,03:50,dstyrk,I don't have xchat yet.. I'm getting ready to unstall ubuntu for the first time tom.
+915,=== Kamping_Kaiser [n=kgoetz@easyubuntu/docteam/KampingKaiser/x-3453498]  has joined #ubuntu,,,
+916,[03:51] <apokryphos> !freenode > dstyrk,03:51,apokryphos> !freenode ,dstyrk
+917,=== Slappy [n=JP@cpe-65-189-224-155.woh.res.rr.com]  has joined #ubuntu,,,
+918,[03:51] <snoops> cool beans dstyrk.. used any linux distros before?,03:51,snoops,cool beans dstyrk.. used any linux distros before?
+919,[03:52] <dstyrk> Ubuntu live CD about a year ago for a day or two,03:52,dstyrk,Ubuntu live CD about a year ago for a day or two
+920,=== koaftder [n=koft@cpe-066-057-020-207.nc.res.rr.com]  has left #ubuntu [],,,
+921,[03:52] <snoops> it's surprising how slow the live cd's are :/,03:52,snoops,it's surprising how slow the live cd's are :/
+922,=== nomasteryoda [n=nomaster@ip24-252-193-86.mc.at.cox.net]  has joined #ubuntu,,,
+923,[03:52] <snoops> that'd be from the warty release?,03:52,snoops,that'd be from the warty release?
+924,[03:52] <dstyrk> I am mostly interested because it is different and best of all FREE!!,03:52,dstyrk,I am mostly interested because it is different and best of all FREE!!
+925,=== alkalineX|away is now known as alkalineX,,,
+926,=== tich [n=bradley@MTL-ppp-152520.qc.sympatico.ca]  has joined #ubuntu,,,
+927,=== mmuzzy [n=mmuzzy@ip68-9-107-140.ri.ri.cox.net]  has joined #ubuntu,,,
+928,[03:53] <dstyrk> I like the fact that I can access most programs I may be interested in free.. I thought that was cool.,03:53,dstyrk,I like the fact that I can access most programs I may be interested in free.. I thought that was cool.
+929,=== ablyss_ [n=ablyss@71.81.22.108]  has joined #ubuntu,,,
+930,=== GoTux_ [n=GoTux@Toronto-HSE-ppp3761640.sympatico.ca]  has joined #ubuntu,,,
+931,=== niki [n=niki@68-184-136-55.dhcp.stbr.ga.charter.com]  has joined #ubuntu,,,
+932,"[03:54] <snoops> I'm using it as a dualboot at the moment, because there are a few applications which are so superior to the equiv windows ones, it's just crazy",03:54,snoops,"I'm using it as a dualboot at the moment, because there are a few applications which are so superior to the equiv windows ones, it's just crazy"
+933,"[03:55] <niki> i just read at www.linuxgames.com that ATI has released a new driver yesterday for linux....as I am using an ATI card, would it be wise for me to download and install this newer driver to better my performance?",03:55,niki,"i just read at www.linuxgames.com that ATI has released a new driver yesterday for linux....as I am using an ATI card, would it be wise for me to download and install this newer driver to better my performance?"
+934,=== wuddup [i=wuddup@71-33-66-217.tcsn.qwest.net]  has joined #ubuntu,,,
+935,"[03:55] <snoops> or possibly break things, knowing ati ;)",03:55,snoops,"or possibly break things, knowing ati ;)"
+936,[03:56] <niki> thats what i'm afraid of :/,03:56,niki,thats what i'm afraid of :/
+937,=== htonl [n=scott@masaka.cs.ohiou.edu]  has joined #ubuntu,,,
+938,[03:56] <kbrooks> grrr.,03:56,kbrooks,grrr.
+939,"[03:56] <dstyrk> Yeah how does that work... I am not a gamer, but can or will any of the ""big"" games run on a linux platform?",03:56,dstyrk,"Yeah how does that work... I am not a gamer, but can or will any of the ""big"" games run on a linux platform?"
+940,=== SAM_theman [n=SAM_them@user-11far1g.dsl.mindspring.com]  has joined #ubuntu,,,
+941,[03:56] <kbrooks> a non-programmer was advised to create a patch :/,03:56,kbrooks,a non-programmer was advised to create a patch :/
+942,[03:56] <niki> well i'm gonna test it out,03:56,niki,well i'm gonna test it out
+943,=== ablyss [n=ablyss@71.81.22.108]  has joined #ubuntu,,,
+944,=== steveeeeee [n=steve@c211-30-106-95.carlnfd1.nsw.optusnet.com.au]  has joined #ubuntu,,,
+945,"[03:57] <snoops> dstyrk, the main option is a paid subscription service called cedega",03:57,snoops,"dstyrk, the main option is a paid subscription service called cedega"
+946,"[03:58] <snoops> which I believe has taken a lot of code from wine, then added more, then didn't share the code with the community, and whatnot",03:58,snoops,"which I believe has taken a lot of code from wine, then added more, then didn't share the code with the community, and whatnot"
+947,[03:58] <dstyrk> How do I address people directly like snoops just did to me?,03:58,dstyrk,How do I address people directly like snoops just did to me?
+948,=== eXCeSS_ [n=kubuntu@ool-45777547.dyn.optonline.net]  has joined #ubuntu,,,
+949,=== green__saotome [n=saotome@tdev198-210.codetel.net.do]  has joined #ubuntu,,,
+950,"[03:58] <snoops> 'yourname,' ?",03:58,snoops,"'yourname,' ?"
+951,[03:58] <niki> lol,03:58,niki,lol
+952,[03:58] <gnomefreak> dstyrk: type their name,03:58,gnomefreak,dstyrk: type their name
+953,[03:58] <cntb> want to install flashplugin on fressh  firefox,03:58,cntb,want to install flashplugin on fressh  firefox
+954,[03:59] <gnomefreak> like i just did,03:59,gnomefreak,like i just did
+955,[03:59] <gnomefreak> !flash > cntb,03:59,gnomefreak> !flash ,cntb
+956,[03:59] <snoops> I just tab my way through names.. dst + tab for instance,03:59,snoops,I just tab my way through names.. dst + tab for instance
+957,[03:59] <gnomefreak> cntb: read your pom for flash instructions,03:59,gnomefreak,cntb: read your pom for flash instructions
+958,[03:59] <gnomefreak> s/pom/pm,03:59,gnomefreak,s/pom/pm
+959,=== varsendagger [n=varsenda@67-42-224-119.blng.qwest.net]  has joined #ubuntu,,,
+960,=== nalioth [i=nalioth@freenode/staff/ubuntu.member.nalioth]  has joined #ubuntu,,,
+961,[03:59] <dstyrk> snoops: gotcha,03:59,dstyrk,snoops: gotcha
+962,=== qwe [n=margaret@70-56-254-138.eugn.qwest.net]  has joined #ubuntu,,,
+963,[04:00] <cntb> gnome what is pm?,04:00,cntb,gnome what is pm?
+964,[04:00] <gnomefreak> mine remeberes the name i type and if ive typed it before it brings it up first,04:00,gnomefreak,mine remeberes the name i type and if ive typed it before it brings it up first
+965,[04:00] <gnomefreak> cntb: pm = private message,04:00,gnomefreak,cntb: pm = private message
+966,[04:00] <cntb> yeah stupid me 10x,04:00,cntb,yeah stupid me 10x
+967,[04:00] <gnomefreak> yw,04:00,gnomefreak,yw
+968,=== htonl [n=scott@masaka.cs.ohiou.edu]  has left #ubuntu [],,,
+969,[04:00] <gnomefreak> brb,04:00,gnomefreak,brb
+970,[04:00] <varsendagger> hey how do i get cool xgl effects?,04:00,varsendagger,hey how do i get cool xgl effects?
+971,[04:01] <varsendagger> !xgl,04:01,varsendagger,!xgl
+972,[04:01] <ubotu> Compiz (compositing (window) manager) and XGL (Xserver architecture layered on top of OpenGL) howto at http://wiki.ubuntu.com/CompositeManager XGL+compiz help in #ubuntu-xgl  See http://tinyurl.com/pw5ez for Kubuntu systems,04:01,ubotu,Compiz (compositing (window) manager) and XGL (Xserver architecture layered on top of OpenGL) howto at http://wiki.ubuntu.com/CompositeManager XGL+compiz help in #ubuntu-xgl  See http://tinyurl.com/pw5ez for Kubuntu systems
+973,[04:01] <green__saotome> anyone here uses track?,04:01,green__saotome,anyone here uses track?
+974,[04:01] <snoops> compiz looks awesome once you get it going varsendagger.. good luck :),04:01,snoops,compiz looks awesome once you get it going varsendagger.. good luck :)
+975,"[04:01] <nomasteryoda> varsendagger, what hardware?",04:01,nomasteryoda,"varsendagger, what hardware?"
+976,[04:01] <varsendagger> nvidia 5600,04:01,varsendagger,nvidia 5600
+977,[04:02] <nomasteryoda> sweet,04:02,nomasteryoda,sweet
+978,[04:02] <nomasteryoda> should be nice,04:02,nomasteryoda,should be nice
+979,[04:02] <varsendagger> yeah i hope so,04:02,varsendagger,yeah i hope so
+980,[04:02] <varsendagger> so i should just apt-get instal compiz?,04:02,varsendagger,so i should just apt-get instal compiz?
+981,[04:02] <nomasteryoda> my video performance on an intel chip went way up after setting up AIGLX,04:02,nomasteryoda,my video performance on an intel chip went way up after setting up AIGLX
+982,[04:02] <nomasteryoda> and compiz,04:02,nomasteryoda,and compiz
+983,"[04:02] <snoops> it's still in alpha though varsendagger, so be prepared.. nah you'll want to follow the guide",04:02,snoops,"it's still in alpha though varsendagger, so be prepared.. nah you'll want to follow the guide"
+984,[04:02] <nomasteryoda> yes do the guide,04:02,nomasteryoda,yes do the guide
+985,[04:02] <varsendagger> !compiz,04:02,varsendagger,!compiz
+986,[04:02] <ubotu> Compiz (compositing (window) manager) and XGL (Xserver architecture layered on top of OpenGL) howto at http://wiki.ubuntu.com/CompositeManager XGL+compiz help in #ubuntu-xgl  See http://tinyurl.com/pw5ez for Kubuntu systems,04:02,ubotu,Compiz (compositing (window) manager) and XGL (Xserver architecture layered on top of OpenGL) howto at http://wiki.ubuntu.com/CompositeManager XGL+compiz help in #ubuntu-xgl  See http://tinyurl.com/pw5ez for Kubuntu systems
+987,[04:02] <nomasteryoda> very good,04:02,nomasteryoda,very good
+988,"[04:02] <snoops> added the beerorkid repositories, editing your xorg.conf etc",04:02,snoops,"added the beerorkid repositories, editing your xorg.conf etc"
+989,=== b166er [n=ghost@c207.134.229-105.clta.globetrotter.net]  has joined #ubuntu,,,
+990,=== Madpilot [n=brian@ubuntu/member/madpilot]  has joined #ubuntu,,,
+991,=== phoenixbyrd [n=phoenixb@pool-72-70-18-13.bstnma.east.verizon.net]  has joined #ubuntu,,,
+992,=== Gerrath [n=shane_@unaffiliated/gerrath]  has joined #ubuntu,,,
+993,=== eobanb [n=eoban@user-0c93gne.cable.mindspring.com]  has joined #ubuntu,,,
+994,=== pjfc [n=patrick@38.116.207.219]  has joined #ubuntu,,,
+995,=== anfangs [n=matt@c-68-52-82-138.hsd1.tn.comcast.net]  has joined #ubuntu,,,
+996,=== niki [n=niki@68-184-136-55.dhcp.stbr.ga.charter.com]  has joined #ubuntu,,,
+997,=== tvgm2 [n=tvgm2@c-69-137-37-32.hsd1.md.comcast.net]  has left #ubuntu [],,,
+998,"[04:06] <niki> ok, i installed the new ATI driver....now when i run fglrxinfo, instead of saying ATI Card blah blah, it's saying OpenGL vendor string: Mesa Project....how do i fix this?",04:06,niki,"ok, i installed the new ATI driver....now when i run fglrxinfo, instead of saying ATI Card blah blah, it's saying OpenGL vendor string: Mesa Project....how do i fix this?"
+999,[04:06] <anfangs> is del.icio.us loading slow for anyone else?,04:06,anfangs,is del.icio.us loading slow for anyone else?
+1000,=== Speek [n=Fake@70.125.113.218]  has joined #ubuntu,,,
+1001,=== ron_o [n=ron@12-218-89-29.client.mchsi.com]  has joined #ubuntu,,,
+1002,=== Ophiocus [n=carlos@201.210.163.112]  has joined #ubuntu,,,
+1003,[04:07] <anfangs> do i have voice?,04:07,anfangs,do i have voice?
+1004,[04:07] <Speek> w00t! I got it to finnaly boot!,04:07,Speek,w00t! I got it to finnaly boot!
+1005,[04:07] <Speek> I had to edit BIOS,04:07,Speek,I had to edit BIOS
+1006,[04:07] <CarlFK> anfangs: yes,04:07,CarlFK,anfangs: yes
+1007,"[04:07] <apokryphos> anfangs: this is not a moderated channel, so you don't need voice to speak.",04:07,apokryphos,"anfangs: this is not a moderated channel, so you don't need voice to speak."
+1008,=== nbjayme [n=chatzill@210.213.147.40]  has joined #ubuntu,,,
+1009,=== workbean [n=workbean@202.157.204.182]  has joined #ubuntu,,,
+1010,=== fender__ [n=fender@mail.dropletsap.com]  has joined #ubuntu,,,
+1011,"[04:09] <niki> ok, i installed the new ATI driver....now when i run fglrxinfo, instead of saying ATI Card blah blah, it's saying OpenGL vendor string: Mesa Project....how do i fix this?",04:09,niki,"ok, i installed the new ATI driver....now when i run fglrxinfo, instead of saying ATI Card blah blah, it's saying OpenGL vendor string: Mesa Project....how do i fix this?"
+1012,"[04:09] <nbjayme> hello, is there a url for an nfs share like ""smb://"" for samba?",04:09,nbjayme,"hello, is there a url for an nfs share like ""smb://"" for samba?"
+1013,"[04:09] <pjfc> Update Manager installed kernel 2.6.15-25-386, which won't load xserver.  I tried reinstall xserver, reconfigure xserver, but still won't work with this kernel.  Earlier kernel version working fine.  Any ideas how to fix?",04:09,pjfc,"Update Manager installed kernel 2.6.15-25-386, which won't load xserver.  I tried reinstall xserver, reconfigure xserver, but still won't work with this kernel.  Earlier kernel version working fine.  Any ideas how to fix?"
+1014,[04:09] <workbean> anybody got python-nautilus working in dapper?,04:09,workbean,anybody got python-nautilus working in dapper?
+1015,[04:09] <harisund> squidly are you still there?,04:09,harisund,squidly are you still there?
+1016,"=== green__saotome [n=saotome@tdev198-210.codetel.net.do]  has left #ubuntu [""Ex-Chat""]",,,
+1017,=== Alethes [n=alethes@unaffiliated/alethes]  has joined #ubuntu,,,
+1018,=== phos-phoros [n=phos-pho@unaffiliated/phos-phoros]  has joined #ubuntu,,,
+1019,=== cydrive [n=owner@ool-18ba06b7.dyn.optonline.net]  has joined #ubuntu,,,
+1020,=== Tek- [n=philip@cpc1-bele5-0-0-cust1008.belf.cable.ntl.com]  has joined #ubuntu,,,
+1021,=== vitry [n=vitry@192.Red-80-38-185.staticIP.rima-tde.net]  has joined #ubuntu,,,
+1022,[04:12] <cydrive> hell is there anyway to get aim to work in ubuntu?,04:12,cydrive,hell is there anyway to get aim to work in ubuntu?
+1023,[04:12] <vitry> hi people. I'm finding a templeate for my fwbuilder,04:12,vitry,hi people. I'm finding a templeate for my fwbuilder
+1024,[04:12] <cydrive> i mean trillian,04:12,cydrive,i mean trillian
+1025,[04:12] <vitry> can you help me?,04:12,vitry,can you help me?
+1026,[04:12] <apokryphos> cydrive: there are other clients. /msg ubotu im,04:12,apokryphos,cydrive: there are other clients. /msg ubotu im
+1027,=== untwisted [n=untwiste@c-67-186-35-110.hsd1.pa.comcast.net]  has joined #ubuntu,,,
+1028,"=== ablyss [n=ablyss@71.81.22.108]  has left #ubuntu [""Kopete]",,,
+1029,=== dstyrk_ [n=tedmoore@c-68-85-72-195.hsd1.fl.comcast.net]  has joined #ubuntu,,,
+1030,"[04:14] <untwisted> Hi all, I've recently had my laptop repaired -- it got a replacement motherboard.  Now my dapper install isn't seeing my wired ethernet port.  I see it in lspci, and find no errors in dmesg, but it just doesn't see it.",04:14,untwisted,"Hi all, I've recently had my laptop repaired -- it got a replacement motherboard.  Now my dapper install isn't seeing my wired ethernet port.  I see it in lspci, and find no errors in dmesg, but it just doesn't see it."
+1031,[04:14] <snoops> I would love trillian to work in linux.. :/,04:14,snoops,I would love trillian to work in linux.. :/
+1032,[04:14] <dstyrk_> Seeing that I am installing Ubuntu for the first time tommorrow....... What is the first thing I should do once I am up and running? What are some must have apps?,04:14,dstyrk_,Seeing that I am installing Ubuntu for the first time tommorrow....... What is the first thing I should do once I am up and running? What are some must have apps?
+1033,=== ablyss [n=ablyss@71.81.22.108]  has joined #ubuntu,,,
+1034,"[04:14] <nbjayme> hello, on breezy , i am able to mount an NFS share but on dapper it gives me RPC Timeout error. any idea how to fix this?",04:14,nbjayme,"hello, on breezy , i am able to mount an NFS share but on dapper it gives me RPC Timeout error. any idea how to fix this?"
+1035,[04:14] <snoops> Depends what you want to do dstyrk..,04:14,snoops,Depends what you want to do dstyrk..
+1036,=== cydrive [n=owner@ool-18ba06b7.dyn.optonline.net]  has left #ubuntu [],,,
+1037,=== thewolf [n=ubuntu@d220-238-157-221.dsl.vic.optusnet.com.au]  has joined #ubuntu,,,
+1038,=== Gerrath [n=shane_@unaffiliated/gerrath]  has joined #ubuntu,,,
+1039,"[04:15] <nbjayme> dstyrk, inkscape, blender, scribus",04:15,nbjayme,"dstyrk, inkscape, blender, scribus"
+1040,[04:15] <dstyrk_> Well... I don't know.. I mainly surf the web.,04:15,dstyrk_,Well... I don't know.. I mainly surf the web.
+1041,"[04:15] <niki> dstyrk, firefox ftw",04:15,niki,"dstyrk, firefox ftw"
+1042,[04:15] <dstyrk_> oh... and what about virus protection?,04:15,dstyrk_,oh... and what about virus protection?
+1043,[04:15] <dstyrk_> I use a Mac now... so its not much of an issue,04:15,dstyrk_,I use a Mac now... so its not much of an issue
+1044,"[04:15] <thewolf> Hey, I just got my copy of 6.06... and I've booted off the CD, however it just dumps me at the console... where is the installer!?",04:15,thewolf,"Hey, I just got my copy of 6.06... and I've booted off the CD, however it just dumps me at the console... where is the installer!?"
+1045,[04:16] <dstyrk_> I would imagin is nearly the same,04:16,dstyrk_,I would imagin is nearly the same
+1046,"[04:16] <Madpilot> dstyrk, there really aren't any Linux viruses to worry about - similar to the Mac world",04:16,Madpilot,"dstyrk, there really aren't any Linux viruses to worry about - similar to the Mac world"
+1047,"[04:16] <nbjayme> dstyrk_ , inkscape, blender, scribus, flash plugin, media codecs, gxine",04:16,nbjayme,"dstyrk_ , inkscape, blender, scribus, flash plugin, media codecs, gxine"
+1048,[04:16] <snoops> are you installing the 64bit version?,04:16,snoops,are you installing the 64bit version?
+1049,=== Bryan_w [i=Bryguy@r01baw7d3.desktop.umr.edu]  has joined #ubuntu,,,
+1050,[04:16] <snoops> you'll have annoying flash problems if that's the case.. *waves angry fist at adobe*,04:16,snoops,you'll have annoying flash problems if that's the case.. *waves angry fist at adobe*
+1051,=== mheath [n=mheath@c-67-182-231-23.hsd1.ut.comcast.net]  has joined #ubuntu,,,
+1052,"=== thewolf watches Adobe sweep over and cut off snoops fist... ""Thanks, we'll aquire that""",,,
+1053,[04:18] <dstyrk_> nbjayme:  Good to know.. That is what I thought... Is that because the Unix?,04:18,dstyrk_,nbjayme:  Good to know.. That is what I thought... Is that because the Unix?
+1054,[04:18] <pjfc> thewolf: do you have the alternative CD or the live CD,04:18,pjfc,thewolf: do you have the alternative CD or the live CD
+1055,=== HermanDE [n=HermanDE@67-42-11-53.ptld.qwest.net]  has joined #ubuntu,,,
+1056,=== Tefad [n=tefad@va-chrvlle-cad1-bdgrp1-4b-b-116.chvlva.adelphia.net]  has joined #ubuntu,,,
+1057,=== kjs3 [n=quux@c-24-98-110-80.hsd1.ga.comcast.net]  has joined #ubuntu,,,
+1058,"[04:18] <thewolf> pjfc: no idea, how do I check? The cover says ""Version 6.06 LTS""",04:18,thewolf,"pjfc: no idea, how do I check? The cover says ""Version 6.06 LTS"""
+1059,=== HellDragon is now known as HellDragon2,,,
+1060,"=== GoTux_ [n=GoTux@Toronto-HSE-ppp3761640.sympatico.ca]  has left #ubuntu [""New]",,,
+1061,[04:19] <pjfc> thewolf: I gues you didn't download?,04:19,pjfc,thewolf: I gues you didn't download?
+1062,=== HellDragon2 is now known as HellDragon,,,
+1063,[04:19] <Tefad> i'm trying to boot xubuntu (desktop or alternate) 6.06 on a p3 class machine and it fails; however the same discs work fine on a p-mmx laptop; any ideas people?,04:19,Tefad,i'm trying to boot xubuntu (desktop or alternate) 6.06 on a p3 class machine and it fails; however the same discs work fine on a p-mmx laptop; any ideas people?
+1064,[04:19] <snoops> dstyrk one music player I reckon you should check out is amarok.. that app alone is the reason I use linux so much (it's an incredibly cool music player imo),04:19,snoops,dstyrk one music player I reckon you should check out is amarok.. that app alone is the reason I use linux so much (it's an incredibly cool music player imo)
+1065,"[04:19] <thewolf> pjfc: nope, my net connection is too slow, so I ordered a CD.",04:19,thewolf,"pjfc: nope, my net connection is too slow, so I ordered a CD."
+1066,[04:20] <thewolf> (or five of them),04:20,thewolf,(or five of them)
+1067,[04:20] <Tefad> last remark was slightly erroneous; the laptop is a p2 366MHz,04:20,Tefad,last remark was slightly erroneous; the laptop is a p2 366MHz
+1068,=== ahalstea [n=ahalstea@adsl-065-007-254-182.sip.jan.bellsouth.net]  has joined #ubuntu,,,
+1069,=== Xero [n=Xero@cpe-65-186-194-102.insight.res.rr.com]  has left #ubuntu [],,,
+1070,[04:20] <Tefad> symptom is that the screen goes blank after selecting an item that isn't memtest-related from the initial menu.,04:20,Tefad,symptom is that the screen goes blank after selecting an item that isn't memtest-related from the initial menu.
+1071,[04:20] <pjfc> has anone had problems after upgrading to kernel 2.6.15-25-386?,04:20,pjfc,has anone had problems after upgrading to kernel 2.6.15-25-386?
+1072,"[04:21] <nbjayme> dstyrk_, there are multimedia codecs that works right out of the box... these are non-proprietary formats .. only time can tell until it will become widely used (Ogg/Ogm).",04:21,nbjayme,"dstyrk_, there are multimedia codecs that works right out of the box... these are non-proprietary formats .. only time can tell until it will become widely used (Ogg/Ogm)."
+1073,"[04:21] <pjfc> thewolf: what do you see on the screen, just a promt?",04:21,pjfc,"thewolf: what do you see on the screen, just a promt?"
+1074,[04:21] <thewolf> yeah,04:21,thewolf,yeah
+1075,=== goose_keeper [n=goose_ke@58.240.95.97]  has joined #ubuntu,,,
+1076,[04:22] <harisund> I have a quick question. How do I change xscreensaver (Breezy) or gnome-screensaver (Dapper) settings for the GDM login screen? I want my screen to blank after there has been no activity for 2 minutes at my login screen (GDM),04:22,harisund,I have a quick question. How do I change xscreensaver (Breezy) or gnome-screensaver (Dapper) settings for the GDM login screen? I want my screen to blank after there has been no activity for 2 minutes at my login screen (GDM)
+1077,[04:22] <goose_keeper> hello,04:22,goose_keeper,hello
+1078,"[04:22] <thewolf> Sorry, there where some odd characters, and what looked like it could have been a text-mode dialog box",04:22,thewolf,"Sorry, there where some odd characters, and what looked like it could have been a text-mode dialog box"
+1079,"[04:22] <pjfc> thewolf: over my head.  I'm new too, thought I would try to help because I'm not getting much response for my question tonight.",04:22,pjfc,"thewolf: over my head.  I'm new too, thought I would try to help because I'm not getting much response for my question tonight."
+1080,[04:22] <goose_keeper> I am newbie hehehe,04:22,goose_keeper,I am newbie hehehe
+1081,=== gnomefreak [n=gnomefre@ubuntu/member/gnomefreak]  has joined #ubuntu,,,
+1082,[04:23] <thewolf> pjfc: thanks anyhow,04:23,thewolf,pjfc: thanks anyhow
+1083,"[04:23] <pjfc> thewolf: in the alternate CD teh installer is all by way of text based dialog boxes, reminiscent of old DOS apps",04:23,pjfc,"thewolf: in the alternate CD teh installer is all by way of text based dialog boxes, reminiscent of old DOS apps"
+1084,[04:24] <GigaClon> the new CD for 6.06?,04:24,GigaClon,the new CD for 6.06?
+1085,"[04:24] <thewolf> pjfc: yeah, like 5.10, this CD says it has a live cd and installer on it",04:24,thewolf,"pjfc: yeah, like 5.10, this CD says it has a live cd and installer on it"
+1086,[04:24] <thewolf> GigaClon: what?,04:24,thewolf,GigaClon: what?
+1087,=== ahalstea [n=ahalstea@adsl-065-007-254-182.sip.jan.bellsouth.net]  has joined #ubuntu,,,
+1088,[04:24] <GigaClon> are you installing 6.06?,04:24,GigaClon,are you installing 6.06?
+1089,[04:24] <thewolf> yes,04:24,thewolf,yes
+1090,=== J-_ [n=kvirc@HSE-Toronto-ppp3478295.sympatico.ca]  has joined #ubuntu,,,
+1091,[04:25] <GigaClon> it should start Ubuntu live CD,04:25,GigaClon,it should start Ubuntu live CD
+1092,=== dstyrk [n=tedmoore@c-68-85-72-195.hsd1.fl.comcast.net]  has joined #ubuntu,,,
+1093,=== RadiantFire [n=ryan@c-69-180-43-27.hsd1.ga.comcast.net]  has joined #ubuntu,,,
+1094,"[04:25] <thewolf> GigaClon: it didn't, just droped me at a console :/",04:25,thewolf,"GigaClon: it didn't, just droped me at a console :/"
+1095,[04:25] <GigaClon> the installation is once you get inside the live portion,04:25,GigaClon,the installation is once you get inside the live portion
+1096,=== MTecknology [n=MTecknol@AdrianDHCP-6.216-16-86.iw.net]  has joined #ubuntu,,,
+1097,"[04:25] <harisund> GigaClon not necessarily. There are 3 CDs of 6.06. One is a desktop+Live installer, one is a alternate and one is a server CD",04:25,harisund,"GigaClon not necessarily. There are 3 CDs of 6.06. One is a desktop+Live installer, one is a alternate and one is a server CD"
+1098,[04:25] <GigaClon> try startx?,04:25,GigaClon,try startx?
+1099,=== pandora-- [n=neil@c-24-130-104-88.hsd1.ca.comcast.net]  has joined #ubuntu,,,
+1100,[04:25] <thewolf> Mine is the desktop/live one,04:25,thewolf,Mine is the desktop/live one
+1101,[04:26] <thewolf> startx: (EE) No devices found.,04:26,thewolf,startx: (EE) No devices found.
+1102,"[04:26] <J-_> I have an error refering to an icon not loading, Details: Icon 'xscreensaver.svg' not found... what should i do?",04:26,J-_,"I have an error refering to an icon not loading, Details: Icon 'xscreensaver.svg' not found... what should i do?"
+1103,"[04:26] <pjfc> thewolf: the live CD should have an ""Install to Disk"" menu item under ""System"" and ""Administration"" once you get up and running.  The 'Live' CD should load GUI Linux from the CD.",04:26,pjfc,"thewolf: the live CD should have an ""Install to Disk"" menu item under ""System"" and ""Administration"" once you get up and running.  The 'Live' CD should load GUI Linux from the CD."
+1104,"[04:26] <kjs3> Install 5.10, e1000 driver no problems.  Install 6.06, e1000 driver craps out with ""e1000_clean_tx_irq: Detected Tx Unit Hang"".  WTF?  It's bug 30476 but turning off tso doesn't fix anything.",04:26,kjs3,"Install 5.10, e1000 driver no problems.  Install 6.06, e1000 driver craps out with ""e1000_clean_tx_irq: Detected Tx Unit Hang"".  WTF?  It's bug 30476 but turning off tso doesn't fix anything."
+1105,[04:27] <wildman> nite *,04:27,wildman,nite *
+1106,=== dr34mc0d3r [n=chris@ip70-189-89-11.ok.ok.cox.net]  has joined #ubuntu,,,
+1107,[04:27] <thewolf> GigaClon: you think if I manualy configured X it would work?,04:27,thewolf,GigaClon: you think if I manualy configured X it would work?
+1108,[04:27] <GigaClon> maybe,04:27,GigaClon,maybe
+1109,[04:27] <thewolf> and by manualy I mean use some provided utility?,04:27,thewolf,and by manualy I mean use some provided utility?
+1110,=== pjfc [n=patrick@38.116.207.219]  has left #ubuntu [],,,
+1111,[04:27] <thewolf> I had to manualy configure X under 5.10 too,04:27,thewolf,I had to manualy configure X under 5.10 too
+1112,=== overridex [n=override@c-24-34-218-149.hsd1.nh.comcast.net]  has joined #ubuntu,,,
+1113,=== davidme [n=davidme@206-124-154-034.atm02.sea.blarg.net]  has joined #ubuntu,,,
+1114,"[04:28] <thewolf> so, is there a command to configure X?",04:28,thewolf,"so, is there a command to configure X?"
+1115,=== BHSPitMonkey [n=Steve-O@adsl-68-95-247-230.dsl.rcsntx.swbell.net]  has joined #ubuntu,,,
+1116,[04:28] <BHSPitMonkey> hi,04:28,BHSPitMonkey,hi
+1117,"[04:28] <J-_> I have an error refering to an icon not loading, Details: Icon 'xscreensaver.svg' not found... what should i do?",04:28,J-_,"I have an error refering to an icon not loading, Details: Icon 'xscreensaver.svg' not found... what should i do?"
+1118,[04:28] <n0ctuRnaL-fieNd> anyone got the wine installed with apt-get?,04:28,n0ctuRnaL-fieNd,anyone got the wine installed with apt-get?
+1119,"[04:29] <thewolf> J-_: well, you could try telling us when you get that error...",04:29,thewolf,"J-_: well, you could try telling us when you get that error..."
+1120,"[04:29] <BHSPitMonkey> on a computer that has two gfx cards (one onboard, and another AGP), I think ubuntu (livecd) is running into issues, since the monitor is connected to the AGP card",04:29,BHSPitMonkey,"on a computer that has two gfx cards (one onboard, and another AGP), I think ubuntu (livecd) is running into issues, since the monitor is connected to the AGP card"
+1121,[04:29] <overridex> how's ubuntu 64?  Just got a new box and not sure if I should go 32 or 64... what's the benefit of 64-bit ubuntu? what's broken compared to 32-bit?,04:29,overridex,how's ubuntu 64?  Just got a new box and not sure if I should go 32 or 64... what's the benefit of 64-bit ubuntu? what's broken compared to 32-bit?
+1122,"[04:29] <J-_> i get it, i don't know, ever 10 minutes?",04:29,J-_,"i get it, i don't know, ever 10 minutes?"
+1123,[04:29] <BHSPitMonkey> any way to fix this?,04:29,BHSPitMonkey,any way to fix this?
+1124,[04:29] <J-_> every*,04:29,J-_,every*
+1125,=== Warp2 [n=frank@c-24-12-113-90.hsd1.il.comcast.net]  has joined #ubuntu,,,
+1126,[04:29] <thewolf> J-_: when doing what?,04:29,thewolf,J-_: when doing what?
+1127,[04:29] <dstyrk> What type of maintence is needed for ubuntu?  Is it like OSx?  If I leave it on will it take care of it's self?  Or so I need to run something like Onyx?,04:29,dstyrk,What type of maintence is needed for ubuntu?  Is it like OSx?  If I leave it on will it take care of it's self?  Or so I need to run something like Onyx?
+1128,[04:29] <apokryphos> overridex: see the FAQ,04:29,apokryphos,overridex: see the FAQ
+1129,=== No1Viking [n=micke@h-83-140-104-3.ip.rixbredband.se]  has joined #ubuntu,,,
+1130,"[04:30] <J-_> not doing anything, listening to music...",04:30,J-_,"not doing anything, listening to music..."
+1131,"[04:30] <Madpilot> dstyrk, it'll take care of itself, mostly",04:30,Madpilot,"dstyrk, it'll take care of itself, mostly"
+1132,=== thewolf shoots J-_,,,
+1133,[04:30] <dstyrk> mostly?...,04:30,dstyrk,mostly?...
+1134,[04:30] <J-_> heh,04:30,J-_,heh
+1135,[04:30] <thewolf> J-_: what program generates the error?,04:30,thewolf,J-_: what program generates the error?
+1136,[04:30] <J-_> no clue,04:30,J-_,no clue
+1137,"[04:30] <untwisted> Hi all, I've recently had my laptop repaired -- it got a replacement motherboard.  Now my dapper install isn't seeing my wired ethernet port.  I see it in lspci, and find no errors in dmesg, but it just doesn't see it.",04:30,untwisted,"Hi all, I've recently had my laptop repaired -- it got a replacement motherboard.  Now my dapper install isn't seeing my wired ethernet port.  I see it in lspci, and find no errors in dmesg, but it just doesn't see it."
+1138,"[04:30] <Madpilot> dstyrk, ""mostly"" means ""until you break something"", in my experience :)",04:30,Madpilot,"dstyrk, ""mostly"" means ""until you break something"", in my experience :)"
+1139,[04:31] <J-_> maybe i can just disable the screensavers,04:31,J-_,maybe i can just disable the screensavers
+1140,=== Warp2 [n=frank@c-24-12-113-90.hsd1.il.comcast.net]  has left #ubuntu [],,,
+1141,=== Warp2 [n=frank@c-24-12-113-90.hsd1.il.comcast.net]  has joined #ubuntu,,,
+1142,"[04:31] <n0ctuRnaL-fieNd> overridex: im running kubuntu 64 , its sweet , seems a lot faster then then 32bit ,",04:31,n0ctuRnaL-fieNd,"overridex: im running kubuntu 64 , its sweet , seems a lot faster then then 32bit ,"
+1143,=== thewolf has no clue,,,
+1144,=== mode/#ubuntu [-oo Amaranth apokryphos]  by apokryphos,,,
+1145,[04:31] <J-_> heh,04:31,J-_,heh
+1146,=== someothernick [n=ron@pool-68-163-244-245.bos.east.verizon.net]  has joined #ubuntu,,,
+1147,[04:31] <someothernick> !ati,04:31,someothernick,!ati
+1148,"[04:31] <ubotu> To install the Ati/NVidia drivers for your monitor, see https://wiki.ubuntu.com/BinaryDriverHowto",04:31,ubotu,"To install the Ati/NVidia drivers for your monitor, see https://wiki.ubuntu.com/BinaryDriverHowto"
+1149,"[04:32] <J-_> yeah i was afk, and there must of been 20 icons producing the error :S",04:32,J-_,"yeah i was afk, and there must of been 20 icons producing the error :S"
+1150,=== thrice` [n=andrew@unaffiliated/thrice/x-000000001]  has joined #ubuntu,,,
+1151,=== Hergiswi [n=chris@pool-151-203-123-120.bos.east.verizon.net]  has joined #ubuntu,,,
+1152,=== seife [n=arturo_m@201.211.154.201]  has joined #ubuntu,,,
+1153,"[04:32] <thewolf> I can use 'dpkg-reconfigure' to configure X, but I can't remember what to supply it... can anyone tell me?",04:32,thewolf,"I can use 'dpkg-reconfigure' to configure X, but I can't remember what to supply it... can anyone tell me?"
+1154,[04:32] <Hergiswi> HI everyone!,04:32,Hergiswi,HI everyone!
+1155,"[04:32] <Hergiswi> Q: Why is it my girlfriends vagina inside is HOT after we sex 2x?? it really hot, thou it cant burn.",04:32,Hergiswi,"Q: Why is it my girlfriends vagina inside is HOT after we sex 2x?? it really hot, thou it cant burn."
+1156,"[04:32] <Hergiswi> Even if i wear a condom, i could feel hotness inside.",04:32,Hergiswi,"Even if i wear a condom, i could feel hotness inside."
+1157,"[04:32] <Hergiswi> When i place my legs ON her vagina, i felt the hotness outside too. is there any theory why it gets hot? my gf age is 22.",04:32,Hergiswi,"When i place my legs ON her vagina, i felt the hotness outside too. is there any theory why it gets hot? my gf age is 22."
+1158,"[04:32] <Hergiswi> To all gals out there, is your vagina get hot after 2 rounds of sex?",04:32,Hergiswi,"To all gals out there, is your vagina get hot after 2 rounds of sex?"
+1159,[04:32] <Hergiswi> Thanks in advance.,04:32,Hergiswi,Thanks in advance.
+1160,=== mode/#ubuntu [+o apokryphos]  by ChanServ,,,
+1161,[04:32] <overridex> n0ctuRnaL-fieNd: do things like wine still run?,04:32,overridex,n0ctuRnaL-fieNd: do things like wine still run?
+1162,=== mode/#ubuntu [+b *!*@pool-151-203-123-120.bos.east.verizon.net]  by apokryphos,,,
+1163,=== mode/#ubuntu [-o apokryphos]  by apokryphos,,,
+1164,=== Warp2 [n=frank@c-24-12-113-90.hsd1.il.comcast.net]  has left #ubuntu [],,,
+1165,=== mode/#ubuntu [+o apokryphos]  by ChanServ,,,
+1166,[04:33] <J-_> haha wtf,04:33,J-_,haha wtf
+1167,=== Warp2 [n=Warp2@c-24-12-113-90.hsd1.il.comcast.net]  has joined #ubuntu,,,
+1168,=== hybrid [n=x@dpc6745217221.direcpc.com]  has joined #ubuntu,,,
+1169,=== Hergiswi was kicked off #ubuntu by apokryphos (annoying),,,
+1170,[04:33] <thewolf> what a strane person,04:33,thewolf,what a strane person
+1171,=== ahalstea [n=ahalstea@adsl-065-007-254-182.sip.jan.bellsouth.net]  has joined #ubuntu,,,
+1172,"[04:34] <overridex> I guess the real question isn't whether it was running hot, but did he install ubuntu on it?",04:34,overridex,"I guess the real question isn't whether it was running hot, but did he install ubuntu on it?"
+1173,"[04:34] <J-_> yeah, hmm disabling the screensavers might have fixed the error :D",04:34,J-_,"yeah, hmm disabling the screensavers might have fixed the error :D"
+1174,[04:34] <thewolf> J-_: did simply changing the screensaver work>,04:34,thewolf> J-_: did simply changing the screensaver work,J-_: did simply changing the screensaver work>
+1175,=== mode/#ubuntu [-oo apokryphos Amaranth]  by apokryphos,,,
+1176,=== Ro1 [n=admin@ool-182deb25.dyn.optonline.net]  has joined #ubuntu,,,
+1177,[04:35] <thewolf> what is the ubuntu wiki site?,04:35,thewolf,what is the ubuntu wiki site?
+1178,[04:35] <snoops> hmm how can I get temporary disable screensaver and power saving when I'm watching a movie on mplayer?,04:35,snoops,hmm how can I get temporary disable screensaver and power saving when I'm watching a movie on mplayer?
+1179,[04:35] <Ro1> !wiki,04:35,Ro1,!wiki
+1180,[04:35] <ubotu> wiki is http://wiki.ubuntu.com - Loads of user-contributed documentation,04:35,ubotu,wiki is http://wiki.ubuntu.com - Loads of user-contributed documentation
+1181,"[04:35] <J-_> not sure.. i'd rather just disable it, i don't have any graphic acceleration installed(shitty system)",04:35,J-_,"not sure.. i'd rather just disable it, i don't have any graphic acceleration installed(shitty system)"
+1182,[04:35] <thewolf> thanks,04:35,thewolf,thanks
+1183,[04:35] <Ro1> np,04:35,Ro1,np
+1184,=== Speek [n=Fake@70.125.113.218]  has joined #ubuntu,,,
+1185,[04:36] <thewolf> now... what is a text-mode browser on the install CD? :P,04:36,thewolf,now... what is a text-mode browser on the install CD? :P
+1186,[04:36] <Speek> Ok now I got Ubuntu installed!,04:36,Speek,Ok now I got Ubuntu installed!
+1187,[04:36] <Speek> on a nfts!,04:36,Speek,on a nfts!
+1188,[04:36] <Speek> :),04:36,Speek,:)
+1189,[04:36] <J-_> wtf,04:36,J-_,wtf
+1190,[04:36] <thrice`> !ntfs,04:36,thrice`,!ntfs
+1191,[04:36] <ubotu> To view your Windows/Mac partitions see https://help.ubuntu.com/community/AutomaticallyMountPartitions,04:36,ubotu,To view your Windows/Mac partitions see https://help.ubuntu.com/community/AutomaticallyMountPartitions
+1192,[04:36] <Ro1> wth,04:36,Ro1,wth
+1193,[04:36] <BHSPitMonkey> ... wow,04:36,BHSPitMonkey,... wow
+1194,[04:36] <someothernick> lol,04:36,someothernick,lol
+1195,[04:36] <Ro1> howthe...,04:36,Ro1,howthe...
+1196,[04:36] <J-_> lol,04:36,J-_,lol
+1197,[04:36] <Speek> Anyways I got to ask how do i make my ubuntu fit the screen?,04:36,Speek,Anyways I got to ask how do i make my ubuntu fit the screen?
+1198,"[04:36] <BHSPitMonkey> sorry, not believing it",04:36,BHSPitMonkey,"sorry, not believing it"
+1199,=== LiniX [n=chatzill@203.150.135.226]  has joined #ubuntu,,,
+1200,[04:36] <Speek> theirs a black bar on the left,04:36,Speek,theirs a black bar on the left
+1201,[04:36] <thewolf> Speek: and here I was wondering how safe it was to mount NTFS as RW.,04:36,thewolf,Speek: and here I was wondering how safe it was to mount NTFS as RW.
+1202,"[04:36] <Ro1> I used to use windows and connect to my wireless network...but now 'm using  ubuntu but it is so much slower,,anyone help?",04:36,Ro1,"I used to use windows and connect to my wireless network...but now 'm using  ubuntu but it is so much slower,,anyone help?"
+1203,"[04:37] <overridex> apokryphos: hmm.... i dont' see any mention of 64 vs 32 in the faq, is there a separate faq for 64-bit?",04:37,overridex,"apokryphos: hmm.... i dont' see any mention of 64 vs 32 in the faq, is there a separate faq for 64-bit?"
+1204,"[04:37] <J-_> man, when my ext. hdd worked with ubuntu i was amazed but installed on ntfs hdd.. :S",04:37,J-_,"man, when my ext. hdd worked with ubuntu i was amazed but installed on ntfs hdd.. :S"
+1205,[04:37] <Tefad> well to install on NTFS all you do is have a giant loopback device,04:37,Tefad,well to install on NTFS all you do is have a giant loopback device
+1206,[04:37] <thewolf> so... text-mode browsers?,04:37,thewolf,so... text-mode browsers?
+1207,[04:37] <Ro1> lynx?,04:37,Ro1,lynx?
+1208,=== dstyrk_ [n=tedmoore@c-68-85-72-195.hsd1.fl.comcast.net]  has joined #ubuntu,,,
+1209,[04:37] <J-_> partition rather,04:37,J-_,partition rather
+1210,"[04:37] <Tefad> you can have RW to one file as long as the size doesn't change, eh?",04:37,Tefad,"you can have RW to one file as long as the size doesn't change, eh?"
+1211,=== squiggly [n=topaz@adsl-68-125-54-211.dsl.pltn13.pacbell.net]  has joined #ubuntu,,,
+1212,[04:37] <thewolf> Ro1: its not on the CD,04:37,thewolf,Ro1: its not on the CD
+1213,[04:37] <Ro1> ok...idk,04:37,Ro1,ok...idk
+1214,[04:37] <apokryphos> overridex: it's in the FAQ.. no. 5,04:37,apokryphos,overridex: it's in the FAQ.. no. 5
+1215,[04:38] <J-_> but usb 1.1 sucks!,04:38,J-_,but usb 1.1 sucks!
+1216,"[04:38] <Ro1> I used to use windows and connect to my wireless network...but now 'm using  ubuntu but it is so much slower,,anyone help?",04:38,Ro1,"I used to use windows and connect to my wireless network...but now 'm using  ubuntu but it is so much slower,,anyone help?"
+1217,[04:38] <snoops> what's it running at Ro1? Probably in 10mbit mode instead of 52 or 54 or whatever 802.11g is?,04:38,snoops,what's it running at Ro1? Probably in 10mbit mode instead of 52 or 54 or whatever 802.11g is?
+1218,[04:38] <newstnih> use 1.1 rules,04:38,newstnih,use 1.1 rules
+1219,=== HLM [n=HLM@S0106006067664bde.no.shawcable.net]  has joined #ubuntu,,,
+1220,[04:38] <J-_> lol,04:38,J-_,lol
+1221,[04:38] <Ro1> want me to post iwconfig?,04:38,Ro1,want me to post iwconfig?
+1222,[04:38] <J-_> i prefer 2.0,04:38,J-_,i prefer 2.0
+1223,[04:38] <Ro1> it like takes forever to ping and load a website,04:38,Ro1,it like takes forever to ping and load a website
+1224,=== jhoover [n=jhoover@66-190-45-235.dhcp.fdul.wi.charter.com]  has joined #ubuntu,,,
+1225,=== mode/#ubuntu [+o apokryphos]  by ChanServ,,,
+1226,"[04:38] <Ro1> eth0      IEEE 802.11g  ESSID:""linksys""  Nickname:""linksys""",04:38,Ro1,"eth0      IEEE 802.11g  ESSID:""linksys""  Nickname:""linksys"""
+1227,[04:38] <Ro1>           Mode:Managed  Frequency:2.437 GHz  Access Point: 00:13:10:8F:F9:FA,04:38,Ro1,          Mode:Managed  Frequency:2.437 GHz  Access Point: 00:13:10:8F:F9:FA
+1228,[04:38] <Ro1>           Bit Rate=11 Mb/s   Tx-Power:25 dBm,04:38,Ro1,          Bit Rate=11 Mb/s   Tx-Power:25 dBm
+1229,[04:38] <Ro1>           RTS thr=2347 B   Fragment thr=2346 B,04:38,Ro1,          RTS thr=2347 B   Fragment thr=2346 B
+1230,[04:38] <Ro1>           Power Management:off,04:38,Ro1,          Power Management:off
+1231,[04:38] <Ro1>           Link Quality:100/100  Signal level:-84 dBm  Noise level:-256 dBm,04:38,Ro1,          Link Quality:100/100  Signal level:-84 dBm  Noise level:-256 dBm
+1232,[04:38] <Ro1>           Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0,04:38,Ro1,          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+1233,[04:39] <Ro1>           Tx excessive retries:0  Invalid misc:0   Missed beacon:0,04:39,Ro1,          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+1234,=== mode/#ubuntu [+o nalioth]  by ChanServ,,,
+1235,=== Ro1 [n=admin@ool-182deb25.dyn.optonline.net]  has left #ubuntu [requested],,,
+1236,=== mode/#ubuntu [-o nalioth]  by nalioth,,,
+1237,[04:39] <someothernick> !pastebin,04:39,someothernick,!pastebin
+1238,=== Warp2 [n=Warp2@c-24-12-113-90.hsd1.il.comcast.net]  has left #ubuntu [],,,
+1239,"[04:39] <ubotu> pastebin is a service to post large texts so you don't flood the channel. The Ubuntu pastebin is at http://paste.ubuntu-nl.org (you can always find it in the channel topic, among other useful things)",04:39,ubotu,"pastebin is a service to post large texts so you don't flood the channel. The Ubuntu pastebin is at http://paste.ubuntu-nl.org (you can always find it in the channel topic, among other useful things)"
+1240,=== Ro1 [n=admin@ool-182deb25.dyn.optonline.net]  has joined #ubuntu,,,
+1241,"[04:39] <Madpilot> Ro1, next time, use pastebin!",04:39,Madpilot,"Ro1, next time, use pastebin!"
+1242,"[04:39] <nalioth> Ro1: please don't paste in here, use a pastebin",04:39,nalioth,"Ro1: please don't paste in here, use a pastebin"
+1243,[04:39] <thewolf> !pastebin,04:39,thewolf,!pastebin
+1244,[04:39] <J-_> i learned that lesson as well earlier today,04:39,J-_,i learned that lesson as well earlier today
+1245,"[04:39] <ubotu> pastebin is a service to post large texts so you don't flood the channel. The Ubuntu pastebin is at http://paste.ubuntu-nl.org (you can always find it in the channel topic, among other useful things)",04:39,ubotu,"pastebin is a service to post large texts so you don't flood the channel. The Ubuntu pastebin is at http://paste.ubuntu-nl.org (you can always find it in the channel topic, among other useful things)"
+1246,[04:39] <Ro1> ok,04:39,Ro1,ok
+1247,[04:39] <Ro1> well...my intertnet is too slow right now to use websites,04:39,Ro1,well...my intertnet is too slow right now to use websites
+1248,[04:39] <Ro1> got any ideas?,04:39,Ro1,got any ideas?
+1249,[04:40] <snoops> yep.. well you didn't have to paste that to see it at 11Mb/s,04:40,snoops,yep.. well you didn't have to paste that to see it at 11Mb/s
+1250,[04:40] <Ro1> it takes forever to ping and load a website....but when i used to use windoze it was quicl,04:40,Ro1,it takes forever to ping and load a website....but when i used to use windoze it was quicl
+1251,=== eXCeSS [n=kubuntu@ool-45777547.dyn.optonline.net]  has joined #ubuntu,,,
+1252,[04:40] <snoops> are you using firefox?,04:40,snoops,are you using firefox?
+1253,[04:40] <Ro1> yeah,04:40,Ro1,yeah
+1254,[04:40] <snoops> try turning ipv6 off,04:40,snoops,try turning ipv6 off
+1255,=== spikeb [n=spikeb@d27-159.rb.lax.centurytel.net]  has joined #ubuntu,,,
+1256,[04:40] <Ro1> and i also tried opera....same thing,04:40,Ro1,and i also tried opera....same thing
+1257,=== HellDragon [n=JD@pdpc/supporter/active/HellDragon]  has joined #ubuntu,,,
+1258,=== apokryphos [n=apokryph@host-87-74-48-98.bulldogdsl.com]  has joined #ubuntu,,,
+1259,[04:40] <Ro1> how do i turn that off?,04:40,Ro1,how do i turn that off?
+1260,=== someothernick [n=ron@pool-68-163-244-245.bos.east.verizon.net]  has left #ubuntu [],,,
+1261,[04:40] <thewolf> can someone please tell me what command to use to configure X?,04:40,thewolf,can someone please tell me what command to use to configure X?
+1262,=== donny [n=donny@218.82.169.114]  has joined #ubuntu,,,
+1263,=== neighborlee [n=neighbor@c-24-16-102-212.hsd1.wa.comcast.net]  has joined #ubuntu,,,
+1264,=== dstyrk_ [n=tedmoore@c-68-85-72-195.hsd1.fl.comcast.net]  has left #ubuntu [],,,
+1265,=== dstyrk_ [n=tedmoore@c-68-85-72-195.hsd1.fl.comcast.net]  has joined #ubuntu,,,
+1266,[04:41] <Ro1> anyone know how i can turn ipv6 off?,04:41,Ro1,anyone know how i can turn ipv6 off?
+1267,=== J-_ shakes fist... damn you migraine!,,,
+1268,[04:41] <neighborlee> trying to rescue my intsall via rscue mode and im getting 'error code 20'..any idea why and how I could go about working around this ? ;)),04:41,neighborlee,trying to rescue my intsall via rscue mode and im getting 'error code 20'..any idea why and how I could go about working around this ? ;))
+1269,=== mode/#ubuntu [+o apokryphos]  by ChanServ,,,
+1270,[04:41] <snoops> Ro1 http://www.ubuntuforums.org/showthread.php?t=202838,04:41,snoops,Ro1 http://www.ubuntuforums.org/showthread.php?t=202838
+1271,=== ..[topic/#ubuntu:apokryphos] : Official Ubuntu support channel | Support options: http://www.ubuntu.com/support | FAQ: https://help.ubuntu.com/community/CommonQuestions | IRC info: https://help.ubuntu.com/community/IRCResourcePage | Pastes to Pastebin: http://paste.ubuntu-nl.org/ | Join #ubuntu-offtopic for general chatter,,,
+1272,"[04:42] <mikeLaptop> hello all, what would you recommend to test how well my binary nvidia drivers are working. Normally I'd use glxgears, but ubuntus version doesn't seem to output stats",04:42,mikeLaptop,"hello all, what would you recommend to test how well my binary nvidia drivers are working. Normally I'd use glxgears, but ubuntus version doesn't seem to output stats"
+1273,[04:42] <snoops> and in firefox you can type about:config into the address bar,04:42,snoops,and in firefox you can type about:config into the address bar
+1274,[04:42] <snoops> and set ipv6 to false,04:42,snoops,and set ipv6 to false
+1275,=== mode/#ubuntu [-o apokryphos]  by apokryphos,,,
+1276,[04:42] <Ro1> ok thanks,04:42,Ro1,ok thanks
+1277,"[04:42] <mikeLaptop> stuff feels slow, games etc",04:42,mikeLaptop,"stuff feels slow, games etc"
+1278,[04:42] <thewolf> anyone?...,04:42,thewolf,anyone?...
+1279,[04:42] <dstyrk_> I was just asking about maintence with linux and my connection was dropped..  Is there an app like Onyx?,04:42,dstyrk_,I was just asking about maintence with linux and my connection was dropped..  Is there an app like Onyx?
+1280,=== mlowe [n=mlowe@c-24-23-242-211.hsd1.ca.comcast.net]  has joined #ubuntu,,,
+1281,"[04:42] <mikeLaptop> thewolf, xorgconf X -configure",04:42,mikeLaptop,"thewolf, xorgconf X -configure"
+1282,"[04:43] <neighborlee> mikeLaptop, glxinfo will also show you",04:43,neighborlee,"mikeLaptop, glxinfo will also show you"
+1283,=== someothernick [n=ron@pool-68-163-244-245.bos.east.verizon.net]  has joined #ubuntu,,,
+1284,"[04:43] <mikeLaptop> thewolf, sorry maybenot",04:43,mikeLaptop,"thewolf, sorry maybenot"
+1285,[04:43] <thewolf> mikeLaptop: doesn't exist... :P,04:43,thewolf,mikeLaptop: doesn't exist... :P
+1286,"[04:43] <mikeLaptop> thewolf, try nvidia-xconfig",04:43,mikeLaptop,"thewolf, try nvidia-xconfig"
+1287,"[04:43] <mikeLaptop> thewolf, just saw that",04:43,mikeLaptop,"thewolf, just saw that"
+1288,[04:43] <Ro1> about the about:config,04:43,Ro1,about the about:config
+1289,"[04:44] <thewolf> er, for an ati card?",04:44,thewolf,"er, for an ati card?"
+1290,[04:44] <Ro1> i dont see ipv6 anywhere,04:44,Ro1,i dont see ipv6 anywhere
+1291,"[04:44] <mikeLaptop> neighborlee, ok one sedc",04:44,mikeLaptop,"neighborlee, ok one sedc"
+1292,[04:44] <snoops> mikeLaptop glxgears -printfps,04:44,snoops,mikeLaptop glxgears -printfps
+1293,"[04:44] <mikeLaptop> snoops, aha ty",04:44,mikeLaptop,"snoops, aha ty"
+1294,[04:44] <thewolf> I know it involves 'dpkg-reconfigure'...,04:44,thewolf,I know it involves 'dpkg-reconfigure'...
+1295,"[04:44] <J-_> snoops, made my browser faster as well :D",04:44,J-_,"snoops, made my browser faster as well :D"
+1296,"[04:44] <neighborlee> mikeLaptop, you'll see nvidia as the driver and your dr iver version if its working of course",04:44,neighborlee,"mikeLaptop, you'll see nvidia as the driver and your dr iver version if its working of course"
+1297,[04:44] <dstyrk_> or do you just run maintence scripts?,04:44,dstyrk_,or do you just run maintence scripts?
+1298,"[04:44] <neighborlee> snoops, ah so thats the sneaky way into fps again huh lol",04:44,neighborlee,"snoops, ah so thats the sneaky way into fps again huh lol"
+1299,=== J-_ doesn't liek the sound of that,,,
+1300,=== newbuntu [n=sara@142.179.8.106]  has joined #ubuntu,,,
+1301,[04:45] <snoops> use the search bar Ro1,04:45,snoops,use the search bar Ro1
+1302,[04:45] <snoops> well filter bar really,04:45,snoops,well filter bar really
+1303,[04:45] <dstyrk_> someone??  Maintence on linux,04:45,dstyrk_,someone??  Maintence on linux
+1304,[04:45] <Tefad> anyone good with boot prompt for installing?,04:45,Tefad,anyone good with boot prompt for installing?
+1305,[04:46] <Tefad> i get a blank screen on my box after the kernel finishes loading,04:46,Tefad,i get a blank screen on my box after the kernel finishes loading
+1306,=== megan [n=megan_co@adsl-75-7-193-20.dsl.lgtpmi.sbcglobal.net]  has joined #ubuntu,,,
+1307,"[04:46] <Tefad> either turns monitor to amber indicator, or gives me a text screen with a lone cursor top left",04:46,Tefad,"either turns monitor to amber indicator, or gives me a text screen with a lone cursor top left"
+1308,"[04:46] <newbuntu> does anyone know of an easy way in linux to convert downloaded avi's to vcd , without using 3 commandline programs...  : )",04:46,newbuntu,"does anyone know of an easy way in linux to convert downloaded avi's to vcd , without using 3 commandline programs...  : )"
+1309,[04:46] <mikeLaptop> well i got the following full screen (1680x1050) 1230 frames in 5.0 seconds = 245.969 FPS,04:46,mikeLaptop,well i got the following full screen (1680x1050) 1230 frames in 5.0 seconds = 245.969 FPS
+1310,[04:46] <mikeLaptop> 1221 frames in 5.0 seconds = 244.004 FPS,04:46,mikeLaptop,1221 frames in 5.0 seconds = 244.004 FPS
+1311,[04:46] <Ro1> i found the ipv6 diable and did that...but its not any faster,04:46,Ro1,i found the ipv6 diable and did that...but its not any faster
+1312,=== eugman [n=eugene@c-71-199-127-163.hsd1.pa.comcast.net]  has joined #ubuntu,,,
+1313,[04:46] <n0ctuRnaL-fieNd> anyone got the wine installed with apt-get?,04:46,n0ctuRnaL-fieNd,anyone got the wine installed with apt-get?
+1314,[04:47] <newbuntu> you need winetools,04:47,newbuntu,you need winetools
+1315,"[04:47] <mikeLaptop> newbuntu, vcdimager i think it's called",04:47,mikeLaptop,"newbuntu, vcdimager i think it's called"
+1316,"[04:47] <newbuntu> wine is easy to get , getting winetools is the trick",04:47,newbuntu,"wine is easy to get , getting winetools is the trick"
+1317,[04:47] <Healot> !find wine,04:47,Healot,!find wine
+1318,"[04:47] <ubotu> Found: libwine, libwine-dev, wine, wine-dev, winefish",04:47,ubotu,"Found: libwine, libwine-dev, wine, wine-dev, winefish"
+1319,"[04:47] <snoops> but umm Ro1 regarding your crappy speed.. I guess you should check the forums with people whos wireless cards are 802.11g but are only running at 11mbit, instead of 54mbit",04:47,snoops,"but umm Ro1 regarding your crappy speed.. I guess you should check the forums with people whos wireless cards are 802.11g but are only running at 11mbit, instead of 54mbit"
+1320,[04:47] <newbuntu> google winetools and von hadden,04:47,newbuntu,google winetools and von hadden
+1321,[04:47] <Tefad> why do you need winetools?,04:47,Tefad,why do you need winetools?
+1322,"[04:48] <mikeLaptop> neighborlee, glxinfo output a ton of stuff, but at the top it's definatly showing that i'm using the binary driver",04:48,mikeLaptop,"neighborlee, glxinfo output a ton of stuff, but at the top it's definatly showing that i'm using the binary driver"
+1323,[04:48] <newbuntu> to make a faewindows directory,04:48,newbuntu,to make a faewindows directory
+1324,"[04:48] <thewolf> considering I'm stuck on the install CD, without X, without a browser, without any other way of figuring out how to configure X so I can install Ubuntu, can some kind person look it up for me?",04:48,thewolf,"considering I'm stuck on the install CD, without X, without a browser, without any other way of figuring out how to configure X so I can install Ubuntu, can some kind person look it up for me?"
+1325,[04:48] <newbuntu> fake windows,04:48,newbuntu,fake windows
+1326,=== MrDade [n=main@adsl-10-25-153.mia.bellsouth.net]  has joined #ubuntu,,,
+1327,[04:48] <Tefad> i see.,04:48,Tefad,i see.
+1328,[04:48] <eugman> A program froze up and now my srceen is stuck. I'm pretty sure I killed the program but my screen is unresponsive. How can I fix that? . It won't respond to atrl + alt + backspace,04:48,eugman,A program froze up and now my srceen is stuck. I'm pretty sure I killed the program but my screen is unresponsive. How can I fix that? . It won't respond to atrl + alt + backspace
+1329,[04:48] <MrDade> hello everyone,04:48,MrDade,hello everyone
+1330,[04:48] <Tefad> i always use cvs wine : \,04:48,Tefad,i always use cvs wine : \
+1331,[04:48] <snoops> what nvidia card mikeLaptop?,04:48,snoops,what nvidia card mikeLaptop?
+1332,"[04:48] <jhoover> anybody's dapper completely freezing randomly? (mouse, keyboard, everything -- only reboot fixes it)",04:48,jhoover,"anybody's dapper completely freezing randomly? (mouse, keyboard, everything -- only reboot fixes it)"
+1333,[04:48] <mikeLaptop> geforce GO 6600 pci express,04:48,mikeLaptop,geforce GO 6600 pci express
+1334,=== Paladine [n=Paladine@213.208.84.2]  has joined #ubuntu,,,
+1335,"[04:48] <snoops> oh, man should be WAY higher",04:48,snoops,"oh, man should be WAY higher"
+1336,"[04:48] <mikeLaptop> jhoover, nothing of the sort here",04:48,mikeLaptop,"jhoover, nothing of the sort here"
+1337,"[04:48] <mikeLaptop> snoops, exactly lol",04:48,mikeLaptop,"snoops, exactly lol"
+1338,=== kevyn [n=kevyn@user-0ce2njv.cable.mindspring.com]  has joined #ubuntu,,,
+1339,"[04:49] <eugman> thewolf, you are aware there is a way to browse the web without x  right?",04:49,eugman,"thewolf, you are aware there is a way to browse the web without x  right?"
+1340,"[04:49] <jhoover> hmmm...i'm getting it randomly about once per day, sometimes more",04:49,jhoover,"hmmm...i'm getting it randomly about once per day, sometimes more"
+1341,[04:49] <Paladine> anyon know if it would be possible to use wdm drivers under wine for video capture?,04:49,Paladine,anyon know if it would be possible to use wdm drivers under wine for video capture?
+1342,=== Geoffrey2 [n=jeffrey@ip60.217.23.209.suscom.net]  has joined #ubuntu,,,
+1343,[04:49] <eugman> oh wait nvm,04:49,eugman,oh wait nvm
+1344,"[04:49] <MrDade> * Vim Editor Question * :  When I edit a file, how can I save it and exit the editor?",04:49,MrDade,"* Vim Editor Question * :  When I edit a file, how can I save it and exit the editor?"
+1345,"[04:49] <mikeLaptop> snoops, i'm using the nvidia binary package i git from the nonfree repo, think that's the issue",04:49,mikeLaptop,"snoops, i'm using the nvidia binary package i git from the nonfree repo, think that's the issue"
+1346,[04:49] <thewolf> eugman: not on the install CD there isn't :(,04:49,thewolf,eugman: not on the install CD there isn't :(
+1347,"[04:49] <neighborlee> mikeLaptop, what gpu and cpu do you have",04:49,neighborlee,"mikeLaptop, what gpu and cpu do you have"
+1348,[04:49] <eugman> Just realized that. whoops,04:49,eugman,Just realized that. whoops
+1349,"[04:49] <mikeLaptop> geforce GO 6600 pci express, pentium M 2.3 GHz iirc",04:49,mikeLaptop,"geforce GO 6600 pci express, pentium M 2.3 GHz iirc"
+1350,"[04:49] <thewolf> yeah, perhaps it should be included next time",04:49,thewolf,"yeah, perhaps it should be included next time"
+1351,=== Chetwin [n=user@ppp-69-238-217-171.dsl.irvnca.pacbell.net]  has joined #ubuntu,,,
+1352,"=== kevyn [n=kevyn@user-0ce2njv.cable.mindspring.com]  has left #ubuntu [""Konversation]",,,
+1353,[04:49] <eugman> So how are you talking then anyway?,04:49,eugman,So how are you talking then anyway?
+1354,[04:50] <thewolf> irc is included,04:50,thewolf,irc is included
+1355,=== ChrisC_ [n=chris@user-1121r4q.dsl.mindspring.com]  has joined #ubuntu,,,
+1356,=== Dial_tone [n=steve@ip68-4-102-155.oc.oc.cox.net]  has joined #ubuntu,,,
+1357,"[04:50] <Chetwin> Can anyone help me to understand why I already installed flash player for firefox, but it still asks me to install it in the popup bar???",04:50,Chetwin,"Can anyone help me to understand why I already installed flash player for firefox, but it still asks me to install it in the popup bar???"
+1358,[04:50] <snoops> reloaded the browser Chetwin?,04:50,snoops,reloaded the browser Chetwin?
+1359,[04:50] <Dial_tone> maybe you havent configured it as a plugin,04:50,Dial_tone,maybe you havent configured it as a plugin
+1360,[04:51] <snoops> closed firefox completely and reopened I mean,04:51,snoops,closed firefox completely and reopened I mean
+1361,=== m0nk3y [n=heman@68-112-27-042.dhcp.ahvl.nc.charter.com]  has joined #ubuntu,,,
+1362,[04:51] <mikeLaptop> model name      : Intel(R) Pentium(R) M processor 2.13GHz,04:51,mikeLaptop,model name      : Intel(R) Pentium(R) M processor 2.13GHz
+1363,[04:51] <jhoover> chetwin: maybe sites are looking for flash 8?,04:51,jhoover,chetwin: maybe sites are looking for flash 8?
+1364,[04:51] <m0nk3y> how can i extract rar files in ubuntu?,04:51,m0nk3y,how can i extract rar files in ubuntu?
+1365,[04:51] <Chetwin> OH,04:51,Chetwin,OH
+1366,"[04:51] <Chetwin> Right right, and 8 isn't avail for linux yet right?",04:51,Chetwin,"Right right, and 8 isn't avail for linux yet right?"
+1367,[04:51] <vitry> unrar e file.rar,04:51,vitry,unrar e file.rar
+1368,[04:51] <jhoover> chetwin: flash 8 for linux is not out,04:51,jhoover,chetwin: flash 8 for linux is not out
+1369,[04:51] <eugman> Is there a way to do a ctrl+alt+backspace equivalent though terminal commands?,04:51,eugman,Is there a way to do a ctrl+alt+backspace equivalent though terminal commands?
+1370,[04:51] <Chetwin> That's gotta be what it is,04:51,Chetwin,That's gotta be what it is
+1371,=== alex_ [n=alex@95-177-231-201.fibertel.com.ar]  has joined #ubuntu,,,
+1372,"[04:51] <Chetwin> Alright, thanks everyone",04:51,Chetwin,"Alright, thanks everyone"
+1373,[04:51] <Chetwin> It was keeping me up,04:51,Chetwin,It was keeping me up
+1374,"[04:51] <mikeLaptop> eugman, ps aux | grep X",04:51,mikeLaptop,"eugman, ps aux | grep X"
+1375,[04:52] <J-_> http://www.ubuntuforums.org/showthread.php?t=87798 <-- adjusting firefox,04:52,J-_,http://www.ubuntuforums.org/showthread.php?t=87798 <-- adjusting firefox
+1376,[04:52] <mikeLaptop> kill the pid's,04:52,mikeLaptop,kill the pid's
+1377,=== Chetwin [n=user@ppp-69-238-217-171.dsl.irvnca.pacbell.net]  has left #ubuntu [],,,
+1378,"[04:52] <sysdoc> mikeLaptop, Did you ever get that lid switch issue figured out?",04:52,sysdoc,"mikeLaptop, Did you ever get that lid switch issue figured out?"
+1379,[04:52] <Ro1> i'm trying to save a file...but it says i dont have permissions,04:52,Ro1,i'm trying to save a file...but it says i dont have permissions
+1380,[04:52] <eugman> And do I have to do anything to restart it?,04:52,eugman,And do I have to do anything to restart it?
+1381,[04:52] <snoops> and flash 9 for windows is just around the corner.. god it makes me angry,04:52,snoops,and flash 9 for windows is just around the corner.. god it makes me angry
+1382,=== WebWiz [n=ubuntu@cpe-69-205-252-115.stny.res.rr.com]  has joined #ubuntu,,,
+1383,=== grubby [n=tompfr@ool-4578845e.dyn.optonline.net]  has joined #ubuntu,,,
+1384,"[04:52] <eugman> Ro1, It's probably a config file and you didn't open it up as root.",04:52,eugman,"Ro1, It's probably a config file and you didn't open it up as root."
+1385,"[04:52] <mikeLaptop> sysdoc, haven't had a chance to yet, my wifi broke after a dapper upgrade",04:52,mikeLaptop,"sysdoc, haven't had a chance to yet, my wifi broke after a dapper upgrade"
+1386,"[04:52] <neighborlee> mikeLaptop, btw what are you getting for fps out of glxgears",04:52,neighborlee,"mikeLaptop, btw what are you getting for fps out of glxgears"
+1387,=== slew [n=slew@cblmdm72-240-143-107.buckeyecom.net]  has joined #ubuntu,,,
+1388,"[04:53] <mikeLaptop> sysdoc, that's next on my list",04:53,mikeLaptop,"sysdoc, that's next on my list"
+1389,=== Riddick [i=riddick@c-68-32-107-246.hsd1.tn.comcast.net]  has joined #ubuntu,,,
+1390,[04:53] <sysdoc> :),04:53,sysdoc,:)
+1391,[04:53] <alex_> hi ppl,04:53,alex_,hi ppl
+1392,[04:53] <Ro1> i'm making a file and trying to save it in a modprobe.d directory...but it says i dont have permission,04:53,Ro1,i'm making a file and trying to save it in a modprobe.d directory...but it says i dont have permission
+1393,=== thewolf wonders why his simple question remains unanswered for nearly 45 minutes...,,,
+1394,"[04:53] <WebWiz> I am trying to install ubuntu LTS 6.06 and its hanging at 15% saying Creating ext3 file system for / partition #1 of SCSI1 (0,0,0) (sda)",04:53,WebWiz,"I am trying to install ubuntu LTS 6.06 and its hanging at 15% saying Creating ext3 file system for / partition #1 of SCSI1 (0,0,0) (sda)"
+1395,[04:53] <alex_> i'm new in that,04:53,alex_,i'm new in that
+1396,[04:53] <jhoover> flash 8 on linux update: http://weblogs.macromedia.com/emmy/archives/2006/05/yes_virginia_th.cfm,04:53,jhoover,flash 8 on linux update: http://weblogs.macromedia.com/emmy/archives/2006/05/yes_virginia_th.cfm
+1397,=== phos-phoros [n=phos-pho@unaffiliated/phos-phoros]  has joined #ubuntu,,,
+1398,"[04:53] <eugman> Ro1, you don't. You have to open gedit or whatever you use as root if you want to save in system critical areas like that.",04:53,eugman,"Ro1, you don't. You have to open gedit or whatever you use as root if you want to save in system critical areas like that."
+1399,"[04:53] <mikeLaptop> neighborlee, full screen",04:53,mikeLaptop,"neighborlee, full screen"
+1400,[04:53] <thewolf> Thats one hell of a long time to stare at text-mode IRC hoping someone has the answer,04:53,thewolf,Thats one hell of a long time to stare at text-mode IRC hoping someone has the answer
+1401,"[04:53] <sysdoc> mikeLaptop, I think that your problem is in the nvidia driver cause the suspend is not handled in the driver",04:53,sysdoc,"mikeLaptop, I think that your problem is in the nvidia driver cause the suspend is not handled in the driver"
+1402,"[04:53] <n0ctuRnaL-fieNd> newbuntu: i cant install wine , i cant even compile it , i kepp getting damn errors",04:53,n0ctuRnaL-fieNd,"newbuntu: i cant install wine , i cant even compile it , i kepp getting damn errors"
+1403,[04:53] <mikeLaptop> 1230 frames in 5.0 seconds = 245.969 FPS,04:53,mikeLaptop,1230 frames in 5.0 seconds = 245.969 FPS
+1404,[04:53] <mikeLaptop> 1221 frames in 5.0 seconds = 244.004 FPS,04:53,mikeLaptop,1221 frames in 5.0 seconds = 244.004 FPS
+1405,=== liquoredonlife [n=nn@c-24-127-91-141.hsd1.ca.comcast.net]  has left #ubuntu [],,,
+1406,[04:54] <eugman> gksudo gedit in the terminal will do the trick.,04:54,eugman,gksudo gedit in the terminal will do the trick.
+1407,[04:54] <alex_> what hall is that?,04:54,alex_,what hall is that?
+1408,[04:54] <alex_> is a chat of nerds?,04:54,alex_,is a chat of nerds?
+1409,"[04:54] <neighborlee> mikeLaptop, no wonder",04:54,neighborlee,"mikeLaptop, no wonder"
+1410,"[04:54] <mikeLaptop> neighborlee, ??",04:54,mikeLaptop,"neighborlee, ??"
+1411,[04:54] <WebWiz> is there an install log for the gui installer,04:54,WebWiz,is there an install log for the gui installer
+1412,[04:54] <newbuntu> delete the folders it makes like .wine before you reinstall,04:54,newbuntu,delete the folders it makes like .wine before you reinstall
+1413,[04:54] <WebWiz> so i know where its hanging,04:54,WebWiz,so i know where its hanging
+1414,"[04:54] <neighborlee> mikeLaptop, how did you install the nvidia driver",04:54,neighborlee,"mikeLaptop, how did you install the nvidia driver"
+1415,"=== J-_ shutters, wine sucks =P",,,
+1416,"[04:55] <mikeLaptop> neighborlee, i used the binary in the non-free repo",04:55,mikeLaptop,"neighborlee, i used the binary in the non-free repo"
+1417,"[04:55] <eugman> J- , You get what you pay for?",04:55,eugman,"J- , You get what you pay for?"
+1418,"[04:55] <ChrisC_> I just upgraded from breezy to dapper, and my beloved Mozilla (not Firefox) is gone.  How can I restore it so that it uses my old profile? (which has a gazillion cookie prefs in it)",04:55,ChrisC_,"I just upgraded from breezy to dapper, and my beloved Mozilla (not Firefox) is gone.  How can I restore it so that it uses my old profile? (which has a gazillion cookie prefs in it)"
+1419,"[04:55] <neighborlee> mikeLaptop, and you issued the command at shell afterwards ?",04:55,neighborlee,"mikeLaptop, and you issued the command at shell afterwards ?"
+1420,"[04:55] <mikeLaptop> sysdoc, i haven't tried anything with the lid yet",04:55,mikeLaptop,"sysdoc, i haven't tried anything with the lid yet"
+1421,=== Ro1 [n=admin@ool-182deb25.dyn.optonline.net]  has left #ubuntu [],,,
+1422,=== vandit2k7 [n=pavel@pool-68-163-144-150.bos.east.verizon.net]  has joined #ubuntu,,,
+1423,=== untwisted [n=untwiste@c-67-186-35-110.hsd1.pa.comcast.net]  has joined #ubuntu,,,
+1424,"[04:55] <mikeLaptop> neighborlee, no, i just installed it and off i went",04:55,mikeLaptop,"neighborlee, no, i just installed it and off i went"
+1425,"[04:55] <neighborlee> mikeLaptop, at terminal: nvidia-glx-config enable",04:55,neighborlee,"mikeLaptop, at terminal: nvidia-glx-config enable"
+1426,=== jdav [n=jdav@c-67-166-168-17.hsd1.tx.comcast.net]  has joined #ubuntu,,,
+1427,[04:55] <vandit2k7> hi does anybody have any experience with postgresql?????,04:55,vandit2k7,hi does anybody have any experience with postgresql?????
+1428,"[04:55] <sysdoc> mikeLaptop, well when ya ready let me know",04:55,sysdoc,"mikeLaptop, well when ya ready let me know"
+1429,"[04:55] <J-_> heh, well, i wouldn't use it... i hear there's vulnerbilities running wine.",04:55,J-_,"heh, well, i wouldn't use it... i hear there's vulnerbilities running wine."
+1430,[04:55] <newbuntu> what is Edgy?,04:55,newbuntu,what is Edgy?
+1431,=== robertb_ [n=robertb@cust0032.qld01.dataco.com.au]  has joined #ubuntu,,,
+1432,"[04:56] <mikeLaptop> sysdoc, you have everything working ?",04:56,mikeLaptop,"sysdoc, you have everything working ?"
+1433,=== HLM [n=HLM@S0106006067664bde.no.shawcable.net]  has left #ubuntu [],,,
+1434,"[04:56] <neighborlee> mikeLaptop, then ctrl-alt-baskspace shold do it..if not just reboot",04:56,neighborlee,"mikeLaptop, then ctrl-alt-baskspace shold do it..if not just reboot"
+1435,"[04:56] <sysdoc> mikeLaptop, no but I do know that the nvidia driver needs to be altered for suspend to work",04:56,sysdoc,"mikeLaptop, no but I do know that the nvidia driver needs to be altered for suspend to work"
+1436,=== rexykik [n=karl@c-24-11-144-134.hsd1.mi.comcast.net]  has joined #ubuntu,,,
+1437,[04:56] <rexykik> !xgl,04:56,rexykik,!xgl
+1438,[04:56] <ubotu> Compiz (compositing (window) manager) and XGL (Xserver architecture layered on top of OpenGL) howto at http://wiki.ubuntu.com/CompositeManager XGL+compiz help in #ubuntu-xgl  See http://tinyurl.com/pw5ez for Kubuntu systems,04:56,ubotu,Compiz (compositing (window) manager) and XGL (Xserver architecture layered on top of OpenGL) howto at http://wiki.ubuntu.com/CompositeManager XGL+compiz help in #ubuntu-xgl  See http://tinyurl.com/pw5ez for Kubuntu systems
+1439,"[04:56] <mikeLaptop> sysdoc, ok great :)",04:56,mikeLaptop,"sysdoc, ok great :)"
+1440,[04:57] <mikeLaptop> brb killing X,04:57,mikeLaptop,brb killing X
+1441,[04:57] <newbuntu> ia vcdimager commandline only?,04:57,newbuntu,ia vcdimager commandline only?
+1442,"[04:57] <mikeLaptop> newbuntu, yes i think so",04:57,mikeLaptop,"newbuntu, yes i think so"
+1443,[04:57] <mikeLaptop> no need to fear the CLI though :),04:57,mikeLaptop,no need to fear the CLI though :)
+1444,"[04:57] <untwisted> Hi all, I'm having some ATI driver problems.  The old drivers (8.25.18) worked just fine, but when I install the new ones I get errors in dmesg.  Heres my pastebin: http://paste.ubuntu-nl.org/16672",04:57,untwisted,"Hi all, I'm having some ATI driver problems.  The old drivers (8.25.18) worked just fine, but when I install the new ones I get errors in dmesg.  Heres my pastebin: http://paste.ubuntu-nl.org/16672"
+1445,"[04:57] <vitry> sorry, any template for fwbuilder?",04:57,vitry,"sorry, any template for fwbuilder?"
+1446,[04:57] <newbuntu> im finding it hard to get a gui to convert avi's to vcd,04:57,newbuntu,im finding it hard to get a gui to convert avi's to vcd
+1447,[04:57] <Tefad> kill X with killall X; followed by killall -9 X if it doesn't work the first time,04:57,Tefad,kill X with killall X; followed by killall -9 X if it doesn't work the first time
+1448,[04:57] <vandit2k7> can anybody help me with postgresql???,04:57,vandit2k7,can anybody help me with postgresql???
+1449,[04:57] <newbuntu> im considering using wine  lol,04:57,newbuntu,im considering using wine  lol
+1450,=== Clujo [n=knoppix@dialup-4.249.195.194.Dial1.Washington2.Level3.net]  has joined #ubuntu,,,
+1451,[04:58] <snoops> what about it vandit2k7?,04:58,snoops,what about it vandit2k7?
+1452,=== mark_ [n=mark@c-67-169-16-102.hsd1.ca.comcast.net]  has joined #ubuntu,,,
+1453,[04:58] <vandit2k7> snoops can u help me to run it or install it,04:58,vandit2k7,snoops can u help me to run it or install it
+1454,[04:58] <m0nk3y> it says the rar package isn't available?,04:58,m0nk3y,it says the rar package isn't available?
+1455,[04:58] <newbuntu> mikeLaptop have you converted downloaded avi's to vcd's that you can watch on your tv/dvd?,04:58,newbuntu,mikeLaptop have you converted downloaded avi's to vcd's that you can watch on your tv/dvd?
+1456,[04:59] <Healot> !info unrar,04:59,Healot,!info unrar
+1457,"[04:59] <ubotu> unrar: Unarchiver for .rar files (non-free version). In repository multiverse, is optional. Version 1:3.5.4-0.1 (dapper), package size 84 kB, installed size 216 kB",04:59,ubotu,"unrar: Unarchiver for .rar files (non-free version). In repository multiverse, is optional. Version 1:3.5.4-0.1 (dapper), package size 84 kB, installed size 216 kB"
+1458,[04:59] <Healot> !info unrar-free,04:59,Healot,!info unrar-free
+1459,"[04:59] <ubotu> unrar-free: Unarchiver for .rar files. In repository universe, is optional. Version 1:0.0.1-2 (dapper), package size 15 kB, installed size 84 kB",04:59,ubotu,"unrar-free: Unarchiver for .rar files. In repository universe, is optional. Version 1:0.0.1-2 (dapper), package size 15 kB, installed size 84 kB"
+1460,=== Steil [n=Steil@S010600904b5bb782.no.shawcable.net]  has joined #Ubuntu,,,
+1461,=== jeff303 [n=jeff303@adsl-70-130-132-89.dsl.stlsmo.swbell.net]  has joined #ubuntu,,,
+1462,"[04:59] <jeff303> trying to upgrade to 6.06 from 5.10 with the wizard, I get ""Could not calculate the upgrade",04:59,jeff303,"trying to upgrade to 6.06 from 5.10 with the wizard, I get ""Could not calculate the upgrade"
+1463,"[04:59] <jeff303> A unresolvable problem occured while calculating the upgrade. Please report this as a bug. """,04:59,jeff303,"A unresolvable problem occured while calculating the upgrade. Please report this as a bug. """
+1464,=== kalosaurusrex [n=aaron@c-71-56-154-201.hsd1.or.comcast.net]  has joined #ubuntu,,,
+1465,=== _nano_ [n=nano@ip70-162-104-171.ph.ph.cox.net]  has joined #ubuntu,,,
+1466,"[05:00] <snoops> vandit2k7 open up synaptic, add universal and multiverse repositories if you haven't already, hit reload.. search for postgre.. install",05:00,snoops,"vandit2k7 open up synaptic, add universal and multiverse repositories if you haven't already, hit reload.. search for postgre.. install"
+1467,"[05:00] <thewolf> Well, thats it, 45 minutes and I still can't configure X",05:00,thewolf,"Well, thats it, 45 minutes and I still can't configure X"
+1468,=== niki [n=niki@68-184-136-55.dhcp.stbr.ga.charter.com]  has joined #ubuntu,,,
+1469,=== mikere [n=mike@S0106001346b7c891.cc.shawcable.net]  has joined #ubuntu,,,
+1470,[05:00] <vandit2k7> do u know how to run it tho,05:00,vandit2k7,do u know how to run it tho
+1471,[05:01] <_nano_> would anyone happen to know of a nice lightweight screenshot app for gnome that can take caps of regions?,05:01,_nano_,would anyone happen to know of a nice lightweight screenshot app for gnome that can take caps of regions?
+1472,=== Flippy209 [n=jeff29@c-67-176-30-26.hsd1.co.comcast.net]  has left #ubuntu [],,,
+1473,"[05:01] <niki> someone please help....i tried to update to the new ATI driver, and now when i run 'fglrxinfo', i get Mesa, instead of ATI....",05:01,niki,"someone please help....i tried to update to the new ATI driver, and now when i run 'fglrxinfo', i get Mesa, instead of ATI...."
+1474,=== benplaut [n=benplaut@cpe-70-95-146-177.hawaii.res.rr.com]  has joined #ubuntu,,,
+1475,[05:01] <untwisted> niki I am having the same troubles,05:01,untwisted,niki I am having the same troubles
+1476,=== Fitzz [n=fitzz@jumbo29.adsl.netsonic.fi]  has joined #ubuntu,,,
+1477,=== wweasel [n=karen@modemcable154.138-81-70.mc.videotron.ca]  has joined #ubuntu,,,
+1478,=== thewolf wishes he could even get X to work...,,,
+1479,[05:01] <mikere> I've had problems with ATI drivers in the past as well - they are... odd to say the least.,05:01,mikere,I've had problems with ATI drivers in the past as well - they are... odd to say the least.
+1480,[05:01] <snoops> run what part of it vandit2k7?,05:01,snoops,run what part of it vandit2k7?
+1481,[05:01] <vandit2k7> like start the actual service,05:01,vandit2k7,like start the actual service
+1482,[05:02] <Paladine> man I hope rivatv manage to get vivo working on the 6600 cards soon,05:02,Paladine,man I hope rivatv manage to get vivo working on the 6600 cards soon
+1483,"[05:02] <niki> untwisted, i've followed the instructions on https://help.ubuntu.com/community/BinaryDriverHowto/ATI ....and still the same problem",05:02,niki,"untwisted, i've followed the instructions on https://help.ubuntu.com/community/BinaryDriverHowto/ATI ....and still the same problem"
+1484,[05:02] <untwisted> mikere: they suck... and thats being nice about it ;),05:02,untwisted,mikere: they suck... and thats being nice about it ;)
+1485,[05:02] <thewolf> what is the command to configure X with dpkg-reconfigure?,05:02,thewolf,what is the command to configure X with dpkg-reconfigure?
+1486,=== KayRPee1 [n=kevyn@user-0ce2njv.cable.mindspring.com]  has joined #ubuntu,,,
+1487,[05:02] <untwisted> niki: same here,05:02,untwisted,niki: same here
+1488,=== rob_p [i=rob@tor/session/direct/x-06169f7e1480aadd]  has joined #ubuntu,,,
+1489,[05:02] <Healot> dpkg-reconfigure xserver-xorg,05:02,Healot,dpkg-reconfigure xserver-xorg
+1490,"[05:02] <niki> thewolf, sudo dpkg-reconfigure xserver-xorg",05:02,niki,"thewolf, sudo dpkg-reconfigure xserver-xorg"
+1491,=== mikeLaptop [n=mike@pool-71-99-201-162.tampfl.dsl-w.verizon.net]  has joined #ubuntu,,,
+1492,[05:02] <untwisted> thewolf: dpkg-reconfigure -xserver-xorg,05:02,untwisted,thewolf: dpkg-reconfigure -xserver-xorg
+1493,"[05:02] <mikere> untwisted, niki: try getting to command line only with X shut down, install the driver and then... damn, I forget what I did next",05:02,mikere,"untwisted, niki: try getting to command line only with X shut down, install the driver and then... damn, I forget what I did next"
+1494,[05:03] <thewolf> Healot: Thank you so much! I've only been waiting 45 minutes for someone to answer :D,05:03,thewolf,Healot: Thank you so much! I've only been waiting 45 minutes for someone to answer :D
+1495,[05:03] <niki> my old driver worked fine...should have stuck with it,05:03,niki,my old driver worked fine...should have stuck with it
+1496,=== delaney [n=delaney@mctnnbsa24w-142167063160.pppoe-dynamic.nb.aliant.net]  has joined #ubuntu,,,
+1497,"[05:03] <wweasel> I have a question: I just installed Ubuntu on this system and I am having a problem I have never seen before (I also have Ubuntu on my main computer, I am converting my mother).  At startup and shutdown splash screens, the screen flashes in the right resolution then goes all weird, with the left side of the screen cut off. Anyone have any idea how to fix this?",05:03,wweasel,"I have a question: I just installed Ubuntu on this system and I am having a problem I have never seen before (I also have Ubuntu on my main computer, I am converting my mother).  At startup and shutdown splash screens, the screen flashes in the right resolution then goes all weird, with the left side of the screen cut off. Anyone have any idea how to fix this?"
+1498,"[05:03] <thewolf> niki, untwisted: I wish you where here before, thanks",05:03,thewolf,"niki, untwisted: I wish you where here before, thanks"
+1499,[05:03] <mikere> wweasel: you wouldn't happen to be warweasel/warmidget would you?,05:03,mikere,wweasel: you wouldn't happen to be warweasel/warmidget would you?
