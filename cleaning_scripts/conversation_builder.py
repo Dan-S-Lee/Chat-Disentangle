@@ -4,6 +4,11 @@ import pandas as pd
 class ConversationBuilder:
     @staticmethod
     def filter_nulls(df):
+        """
+
+        :param df: dataframe with parent, child, uuid columns.
+        :return:
+        """
         labeled_df = df[(df["parent"].notnull()) | (df["child"].notnull())]
         labeled_df = labeled_df.set_index("uuid")
         labeled_df = labeled_df[labeled_df['uuid_parent'].notnull()]
@@ -46,9 +51,9 @@ class ConversationBuilder:
     @staticmethod
     def detangle(filepath):
         """
-
+        Read csv, filter, extract conversation uuids
         :param filepath:
-        :return:
+        :return: list dataframes
         """
         raw_df = pd.read_csv(filepath, index_col=0)
         labeled_df = ConversationBuilder.filter_nulls(raw_df)
@@ -64,6 +69,16 @@ class ConversationBuilder:
 
 
 if __name__ == '__main__':
-    filepath = "../data/cleaned/agg_test.csv"
+    filepath = "../data/cleaned/agg_dev.csv"
     df_list = ConversationBuilder.detangle(filepath)
     print(len(df_list))
+
+    df_list[0].sort_values(by='file_ind')
+    # %%
+    full_df = pd.DataFrame(columns=list(df_list[0].columns.values) + ['conversation_ind'])
+    for i, df in enumerate(df_list):
+        temp_df = df.copy()
+        temp_df['conversation_ind'] = i
+        full_df = pd.concat([full_df, temp_df])
+    full_df.to_csv('dev_conversations.csv')
+
