@@ -79,6 +79,8 @@ if __name__ == '__main__':
     for i, df in enumerate(df_list):
         temp_df = df.copy()
         temp_df['conversation_ind'] = i
+        temp_df = temp_df.sort_values(by=['date', 'file_ind'])
         full_df = pd.concat([full_df, temp_df])
+    full_df = full_df.drop_duplicates()
     full_df.to_csv('dev_conversations.csv')
 
