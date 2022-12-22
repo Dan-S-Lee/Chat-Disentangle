@@ -82,5 +82,5 @@ if __name__ == '__main__':
         temp_df = temp_df.sort_values(by=['date', 'file_ind'])
         full_df = pd.concat([full_df, temp_df])
     full_df = full_df.drop_duplicates()
-    full_df.to_csv('train_conversations.csv')
+    full_df.to_csv('../cleaned/train_conversations.csv')
 
